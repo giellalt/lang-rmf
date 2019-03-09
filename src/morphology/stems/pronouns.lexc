@@ -3,6 +3,6 @@
 !! Pronouns in UNDEFINED language are references to things.
 
 LEXICON Pronouns
-pronoun    Cases   ;
+me+Pron+Pers+Sg+Nom:me K ;
 
 ! vim: set ft=xfst-lexc:

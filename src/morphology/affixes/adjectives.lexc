@@ -3,9 +3,9 @@
 !! The UNDEFINED language adjectives compare.
 
 LEXICON Comparisons
-+A+pos:0        Cases   ;
-+A+cmp:er       Cases   ;
-+A+sup:est      Cases   ;
++A:0        K   ;
++A+Comp:er       K   ;
++A+Superl:est      K   ;
 
 ! vim: set ft=xfst-lexc:
 

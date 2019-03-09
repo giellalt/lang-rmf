@@ -1,8 +1,12 @@
 !! Nouns
 !  -----
-!! Nouns in UNDEFINED language are things.
+
 
 LEXICON Nouns
-noun    Cases   ;
+raklo+N:rakl RAKLO "poika" ; ! o-päätteiset maskuliinit
+lau:laav LAU "sana" ;
+bereȟ:bereȟȟ BEREH "vuosi" ;
+kaȟt:kaȟt BEREH "puu" ;
+vuudar:vuudar VUUDAR "ovi" ;
 
 ! vim: set ft=xfst-lexc:
