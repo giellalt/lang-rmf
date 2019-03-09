@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site label="Kalo Finnish Romani" href="" tab=""
+<site label="Romany" href="" tab=""
   xmlns="http://apache.org/forrest/linkmap/1.0"
   xmlns:xi="http://www.w3.org/2001/XInclude"
   >
   <about label="About">
-    <index label="Index" href="index.html" description="Welcome to the Kalo Finnish Romani documentation"/>
+    <index label="Index" href="index.html" description="Welcome to the Romany documentation"/>
     <links label="Links" href="Links.html"
            description="Links to all documentation"
            tab="Links" />

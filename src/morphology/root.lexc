@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for Kalo Finnish Romani language
+! Divvun & Giellatekno - open source grammars for Romany language
 ! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -13,16 +13,16 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!Kalo Finnish Romani morphological analyser                      !
+! !!            !!!Romany morphological analyser                      !
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Kalo Finnish Romani LANGUAGE.
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Romany LANGUAGE.
  
 
 Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! !!Analysis symbols
 !  ----------------
-!! The morphological analyses of wordforms for the Kalo Finnish Romani
+!! The morphological analyses of wordforms for the Romany
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
@@ -39,17 +39,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Abl
- +Dat
- +Gen
- +GenL
- +Ins
- +Obl
- +Nom
-+Fem
-+Msc
-
-! +Ess +Acc +Ill +Loc +Com +Com/Sh
+ +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -145,7 +135,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in Kalo Finnish Romani language start from the lexeme roots of basic
+!! The word forms in Romany language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 0   Nouns       ;
 0   Verbs       ;

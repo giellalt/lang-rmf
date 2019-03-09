@@ -61,7 +61,7 @@ WORD_REPLACEMENTS=yes
 # Specify where to find the project.yaml file and the corresponding layout defs:
 KEYBOARD_LAYOUT_DIR=$(GIELLA_CORE)/../keyboards/$GLANG
 # Specify the ID of the layout as found at the top of each layout file
-KEYBOARD_LAYOUT_ID=rmf
+KEYBOARD_LAYOUT_ID=rom
 
 include $(top_srcdir)/am-shared/tools-spellcheckers-fstbased-mobile-hfst-dir-include.am
 

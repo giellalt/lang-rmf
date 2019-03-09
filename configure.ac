@@ -23,7 +23,7 @@
 # third is email address for bug reports
 # fourth is name of packages made by make dist, excluding .tar.gz
 # fifth is the project web address
-AC_INIT([Giella rmf], [0.1], [feedback@divvun.no], [giella-rmf],
+AC_INIT([Giella rom], [0.1], [feedback@divvun.no], [giella-rom],
         [http://divvun.no])
 # AC_REVISION is used to get SVN revision into bug reports
 AC_REVISION([$Revision$])
@@ -54,17 +54,17 @@ AC_SUBST([SPELLERVERSION], [0.1])
 # same as the directory name in $GIELLA_HOME/*langs/ and the same as the ISO 639
 # three-letter code for the language.
 # GTLANG is deprecated, defined for backwards compatibility.
-AC_SUBST([GLANG], [rmf])
+AC_SUBST([GLANG], [rom])
 AC_SUBST([GTLANG], $GLANG)
 # GLANG2 is the shortest unambiguous language code for this project; it
 # should be the ISO 639-1 two-letter code if available, otherwise usually the
 # same as above:
 # GTLANG2 is deprecated, defined for backwards compatibility.
-AC_SUBST([GLANG2], [rmf])
+AC_SUBST([GLANG2], [rom])
 AC_SUBST([GTLANG2], $GLANG2)
 # GLANGUAGE is the full language name as given by the ISO 639-3 file.
 # GTLANGUAGE is deprecated, defined for backwards compatibility.
-AC_SUBST([GLANGUAGE], ["Kalo Finnish Romani"])
+AC_SUBST([GLANGUAGE], ["Romany"])
 AC_SUBST([GTLANGUAGE], $GLANGUAGE)
 
 # Alternate writing system(s) should be listed here using the ISO 15924 code.

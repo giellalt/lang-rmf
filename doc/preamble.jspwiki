@@ -1,4 +1,4 @@
-!!!Free and Open source Kalo Finnish Romani analyser giella-rmf
+!!!Free and Open source Romany analyser giella-rom
 
 ;Authors: Divvun and Giellatekno teams, community members
 ;Software version: 2012
@@ -6,6 +6,6 @@
 ;SVN Revision: $Revision: 68217 $
 ;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
 
-!!!giella-rmf
+!!!giella-rom
 
-This is free and open source Kalo Finnish Romani morphology.
+This is free and open source Romany morphology.
