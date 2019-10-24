@@ -1,37 +1,8 @@
 !! Numerals
 !  --------
-!! Numerals in UNDEFINED language are numbers.
+!! Numerals in the Kalo Finnish Romani language are numbers.
 
 LEXICON Numerals
-Arabic ;
-Numbers ;
-
-LEXICON Arabic
-1 # ; ! shall be common files
-
-LEXICON Numbers
-1to10 ;
-11to19 ;
-
-
-LEXICON 11to19
-deȟo 1to10 ;
-
-
-LEXICON 1to10
-iek NUMCASE ;
-dui  NUMCASE ;
-triin  NUMCASE ;
-staar NUMCASE ;
-pangȟ NUMCASE ;
-ȟou  NUMCASE ;
-efta NUMCASE ;
-oȟta NUMCASE ;
-enja NUMCASE ;
-deȟ  NUMCASE ;
-
-
-LEXICON NUMCASE
-+Num: # ;
+numeral    Cases   ;
 
 ! vim: set ft=xfst-lexc:
