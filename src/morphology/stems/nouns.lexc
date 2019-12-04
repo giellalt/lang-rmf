@@ -1,0 +1,12 @@
+!! Nouns
+!  -----
+
+
+LEXICON Nouns
+raklo:rakl RAKLO "poika" ; ! o-päätteiset maskuliinit
+lau:laav LAU "sana" ;
+bereȟ:bereȟȟ BEREH "vuosi" ;
+kaȟt:kaȟt BEREH "puu" ;
+vuudarja:vuudar VUUDAR "ovi" ; ! ja ?
+
+! vim: set ft=xfst-lexc:
