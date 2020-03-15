@@ -1,0 +1,22 @@
+[What is this?|WhatIsThis.html]
+
+
+!!! Dynamic documentation
+
+* [Links to generated source file documentation|Links.html]
+* Source files: [stems|https://victorio.uit.no/langtech/trunk/startup-langs/rmf/src/morphology/stems/]   
+  / [affixes|https://victorio.uit.no/langtech/trunk/startup-langs/rmf/src/morphology/affixes/] 
+  / [syntax|https://victorio.uit.no/langtech/trunk/startup-langs/rmf/src/syntax] 
+  / [twolc|https://victorio.uit.no/langtech/trunk/startup-langs/rmf/src/phonology/rmf-phon.twolc]   
+  / [yaml|https://victorio.uit.no/langtech/trunk/startup-langs/rmf/test/src/gt-norm-yamls/]
+* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-rmf.fi.html]
+  / [text|http://giellatekno.uit.no/cgi/d-rmf.fi.html]
+
+!!! Grammatical issues
+
+* [The tags that are in use|https://victorio.uit.no/langtech/trunk/startup-langs/rmf/src/morphology/root.lexc]   
+* [A list of morphological tags|../common/MorphologicalTags.html]
+
+!!!Using the analysers
+
+* For more info, see [How to use the morphological parsers|../../tools/docu-sme-manual.html]
