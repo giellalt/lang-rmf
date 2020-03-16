@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
-    <locale>rom</locale>
+    <locale>rmf</locale>
     <title>Giellatekno/Divvun/UiT fst-based speller for Romany</title>
     <description>This is an fst-based speller for Romany. It is based
     on the normative subset of the morphological analyser for Romany.
@@ -14,8 +14,8 @@
     <contact email="feedback@divvun.no" website="http://divvun.no"/>
   </info>
   <acceptor type="general" id="acceptor.default.hfst">
-    <title>Giellatekno/Divvun/UiT dictionary Romany</title>
-    <description>Giellatekno/Divvun/UiT dictionary for
+    <title>Giellatekno/Divvun/UiT dictionary Finnish Romany</title>
+    <description>Giellatekno/Divvun/UiT dictionary for Finnish
     Romany compiled for HFST.</description>
   </acceptor>
   <errmodel id="errmodel.default.hfst">
