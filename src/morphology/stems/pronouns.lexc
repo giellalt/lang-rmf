@@ -1,8 +1,0 @@
-!! Pronouns
-!  --------
-!! Pronouns in the Romany language are references to things.
-
-LEXICON Pronouns
-me+Pron+Pers+Sg+Nom:me K ;
-
-! vim: set ft=xfst-lexc:
