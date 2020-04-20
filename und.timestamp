@@ -2422,7 +2422,7 @@ Oahpa:
 * a number of changes to the build instructions for Oahpa to support the new fst
 * made the error fst compilation independent of whether an L2 twolc/xfscript
   file is used - if not, it will just use the ordinary twolc/xfscript file.
-  This way it is possible to 
+  This way it is possible to
 * svn-copied regexes from the old to the new infra, including to the core
 * increased gtcore version number and required version number due to new regexes
 
@@ -3240,7 +3240,7 @@ And with some more coffee in my system, remove-semantic-tags-except-prop.xfst
 is now included in the mobile dict analyser.
 
 r84650:
-Checked in the two dict analysers with different spellrelax, but forgot 
+Checked in the two dict analysers with different spellrelax, but forgot
 semantic tags and orig_lang tags.
 
 r84648:
@@ -3274,7 +3274,7 @@ First out is the regex to make semantic tags optional, and another to remove
 them completely. Also fixed file references in the relabel targets.
 
 r84086:
-Added a rule to generate phonology documentation from xfscript, not 
+Added a rule to generate phonology documentation from xfscript, not
 only from twolc.
 
 r83997:
@@ -3530,8 +3530,8 @@ r79057:
 Improved error handling in testing shell scripts.
 
 r78956:
-Removed -s option from hfst-summarise in tagsets/ and added # -> + to the 
-Apertium relabel script 
+Removed -s option from hfst-summarise in tagsets/ and added # -> + to the
+Apertium relabel script
 
 r78059:
 Renamed refs to template dir in preparation for support for multiple template
@@ -3976,7 +3976,7 @@ to work with the renamed transducer. Made all test runners more robust.
 
 r63501:
 Renamed all existing targets to follow the naming scheme defined at
-http://divvun.no/doc/infra/infraremake/TransducerNamesInTheNewInfra.html. Also
+https://giellalt.uit.no/infra/infraremake/TransducerNamesInTheNewInfra.html. Also
 added making of true normative and descriptive analysers and generators, as well
 as moved all of the hfst speller building to the
 tools/spellcheckers/hfstspeller/ dir. More explicit separation of local and
