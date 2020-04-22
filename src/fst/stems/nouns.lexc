@@ -1,12 +1,8 @@
 !! Nouns
 !  -----
-
+!! Nouns in the Kalo Finnish Romani language are things.
 
 LEXICON Nouns
-raklo:rakl RAKLO "poika" ; ! o-päätteiset maskuliinit
-lau:laav LAU "sana" ;
-bereȟ:bereȟȟ BEREH "vuosi" ;
-kaȟt:kaȟt BEREH "puu" ;
-vuudarja:vuudar VUUDAR "ovi" ; ! ja ?
+bar+N:bar N_BAR "stone" ; !! bar ('stone'), a thematic noun without nominative ending
 
 ! vim: set ft=xfst-lexc:

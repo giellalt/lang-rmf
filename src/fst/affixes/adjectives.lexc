@@ -1,11 +1,11 @@
 !! Adjective inflection
 !  --------------------
-!! The Romany language adjectives compare.
+!! The FINNISH KALO ROMANI language adjectives compare.
 
 LEXICON Comparisons
-+A:0        K   ;
-+A+Comp:er       K   ;
-+A+Superl:est      K   ;
++A+pos:0        Cases   ;
++A+cmp:er       Cases   ;
++A+sup:est      Cases   ;
 
 ! vim: set ft=xfst-lexc:
 
