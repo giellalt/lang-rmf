@@ -1,76 +1,49 @@
 !! Noun inflection
 !  ---------------
-!! The FINNISH KALO ROMANI language nouns inflect in cases.
+!! The Romany language nouns inflect in cases.
 
-LEXICON N_BAR
- NUMBER ;
+LEXICON RAKLO
++N+Msc+Sg+Nom:%>o K ;
++N+Msc: MSCOBL ;
 
-LEXICON NUMBER
-+Sg: SINGULAR ;
-+Pl: PLURAL ;
+LEXICON LAU
++N+Msc+Sg+Nom: K ;
++N+Msc: MSCOBL ;
 
-LEXICON SINGULAR
-        +Nom:0  ENDLEX;
-        +Obl:es ENDLEX;
-        +Gen:esko       ENDLEX;         !! Actually, the secondary cases are formed by adding the case ending
-        +Dat:eske       ENDLEX;         !! to the oblique ending (for instance +N+Sg+Obl+Abl), but for simplicity's 
-        +Abl:esta       ENDLEX;         !! sake I'm doing this in a grammatically unsustainable way. 
-        +Ins:eha        ENDLEX;         !! 
-        +GenL:eskiir    GenNumEnding;
+LEXICON BEREH
++N+Msc+Sg+Nom: K ;
++N+Msc: MSCOBL ;
 
+LEXICON VUUDAR
++N+Msc+Sg+Nom:%>ja K ;
++N+Msc+Sg: MSCOBL_SG ;
++N+Msc+Sg: MSCOBL_PL ;
++N+Msc+Sg:j MSCOBL_PL ;
 
-LEXICON PLURAL
-        +Nom:e  ENDLEX;
-        +Obl:en ENDLEX;
-        +Gen:engo       ENDLEX;
-        +Dat:enge       ENDLEX;
-        +Abl:enna       ENDLEX;
-        +Ins:ensa       ENDLEX;
-        +GenL:enkiir    GenNumEnding;
-        
-LEXICON GenNumEnding            !! Long genitive ending is followed by the gender and/or number marking as well as a case ending.
-        +Msc+Sg:o ENDLEX;                 !! These are now nominative forms (barokiiro and barokiiri), but the long genitive word forms can be inflected 
-        +Fem+Sg:i ENDLEX;                 !! in other cases as well, for instance +N+Sg+Obl+GenL+Msc+Sg+Obl+Abl (bareskiiresta). In other words, they could
-        +Pl:e   ENDLEX;                 !! be entered back into the paradigm, but I don't know how to do this without creating a neverending loop.
+LEXICON MSCOBL
+MSCOBL_SG ;
+MSCOBL_PL ;
 
-LEXICON ENDLEX
- # ;
+LEXICON MSCOBL_SG 
++Sg+Obl:%>es K ;
++Sg:%>es OBLCASES ;
++Sg+Gen:%>es GENCASES ;
 
+LEXICON MSCOBL_PL 
++Pl+Nom:%>e K ;
++Pl+Obl:%>en K ;
++Pl:%>en OBLCASES ;
 
-!!
-LEXICON Singular_0_es
-        +Nom:0  ENDLEX;
-        +Obl:es ENDLEX;
-            :es OBL-CASE ;
+LEXICON OBLCASES
++Dat:%>ke K ;
++Abl:%>ta K ;
++Ins:%>ha K ;
 
-LEXICON Plural_e-en
-        +Nom:e  ENDLEX;
-        +Obl:en ENDLEX;
-        :en     OBL-CASE;
-
-LEXICON OBL-CASE
-        
-        +Gen:ko ENDLEX;
-        +Dat:ke ENDLEX;
-        +Abl:ta ENDLEX;
-        +Ins:eha        ENDLEX;
-        +GenL:kiir      GenNumEnding;
-        +Gen:engo       ENDLEX;
-        +Dat:enge       ENDLEX;
-        +Abl:enna       ENDLEX;
-        +Ins:ensa       ENDLEX;
-        +GenL:enkiir    GenNumEnding;
-
-
-
-LEXICON Cases
-+N+sg+nom:0     #   ;
-+N+pl+nom:i     #   ;
-+N+sg+loc:as    #   ;
-+N+pl+loc:ias   #   ;
-+N+sg+acc:at    #   ;
-+N+pl+acc:iat   #   ;
-#:0   Nouns   ;
+LEXICON GENCASES
+      :%>ko K ;
++Kiiro:%>kiiro K ; ! fix tags
++Kiiri:%>kiiri K ;
++Kiire:%>kiire K ;
 
 ! vim: set ft=xfst-lexc:
 
