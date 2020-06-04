@@ -1,0 +1,9 @@
+name = "Kalo Finnish Romani"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.rmf"
+
+[windows]
+system_product_code = "23C71AE7-DDB6-41B6-83FB-6E27D2C50297"
+msoffice_product_code = "14EA3748-8B4B-486F-A3C9-CF0580321E06"
