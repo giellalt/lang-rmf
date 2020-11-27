@@ -3,10 +3,56 @@
 
 
 LEXICON Nouns
+
+! maskuliinit
+! -o, -os, -is, -es, us; -iba, -ben
+
+! o-vartalo
 raklo:rakl RAKLO "poika" ; ! o-päätteiset maskuliinit
+ȟeero:ȟeer RAKLO "pää" ;
+khooro:khoor RAKLO "pullo" ;
+tšaaro:tšaar RAKLO "lautanen" ;
+
+! tunnuksettomia
+
+anguš BEREH "sormi" ;
 lau:laav LAU "sana" ;
 bereȟ:bereȟȟ BEREH "vuosi" ;
 kaȟt:kaȟt BEREH "puu" ;
 vuudarja:vuudar VUUDAR "ovi" ; ! ja ?
 
-! vim: set ft=xfst-lexc:
+nak LAU "nenä" ;
+dai LAU "äiti" ;
+mui LAU "suu" ;
+gau LAU "kylä" ;
+!freidos FREIDOS "rauha" ;
+roi LAU "lusikka" ;
+räi LAU "herra" ;
+ȟeu LAU "haava" ;
+!dielos FREIDOS "osa" ;
+!kiäji KIAJI "ei-romani" ;
+kuavo:kuav RAKLO "ei-romani" ;
+
+kriatuuros:kriatuuro RAKLO "eläin" ;
+!apreaaȟȟiba:apreaaȟȟib APPREAAHHIBA "ylösnousemus" ;
+
+
+
+! fiminiinit
+
+! i-loppuiset
+
+džuuli:džuul DZUULI "nainen" ;
+butti:butt DZUULI "työ" ;
+patti:patt DZUULI "kunnia" ;
+
+! tunnuksettomia
+
+baar:baar BAAR "aita" ;
+bok:bok BAAR "nälkä" ;
+
+! a-loppuisia
+
+kamana:kaman KUKLA "kello" ;
+kukla:kukl KUKLA "nukke" ;
+luvina:luvin KUKLA "olut" ;
