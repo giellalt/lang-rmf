@@ -3,6 +3,8 @@
 !! Adjectives in the Romany language describe things.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
+tšuoro:tšuor TSUORO "köyhä" ;
+biuutiboskiiro:biuutiboskiir TSUORO "epäoikeutettu" ;
+
 
 ! vim: set ft=xfst-lexc:

@@ -3,6 +3,6 @@
 !! Pronouns in the Romany language are references to things.
 
 LEXICON Pronouns
-me+Pron+Pers+Sg+Nom:me K ;
-
+me+Pron+Pers+Sg+Nom:me # ;
+jou+Pron+Pers+Sg+Nom:jou # "hän" ; 
 ! vim: set ft=xfst-lexc:

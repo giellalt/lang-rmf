@@ -20,6 +20,20 @@ LEXICON VUUDAR
 +N+Msc+Sg: MSCOBL_PL ;
 +N+Msc+Sg:j MSCOBL_PL ;
 
+LEXICON DZUULI
++N+Fem+Sg+Nom:%>i K ;
++N+Fem: # ; ! todo
+
+
+LEXICON BAAR
++N+Fem+Sg+Nom: K ;
++N+Fem: # ; ! todo
+
+LEXICON KUKLA
++N+Fem+Sg+Nom:%>a K ;
++N+Fem: # ; ! todo
+
+
 LEXICON MSCOBL
 MSCOBL_SG ;
 MSCOBL_PL ;
@@ -30,8 +44,8 @@ LEXICON MSCOBL_SG
 +Sg+Gen:%>es GENCASES ;
 
 LEXICON MSCOBL_PL 
-+Pl+Nom:%>e K ;
-+Pl+Obl:%>en K ;
++Pl+Nom:%>e K ; ! džeene
++Pl+Obl:%>en K ; ! džeenen
 +Pl:%>en OBLCASES ;
 
 LEXICON OBLCASES
