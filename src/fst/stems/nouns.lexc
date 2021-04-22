@@ -1,19 +1,20 @@
-!! Nouns
+!! # Nouns
 !  -----
 
 
 LEXICON Nouns
+!! @LEXNAME@ 
 
-! maskuliinit
-! -o, -os, -is, -es, us; -iba, -ben
+!! ## maskuliinit
+!! *-o, -os, -is, -es, us; -iba, -ben*
 
-! o-vartalo
+!! ### o-vartalo: raklo
 raklo:rakl RAKLO "poika" ; ! o-päätteiset maskuliinit
 ȟeero:ȟeer RAKLO "pää" ;
 khooro:khoor RAKLO "pullo" ;
 tšaaro:tšaar RAKLO "lautanen" ;
 
-! tunnuksettomia
+!! ### tunnuksettomia anguš, lau
 
 anguš BEREH "sormi" ;
 lau:laav LAU "sana" ;
@@ -38,21 +39,26 @@ kriatuuros:kriatuuro RAKLO "eläin" ;
 
 
 
-! fiminiinit
+!! ## feminiinit
 
-! i-loppuiset
+!! ### i-loppuiset: butti, ...
 
 džuuli:džuul DZUULI "nainen" ;
 butti:butt DZUULI "työ" ;
 patti:patt DZUULI "kunnia" ;
 
-! tunnuksettomia
+!! ### tunnuksettomia: baar, ...
 
 baar:baar BAAR "aita" ;
 bok:bok BAAR "nälkä" ;
 
-! a-loppuisia
+!! ### a-loppuisia: kamana, ..
 
 kamana:kaman KUKLA "kello" ;
 kukla:kukl KUKLA "nukke" ;
 luvina:luvin KUKLA "olut" ;
+
+
+!! ## The long list
+
+!! To be added šhen basis is in place.

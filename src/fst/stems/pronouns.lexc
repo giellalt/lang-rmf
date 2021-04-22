@@ -1,8 +1,9 @@
-!! Pronouns
+!! # Pronouns
 !  --------
-!! Pronouns in the Romany language are references to things.
+!! Two pronouns so far
 
 LEXICON Pronouns
+!! @LEXNAME@ me, jou
 me+Pron+Pers+Sg+Nom:me # ;
 jou+Pron+Pers+Sg+Nom:jou # "hän" ; 
 ! vim: set ft=xfst-lexc:
