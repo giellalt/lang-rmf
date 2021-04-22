@@ -14,6 +14,8 @@
 
 !! # Symbol affixes
 
+!! This content is just from the template, work has not begun.
+
 LEXICON Noun_symbols_possibly_inflected
  +N+Symbol: SYMBOL_connector ;
 
@@ -32,16 +34,3 @@ LEXICON SYMBOL_NO_suff
 
 LEXICON SYMBOL_suff
  +Sg+Gen:n       # ;
- +Sg+Acc:m       # ;
- +Sg+Ill:se      # ;
- +Sg+Ine:sne     # ;
- +Sg+Ela:ste     # ;
- +Sg+Com:ine     # ;
-    +Ess:ine     # ;
- +Pl+Nom:h       # ;
- +Pl+Gen:ij      # ;
- +Pl+Acc:ide     # ;
- +Pl+Ill:ide     # ;
- +Pl+Ine:ine     # ;
- +Pl+Ela:jste    # ;
- +Pl+Com:jgujmie # ;

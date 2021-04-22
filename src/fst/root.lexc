@@ -13,113 +13,118 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!Romany morphological analyser                      !
+!! # The Kalo Finnish Romany *root.lexc* file                    
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Romany LANGUAGE.
- 
 
-Multichar_Symbols  !!≈ # Definitions for @CODE@
+!! This file defines all **multicharacter symbols**, and contains the initial lexicon **Root**.
+
+Multichar_Symbols  
 
 !! ## Analysis symbols
 !  ----------------
 !! The morphological analyses of wordforms for the Romany
 !! language are presented in this system in terms of the following symbols.
-!! (It is highly suggested to follow existing standards when adding new tags).
+!! **Note that some of the tags still are copied from other language versions**
 
-!! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
- +Msc
- +Fem
-
-!! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
-
-!! The Usage extents are marked using following tags:
- +Err/Orth   
- +Use/-Spell 
-
-!! The nominals are inflected in the following Case and Number
- +Sg
- +Pl
- +Nom
- +Obl ! Obliikvi
- +Dat
- +Abl
- +Gen
- +Gen/Long ! name?
- +Ins ! Instrumentaali
- +Acc ! ??
-
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
-!! The comparative forms are:
- +Comp +Superl
-!! Numerals are classified under:
- +Attr +Card
- +Ord 
-!! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
-!! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
-!! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
-
-! Abbreviated words are classified with:
- +ABBR +ACR 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
-!! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
- +TV +IV
-!! Special multiword units are analysed with:
- +Multi
-!! Non-dictionary words can be recognised with:
- +Guess
-
-!! Question and Focus particles:
- +Qst +Foc
+!! ### Parts-of-speech tags:
+ +N +A +Adv +V                                 !!≈ **@CODE@** open POS
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈ **@CODE@** closed POS
+ +ABBR  !!≈ **@CODE@** abbreviations
+ +ACR  !!≈ **@CODE@** acronyms
+ +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ **@CODE@** POS subtags
 
 
-!! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
+!! ### The number, gender and case tags:
 
+ +Msc +Fem !!≈ **@CODE@** 
+ +Sg !!≈ **@CODE@** singular
+ +Pl !!≈ **@CODE@** plural
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 !!≈ **@CODE@** Verb personal tags
+ +Nom !!≈ **@CODE@** Nominative
+ +Obl  !!≈ **@CODE@**  Obliikvi
+ +Dat !!≈ **@CODE@** Dative
+ +Abl !!≈ **@CODE@** Ablative
+ +Gen !!≈ **@CODE@** Genitive
+ +Gen/Long  !!≈ **@CODE@**  name?
+ +Ins  !!≈ **@CODE@**  Instrumentaali
+ +Acc  !!≈ **@CODE@** Accusative
+
+!! ### Other sub-tags
+ 
+ +Comp +Superl !!≈ **@CODE@** Comparative, superlative
+ +Attr  !!≈ **@CODE@** attribute 
+ +Card +Ord  !!≈ **@CODE@** Cardinal and ordinal numerals 
+ +Ind +Prs +Prt +Pot +Cond +Imprt !!≈ **@CODE@** Verb tense andmood
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess !!≈ **@CODE@** From Sámi, probably delete several of these.
+ +TV +IV !!≈ **@CODE@** transitivity tags
+
+
+!! ### Other tags
+
++Symbol !!≈ **@CODE@** = independent symbols in the text stream, like £, €, ©
++CLB  !!≈ **@CODE@** clause boundary for period and comma
++PUNCT  !!≈ **@CODE@** other punctuation symbol
++LEFT +RIGHT !!≈ **@CODE@** paired symbols, parentheses
+ +Multi !!≈ **@CODE@** multiword tag
+ +Guess !!≈ **@CODE@** guess tag (not in use)
+
+!! ### Question and Focus particles (probably not needed)
+ +Qst +Foc !!≈ **@CODE@** 
+
+
+!! ### Semantic tags
+
+!! These are not yet in use
+
+ +Sem/Mal +Sem/Fem +Sem/Sur   !!≈ **@CODE@** 
+ +Sem/Plc                  !!≈ **@CODE@** 
+ +Sem/Org                 !!≈ **@CODE@** 
+ +Sem/Obj                 !!≈ **@CODE@** 
+ +Sem/Ani                 !!≈ **@CODE@** 
+ +Sem/Hum                 !!≈ **@CODE@** 
+ +Sem/Plant                 !!≈ **@CODE@** 
+ +Sem/Group                 !!≈ **@CODE@** 
+ +Sem/Time                  !!≈ **@CODE@** 
+ +Sem/Txt                 !!≈ **@CODE@** 
+ +Sem/Route                 !!≈ **@CODE@** 
+ +Sem/Measr               !!≈ **@CODE@** 
+ +Sem/Wthr                 !!≈ **@CODE@** 
+ +Sem/Build               !!≈ **@CODE@** 
+ +Sem/Edu                 !!≈ **@CODE@** 
+ +Sem/Veh                 !!≈ **@CODE@** 
+ +Sem/Clth                 !!≈ **@CODE@** 
+
+
+!! ### Derivation
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
+
+ +V→N +V→V +V→A   !!≈ **@CODE@** 
+ +Der/xxx   !!≈ **@CODE@** 
+
+!! ### Usage tags
+!! The Usage extents are marked using the following tags:
+ +Err/Orth    !!≈ **@CODE@** tagging non-standard forms
+ +Use/-Spell  !!≈ **@CODE@** tagging other forms not to be accepted by the speller
 
 
-!! Morphophonology
+!! ### Morphophonology
 !  ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
 
-!! And following triggers to control variation
- {front} {back}
+!! **No such symbols so far**
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
+
+!! **The flag diacritics are not yet in use**
+
+!! | Flag | Explanation
+!! | --- | --- 
  @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
@@ -128,7 +133,10 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
+
+!! | Flag | Explanation
+!! | --- | ---  
+@P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
  @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
  @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
  @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
@@ -141,10 +149,16 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
+
+!! | Flag | Explanation
+!! | --- | --- 
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
+
+!! ## The *Root* lexicon
 LEXICON Root
+!! LEXICON @LEXNAME@
 !! The word forms in Romany language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 0   Nouns       ;
@@ -157,6 +171,7 @@ LEXICON Root
     Symbols     ;
 
 LEXICON K
-# ;
+ !! LEXICON **@LEXNAME@** (for clitics, probably not needed)
+ # ;
 
 ! vim: set ft=xfst-lexc:
