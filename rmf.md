@@ -1,3 +1,102 @@
+# Noun inflection
+The inflection first gives N, Nom and gender tags, then point to oblique cases.
+
+## The noun continuation lexica
+
+### Masculines
+
+RAKLO 
+
+LAU 
+
+BEREH 
+
+VUUDAR 
+
+
+### Feminines
+
+DZUULI 
+
+
+BAAR 
+
+KUKLA 
+
+
+## Morphology
+
+### Masculine morphology
+
+MSCOBL 
+
+MSCOBL_SG 
+
+MSCOBL_PL 
+
+### Feminine morphology
+
+To be written
+
+
+### The oblique cases *-ke, -ta, -ha*
+
+OBLCASES 
+
+GENCASES 
+
+
+# Proper noun inflection
+Nothing done so far.
+
+
+
+# Symbol affixes
+
+This content is just from the template, work has not begun.
+
+
+
+
+
+# Adjective inflection
+Nothing done.
+
+TSUORO Just adding +A tag.
+
+
+
+# Verb inflection
+Not worked on
+
+Persons just dummy entries, to be replaced.
+
+
+# The Romany morphophonological/twolc rules file 
+
+## Declarations and definitions
+
+### Alphabet
+ a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
+ á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
+
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+ Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
+
+ %>:0 ;
+
+### Sets
+
+
+## Rules
+
+ * **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
+
+ * **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
+
+* *bereȟȟ*
+* *bere0ȟ*
+
 
 # The Kalo Finnish Romany *root.lexc* file                    
 
@@ -145,113 +244,6 @@ word classes, or optionally from prefixes:
 
 LEXICON **K** (for clitics, probably not needed)
 
-
-
-
-We describe here how abbreviations are in Kalo Finnish Romani are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-# The Romany morphophonological/twolc rules file 
-
-## Declarations and definitions
-
-### Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
-
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
-
- %>:0 ;
-
-### Sets
-
-
-## Rules
-
- * **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
-
- * **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
-
-* *bereȟȟ*
-* *bere0ȟ*
-
-# Adjective inflection
-Nothing done.
-
-TSUORO Just adding +A tag.
-
-
-
-# Adjectives
-Not worked on.
-
-Adjectives two so far, no subclasses.
-
-
-# Adverbs
-
-adv gives tag
-
-Adverbs The list, one so far.
-# Noun inflection
-The inflection first gives N, Nom and gender tags, then point to oblique cases.
-
-## The noun continuation lexica
-
-### Masculines
-
-RAKLO 
-
-LAU 
-
-BEREH 
-
-VUUDAR 
-
-
-### Feminines
-
-DZUULI 
-
-
-BAAR 
-
-KUKLA 
-
-
-## Morphology
-
-### Masculine morphology
-
-MSCOBL 
-
-MSCOBL_SG 
-
-MSCOBL_PL 
-
-### Feminine morphology
-
-To be written
-
-
-### The oblique cases *-ke, -ta, -ha*
-
-OBLCASES 
-
-GENCASES 
-
-
 # Nouns
 
 
@@ -284,6 +276,32 @@ Nouns
 ## The long list
 
 To be added šhen basis is in place.
+# Prefixes
+Prefixes in the Romany language are bound to beginning of other words.
+
+Prefixes No prefixes so far. Are there any?
+
+
+# Pronouns
+Two pronouns so far
+
+Pronouns me, jou
+# Adverbs
+
+adv gives tag
+
+Adverbs The list, one so far.
+# Adjectives
+Not worked on.
+
+Adjectives two so far, no subclasses.
+
+
+Verbs
+Verbs in the Romany language are actions.
+
+Verbs no verbs yet.
+
 # Numerals
 Numerals in the Romany language are numbers.
 
@@ -302,22 +320,73 @@ Numbers preparing for composing
 
 NUMCASE gets tag
 
-# Pronouns
-Two pronouns so far
-
-Pronouns me, jou
-# Proper noun inflection
-Nothing done so far.
 
 
-# Verb inflection
-Not worked on
-
-Persons just dummy entries, to be replaced.
 
 
-Verbs
-Verbs in the Romany language are actions.
 
-Verbs no verbs yet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Kalo Finnish Romani are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
