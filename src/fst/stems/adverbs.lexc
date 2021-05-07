@@ -1,9 +1,9 @@
 !! # Adverbs
 
 LEXICON adv
-!! @LEXNAME@ gives tag
+!! **LEXICON @LEXNAME@** gives tag
 +Adv: # ;
 
 LEXICON Adverbs
-!! @LEXNAME@ The list, one so far.
+!! **LEXICON @LEXNAME@** The list, one so far.
 biofti adv "harvoin" ;
