@@ -1,6 +1,6 @@
 # Adjectives
 Not worked on.
 
-Adjectives two so far, no subclasses.
+**LEXICON Adjectives** two so far, no subclasses.
 
 

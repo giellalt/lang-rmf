@@ -1,5 +1,5 @@
 # Prefixes
-Prefixes in the Romany language are bound to beginning of other words.
+So far no prefixes in the model for Finnish Romany .
 
 Prefixes No prefixes so far. Are there any?
 

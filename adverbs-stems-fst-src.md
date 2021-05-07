@@ -1,5 +1,5 @@
 # Adverbs
 
-adv gives tag
+**LEXICON adv** gives tag
 
-Adverbs The list, one so far.
+**LEXICON Adverbs** The list, one so far.

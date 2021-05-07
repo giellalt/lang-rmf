@@ -1,5 +1,5 @@
-Verbs
-Verbs in the Romany language are actions.
+# Verbs
+No work has been done on verbs so far.
 
-Verbs no verbs yet.
+**LEXICON Verbs** contains no verbs yet.
 

@@ -1,7 +1,7 @@
-# Nouns
+# Noun stems
+This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
 
-
-Nouns 
+**LEXICON Nouns** 
 
 ## maskuliinit
 *-o, -os, -is, -es, us; -iba, -ben*
@@ -30,36 +30,36 @@ Nouns
 ## The long list
 
 To be added šhen basis is in place.
-# Numerals
-Numerals in the Romany language are numbers.
+# Kale Romani Numerals
+Numerals so far only 1-10.
 
-Numerals 
+**LEXICON Numerals** 
 
-Arabic  shall be common files
+**LEXICON Arabic**  shall be common files
 
-Numbers preparing for composing
-
-
-11to19 combining 11, 12, ..
+**LEXICON Numbers** preparing for composing
 
 
-1to10 
+**LEXICON 11to19** combining 11, 12, ..
 
 
-NUMCASE gets tag
+**LEXICON 1to10** 
+
+
+**LEXICON NUMCASE** gets tag
 
 # Adverbs
 
-adv gives tag
+**LEXICON adv** gives tag
 
-Adverbs The list, one so far.
-Verbs
-Verbs in the Romany language are actions.
+**LEXICON Adverbs** The list, one so far.
+# Verbs
+No work has been done on verbs so far.
 
-Verbs no verbs yet.
+**LEXICON Verbs** contains no verbs yet.
 
 # Prefixes
-Prefixes in the Romany language are bound to beginning of other words.
+So far no prefixes in the model for Finnish Romany .
 
 Prefixes No prefixes so far. Are there any?
 
@@ -67,7 +67,7 @@ Prefixes No prefixes so far. Are there any?
 # Adjectives
 Not worked on.
 
-Adjectives two so far, no subclasses.
+**LEXICON Adjectives** two so far, no subclasses.
 
 
 # Pronouns

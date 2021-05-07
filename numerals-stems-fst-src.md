@@ -1,18 +1,18 @@
-# Numerals
-Numerals in the Romany language are numbers.
+# Kale Romani Numerals
+Numerals so far only 1-10.
 
-Numerals 
+**LEXICON Numerals** 
 
-Arabic  shall be common files
+**LEXICON Arabic**  shall be common files
 
-Numbers preparing for composing
-
-
-11to19 combining 11, 12, ..
+**LEXICON Numbers** preparing for composing
 
 
-1to10 
+**LEXICON 11to19** combining 11, 12, ..
 
 
-NUMCASE gets tag
+**LEXICON 1to10** 
+
+
+**LEXICON NUMCASE** gets tag
 

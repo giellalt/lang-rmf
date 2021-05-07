@@ -1,7 +1,7 @@
-# Nouns
+# Noun stems
+This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
 
-
-Nouns 
+**LEXICON Nouns** 
 
 ## maskuliinit
 *-o, -os, -is, -es, us; -iba, -ben*
