@@ -1,9 +1,9 @@
-!! Verbs
+!! # Verbs
 !  -----
-!! Verbs in the Romany language are actions.
+!! No work has been done on verbs so far.
 
 LEXICON Verbs
-!! @LEXNAME@ no verbs yet.
+!! **LEXICON @LEXNAME@** contains no verbs yet.
 # ;
 
 ! vim: set ft=xfst-lexc:

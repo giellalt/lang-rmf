@@ -1,29 +1,29 @@
-!! # Numerals
+!! # Kale Romani Numerals
 !  --------
-!! Numerals in the Romany language are numbers.
+!! Numerals so far only 1-10.
 
 LEXICON Numerals
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
 Arabic ;
 Numbers ;
 
 LEXICON Arabic
-!! @LEXNAME@  shall be common files
+!! **LEXICON @LEXNAME@**  shall be common files
 1 # ;
 
 LEXICON Numbers
-!! @LEXNAME@ preparing for composing
+!! **LEXICON @LEXNAME@** preparing for composing
 1to10 ;
 11to19 ;
 
 
 LEXICON 11to19
-!! @LEXNAME@ combining 11, 12, ..
+!! **LEXICON @LEXNAME@** combining 11, 12, ..
 deȟo 1to10 ;
 
 
 LEXICON 1to10
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
 iek NUMCASE ;
 dui  NUMCASE ;
 triin  NUMCASE ;
@@ -37,7 +37,7 @@ deȟ  NUMCASE ;
 
 
 LEXICON NUMCASE
-!! @LEXNAME@ gets tag
+!! **LEXICON @LEXNAME@** gets tag
 +Num: # ;
 
 ! vim: set ft=xfst-lexc:
