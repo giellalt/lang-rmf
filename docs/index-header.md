@@ -5,7 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-rmf)](https://github.com/giellalt/lang-rmf/issues)
 [![Build status](https://github.com/giellalt/lang-rmf/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-rmf/actions)
 
-This page documents the work on the **Kalo Finnish Romani language model**. 
+This page documents the work on the [Kalo Finnish Romani language model](https://github.com/giellalt/lang-rmf). 
 
 # Project documentation
 
