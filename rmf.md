@@ -681,6 +681,8 @@ This content is just from the template, work has not begun.
 
 # The Romany morphophonological/twolc rules file 
 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc) 
+
 ## Declarations and definitions
 
 ### Alphabet
