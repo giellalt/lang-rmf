@@ -605,113 +605,20 @@ These were the set types.
 
 
 
-# Noun stems
-This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
+# Verb inflection
+Not worked on
 
-**LEXICON Nouns** 
-
-## maskuliinit
-*-o, -os, -is, -es, us; -iba, -ben*
-
-### o-vartalo: raklo
-
-### tunnuksettomia anguš, lau
+Persons just dummy entries, to be replaced.
 
 
+# Proper noun inflection
+Nothing done so far.
 
 
+# Adjective inflection
+Nothing done.
 
-
-## feminiinit
-
-### i-loppuiset: butti, ...
-
-
-### tunnuksettomia: baar, ...
-
-
-### a-loppuisia: kamana, ..
-
-
-
-## The long list
-
-To be added šhen basis is in place.
-# Kale Romani Numerals
-Numerals so far only 1-10.
-
-**LEXICON Numerals** 
-
-**LEXICON Arabic**  shall be common files
-
-**LEXICON Numbers** preparing for composing
-
-
-**LEXICON 11to19** combining 11, 12, ..
-
-
-**LEXICON 1to10** 
-
-
-**LEXICON NUMCASE** gets tag
-
-# Adverbs
-
-**LEXICON adv** gives tag
-
-**LEXICON Adverbs** The list, one so far.
-# Verbs
-No work has been done on verbs so far.
-
-**LEXICON Verbs** contains no verbs yet.
-
-# Prefixes
-So far no prefixes in the model for Finnish Romany .
-
-Prefixes No prefixes so far. Are there any?
-
-
-# Adjectives
-Not worked on.
-
-**LEXICON Adjectives** two so far, no subclasses.
-
-
-# Pronouns
-Two pronouns so far
-
-Pronouns me, jou
-# The Romany morphophonological/twolc rules file 
-
-## Declarations and definitions
-
-### Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
-
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
-
- %>:0 ;
-
-### Sets
-
-
-## Rules
-
- * **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
-
- * **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
-
-* *bereȟȟ*
-* *bere0ȟ*
-
-
-# Symbol affixes
-
-This content is just from the template, work has not begun.
-
-
+TSUORO Just adding +A tag.
 
 
 
@@ -763,23 +670,116 @@ OBLCASES
 GENCASES 
 
 
-# Proper noun inflection
-Nothing done so far.
 
+# Symbol affixes
 
-# Verb inflection
-Not worked on
-
-Persons just dummy entries, to be replaced.
-
-
-# Adjective inflection
-Nothing done.
-
-TSUORO Just adding +A tag.
+This content is just from the template, work has not begun.
 
 
 
+
+
+# The Romany morphophonological/twolc rules file 
+
+## Declarations and definitions
+
+### Alphabet
+ a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
+ á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
+
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+ Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
+
+ %>:0 ;
+
+### Sets
+
+
+## Rules
+
+ * **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
+
+ * **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
+
+* *bereȟȟ*
+* *bere0ȟ*
+
+# Verbs
+No work has been done on verbs so far.
+
+**LEXICON Verbs** contains no verbs yet.
+
+# Pronouns
+Two pronouns so far
+
+Pronouns me, jou
+# Kale Romani Numerals
+Numerals so far only 1-10.
+
+**LEXICON Numerals** 
+
+**LEXICON Arabic**  shall be common files
+
+**LEXICON Numbers** preparing for composing
+
+
+**LEXICON 11to19** combining 11, 12, ..
+
+
+**LEXICON 1to10** 
+
+
+**LEXICON NUMCASE** gets tag
+
+# Adjectives
+Not worked on.
+
+**LEXICON Adjectives** two so far, no subclasses.
+
+
+# Prefixes
+So far no prefixes in the model for Finnish Romany .
+
+Prefixes No prefixes so far. Are there any?
+
+
+# Adverbs
+
+**LEXICON adv** gives tag
+
+**LEXICON Adverbs** The list, one so far.
+# Noun stems
+This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
+
+**LEXICON Nouns** 
+
+## maskuliinit
+*-o, -os, -is, -es, us; -iba, -ben*
+
+### o-vartalo: raklo
+
+### tunnuksettomia anguš, lau
+
+
+
+
+
+
+## feminiinit
+
+### i-loppuiset: butti, ...
+
+
+### tunnuksettomia: baar, ...
+
+
+### a-loppuisia: kamana, ..
+
+
+
+## The long list
+
+To be added šhen basis is in place.
 
 # The Kalo Finnish Romany *root.lexc* file                    
 
@@ -930,22 +930,6 @@ LEXICON **K** (for clitics, probably not needed)
 
 
 
-We describe here how abbreviations are in Kalo Finnish Romani are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -996,6 +980,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Kalo Finnish Romani are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
