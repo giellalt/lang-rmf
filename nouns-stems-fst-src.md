@@ -30,3 +30,5 @@ This documents the file `stems/nouns.lexc`. So far only some 10-20 words distrib
 ## The long list
 
 To be added šhen basis is in place.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/nouns.lexc)</small>

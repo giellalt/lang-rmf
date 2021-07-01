@@ -199,7 +199,7 @@
 * Sets for verbs
 
 
-    - V is all readings with a V tag in them, REAL-V should
+- V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
@@ -605,184 +605,8 @@ These were the set types.
 
 
 
-# Verb inflection
-Not worked on
-
-Persons just dummy entries, to be replaced.
-
-
-# Proper noun inflection
-Nothing done so far.
-
-
-# Adjective inflection
-Nothing done.
-
-TSUORO Just adding +A tag.
-
-
-
-# Noun inflection
-The inflection first gives N, Nom and gender tags, then point to oblique cases.
-
-## The noun continuation lexica
-
-### Masculines
-
-RAKLO 
-
-LAU 
-
-BEREH 
-
-VUUDAR 
-
-
-### Feminines
-
-DZUULI 
-
-
-BAAR 
-
-KUKLA 
-
-
-## Morphology
-
-### Masculine morphology
-
-MSCOBL 
-
-MSCOBL_SG 
-
-MSCOBL_PL 
-
-### Feminine morphology
-
-To be written
-
-
-### The oblique cases *-ke, -ta, -ha*
-
-OBLCASES 
-
-GENCASES 
-
-
-
-# Symbol affixes
-
-This content is just from the template, work has not begun.
-
-
-
-
-
-# The Romany morphophonological/twolc rules file 
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc) 
-
-## Declarations and definitions
-
-### Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
-
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
-
- %>:0 ;
-
-### Sets
-
-
-## Rules
-
- * **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
-
- * **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
-
-* *bereȟȟ*
-* *bere0ȟ*
-
-# Verbs
-No work has been done on verbs so far.
-
-**LEXICON Verbs** contains no verbs yet.
-
-# Pronouns
-Two pronouns so far
-
-Pronouns me, jou
-# Kale Romani Numerals
-Numerals so far only 1-10.
-
-**LEXICON Numerals** 
-
-**LEXICON Arabic**  shall be common files
-
-**LEXICON Numbers** preparing for composing
-
-
-**LEXICON 11to19** combining 11, 12, ..
-
-
-**LEXICON 1to10** 
-
-
-**LEXICON NUMCASE** gets tag
-
-# Adjectives
-Not worked on.
-
-**LEXICON Adjectives** two so far, no subclasses.
-
-
-# Prefixes
-So far no prefixes in the model for Finnish Romany .
-
-Prefixes No prefixes so far. Are there any?
-
-
-# Adverbs
-
-**LEXICON adv** gives tag
-
-**LEXICON Adverbs** The list, one so far.
-# Noun stems
-This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
-
-**LEXICON Nouns** 
-
-## maskuliinit
-*-o, -os, -is, -es, us; -iba, -ben*
-
-### o-vartalo: raklo
-
-### tunnuksettomia anguš, lau
-
-
-
-
-
-
-## feminiinit
-
-### i-loppuiset: butti, ...
-
-
-### tunnuksettomia: baar, ...
-
-
-### a-loppuisia: kamana, ..
-
-
-
-## The long list
-
-To be added šhen basis is in place.
-
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-rmf/blob/main/../src/cg3/functions.cg3)</small>
 # The Kalo Finnish Romany *root.lexc* file                    
 
 This file defines all **multicharacter symbols**, and contains the initial lexicon **Root**.
@@ -929,7 +753,198 @@ word classes, or optionally from prefixes:
 
 LEXICON **K** (for clitics, probably not needed)
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/root.lexc)</small># Proper noun inflection
+Nothing done so far.
 
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/affixes/propernouns.lexc)</small># Noun inflection
+The inflection first gives N, Nom and gender tags, then point to oblique cases.
+
+## The noun continuation lexica
+
+### Masculines
+
+RAKLO 
+
+LAU 
+
+BEREH 
+
+VUUDAR 
+
+
+### Feminines
+
+DZUULI 
+
+
+BAAR 
+
+KUKLA 
+
+
+## Morphology
+
+### Masculine morphology
+
+MSCOBL 
+
+MSCOBL_SG 
+
+MSCOBL_PL 
+
+### Feminine morphology
+
+To be written
+
+
+### The oblique cases *-ke, -ta, -ha*
+
+OBLCASES 
+
+GENCASES 
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
+
+This content is just from the template, work has not begun.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/affixes/symbols.lexc)</small># Adjective inflection
+Nothing done.
+
+TSUORO Just adding +A tag.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/affixes/adjectives.lexc)</small># Verb inflection
+Not worked on
+
+Persons just dummy entries, to be replaced.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/affixes/verbs.lexc)</small># Pronouns
+Two pronouns so far
+
+Pronouns me, jou
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/pronouns.lexc)</small># Prefixes
+So far no prefixes in the model for Finnish Romany .
+
+Prefixes No prefixes so far. Are there any?
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/prefixes.lexc)</small># Noun stems
+This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
+
+**LEXICON Nouns** 
+
+## maskuliinit
+*-o, -os, -is, -es, us; -iba, -ben*
+
+### o-vartalo: raklo
+
+### tunnuksettomia anguš, lau
+
+
+
+
+
+
+## feminiinit
+
+### i-loppuiset: butti, ...
+
+
+### tunnuksettomia: baar, ...
+
+
+### a-loppuisia: kamana, ..
+
+
+
+## The long list
+
+To be added šhen basis is in place.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/nouns.lexc)</small># Adjectives
+Not worked on.
+
+**LEXICON Adjectives** two so far, no subclasses.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/adjectives.lexc)</small># Verbs
+No work has been done on verbs so far.
+
+**LEXICON Verbs** contains no verbs yet.
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/verbs.lexc)</small># Adverbs
+
+**LEXICON adv** gives tag
+
+**LEXICON Adverbs** The list, one so far.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/adverbs.lexc)</small># Kale Romani Numerals
+Numerals so far only 1-10.
+
+**LEXICON Numerals** 
+
+**LEXICON Arabic**  shall be common files
+
+**LEXICON Numbers** preparing for composing
+
+
+**LEXICON 11to19** combining 11, 12, ..
+
+
+**LEXICON 1to10** 
+
+
+**LEXICON NUMCASE** gets tag
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/numerals.lexc)</small># The Romany morphophonological/twolc rules file 
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc) 
+
+## Declarations and definitions
+
+### Alphabet
+ a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
+ á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
+
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+ Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
+
+ %>:0 ;
+
+### Sets
+
+
+## Rules
+
+* **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
+
+* **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
+
+* *bereȟȟ*
+* *bere0ȟ*
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/phonology.twolc)</small>
 
 
 
@@ -983,7 +998,8 @@ LEXICON **K** (for clitics, probably not needed)
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 
 We describe here how abbreviations are in Kalo Finnish Romani are read out, e.g.
@@ -999,8 +1015,9 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
-
-      [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+[ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
 
@@ -1410,3 +1427,5 @@ expression **WORD - premodifiers**.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-rmf/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>

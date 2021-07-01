@@ -18,10 +18,12 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-r
 
 ## Rules
 
- * **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
+* **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
 
- * **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
+* **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
 
 * *bereȟȟ*
 * *bere0ȟ*
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/phonology.twolc)</small>

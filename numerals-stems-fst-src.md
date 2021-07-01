@@ -16,3 +16,5 @@ Numerals so far only 1-10.
 
 **LEXICON NUMCASE** gets tag
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/numerals.lexc)</small>

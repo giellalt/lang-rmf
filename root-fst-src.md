@@ -145,3 +145,5 @@ word classes, or optionally from prefixes:
 
 LEXICON **K** (for clitics, probably not needed)
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/root.lexc)</small>
