@@ -5,13 +5,13 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-r
 ## Declarations and definitions
 
 ### Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
+a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å@CODE@
+á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ@CODE@
 
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å@CODE@
+Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ@CODE@
 
- %>:0 ;
+%>:0 ;@CODE@
 
 ### Sets
 

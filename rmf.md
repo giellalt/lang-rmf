@@ -606,118 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-rmf/blob/main/../src/cg3/functions.cg3)</small># The Romany morphophonological/twolc rules file 
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc) 
-
-## Declarations and definitions
-
-### Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
-
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
-
- %>:0 ;
-
-### Sets
-
-
-## Rules
-
-* **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
-
-* **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
-
-* *bereȟȟ*
-* *bere0ȟ*
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/phonology.twolc)</small># Noun stems
-This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
-
-**LEXICON Nouns** 
-
-## maskuliinit
-*-o, -os, -is, -es, us; -iba, -ben*
-
-### o-vartalo: raklo
-
-### tunnuksettomia anguš, lau
-
-
-
-
-
-
-## feminiinit
-
-### i-loppuiset: butti, ...
-
-
-### tunnuksettomia: baar, ...
-
-
-### a-loppuisia: kamana, ..
-
-
-
-## The long list
-
-To be added šhen basis is in place.
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/nouns.lexc)</small># Adverbs
-
-**LEXICON adv** gives tag
-
-**LEXICON Adverbs** The list, one so far.
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/adverbs.lexc)</small># Kale Romani Numerals
-Numerals so far only 1-10.
-
-**LEXICON Numerals** 
-
-**LEXICON Arabic**  shall be common files
-
-**LEXICON Numbers** preparing for composing
-
-
-**LEXICON 11to19** combining 11, 12, ..
-
-
-**LEXICON 1to10** 
-
-
-**LEXICON NUMCASE** gets tag
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/numerals.lexc)</small># Adjectives
-Not worked on.
-
-**LEXICON Adjectives** two so far, no subclasses.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/adjectives.lexc)</small># Prefixes
-So far no prefixes in the model for Finnish Romany .
-
-Prefixes No prefixes so far. Are there any?
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/prefixes.lexc)</small># Pronouns
-Two pronouns so far
-
-Pronouns me, jou
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/pronouns.lexc)</small># Verbs
-No work has been done on verbs so far.
-
-**LEXICON Verbs** contains no verbs yet.
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-rmf/blob/main/../src/cg3/functions.cg3)</small>
 # The Kalo Finnish Romany *root.lexc* file                    
 
 This file defines all **multicharacter symbols**, and contains the initial lexicon **Root**.
@@ -729,72 +618,72 @@ language are presented in this system in terms of the following symbols.
 **Note that some of the tags still are copied from other language versions**
 
 ### Parts-of-speech tags:
- * **+N +A +Adv +V** open POS
- * **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num** closed POS
- * **+ABBR** abbreviations
- * **+ACR** acronyms
- * **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef** POS subtags
+* **+N +A +Adv +VPOS** open POS
+* **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +NumPOS** closed POS
+* **+ABBRabbreviations** abbreviations
+* **+ACRacronyms** acronyms
+* **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indefsubtags** POS subtags
 
 
 ### The number, gender and case tags:
 
- * **+Msc +Fem** 
- * **+Sg** singular
- * **+Pl** plural
- * **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** Verb personal tags
- * **+Nom** Nominative
- * **+Obl**  Obliikvi
- * **+Dat** Dative
- * **+Abl** Ablative
- * **+Gen** Genitive
- * **+Gen/Long**  name?
- * **+Ins**  Instrumentaali
- * **+Acc** Accusative
+* **+Msc +Fem** 
+* **+Sgsingular** singular
+* **+Plplural** plural
+* **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3tags** Verb personal tags
+* **+NomNominative** Nominative
+* **+OblObliikvi**  Obliikvi
+* **+DatDative** Dative
+* **+AblAblative** Ablative
+* **+GenGenitive** Genitive
+* **+Gen/Longname?**  name?
+* **+InsInstrumentaali**  Instrumentaali
+* **+AccAccusative** Accusative
 
 ### Other sub-tags
 
- * **+Comp +Superl** Comparative, superlative
- * **+Attr** attribute 
- * **+Card +Ord** Cardinal and ordinal numerals 
- * **+Ind +Prs +Prt +Pot +Cond +Imprt** Verb tense andmood
- * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess** From Sámi, probably delete several of these.
- * **+TV +IV** transitivity tags
+* **+Comp +Superlsuperlative** Comparative, superlative
+* **+Attr** attribute 
+* **+Card +Ord** Cardinal and ordinal numerals 
+* **+Ind +Prs +Prt +Pot +Cond +Imprtandmood** Verb tense andmood
+* **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbessthese.** From Sámi, probably delete several of these.
+* **+TV +IVtags** transitivity tags
 
 
 ### Other tags
 
- * **+Symbol** = independent symbols in the text stream, like £, €, ©
- * **+CLB** clause boundary for period and comma
- * **+PUNCT** other punctuation symbol
- * **+LEFT +RIGHT** paired symbols, parentheses
- * **+Multi** multiword tag
- * **+Guess** guess tag (not in use)
+* **+Symbol©** = independent symbols in the text stream, like £, €, ©
+* **+CLBcomma** clause boundary for period and comma
+* **+PUNCTsymbol** other punctuation symbol
+* **+LEFT +RIGHTparentheses** paired symbols, parentheses
+* **+Multitag** multiword tag
+* **+Guessuse)** guess tag (not in use)
 
 ### Question and Focus particles (probably not needed)
- * **+Qst +Foc** 
+* **+Qst +Foc** 
 
 
 ### Semantic tags
 
 These are not yet in use
 
- * **+Sem/Mal +Sem/Fem +Sem/Sur** 
- * **+Sem/Plc** 
- * **+Sem/Org** 
- * **+Sem/Obj** 
- * **+Sem/Ani** 
- * **+Sem/Hum** 
- * **+Sem/Plant** 
- * **+Sem/Group** 
- * **+Sem/Time** 
- * **+Sem/Txt** 
- * **+Sem/Route** 
- * **+Sem/Measr** 
- * **+Sem/Wthr** 
- * **+Sem/Build** 
- * **+Sem/Edu** 
- * **+Sem/Veh** 
- * **+Sem/Clth** 
+* **+Sem/Mal +Sem/Fem +Sem/Sur** 
+* **+Sem/Plc** 
+* **+Sem/Org** 
+* **+Sem/Obj** 
+* **+Sem/Ani** 
+* **+Sem/Hum** 
+* **+Sem/Plant** 
+* **+Sem/Group** 
+* **+Sem/Time** 
+* **+Sem/Txt** 
+* **+Sem/Route** 
+* **+Sem/Measr** 
+* **+Sem/Wthr** 
+* **+Sem/Build** 
+* **+Sem/Edu** 
+* **+Sem/Veh** 
+* **+Sem/Clth** 
 
 
 ### Derivation
@@ -802,13 +691,13 @@ These are not yet in use
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
- * **+V→N +V→V +V→A** 
- * **+Der/xxx** 
+* **+V→N +V→V +V→A** 
+* **+Der/xxx** 
 
 ### Usage tags
 The Usage extents are marked using the following tags:
- * **+Err/Orth** tagging non-standard forms
- * **+Use/-Spell** tagging other forms not to be accepted by the speller
+* **+Err/Orthforms** tagging non-standard forms
+* **+Use/-Spellspeller** tagging other forms not to be accepted by the speller
 
 
 ### Morphophonology
@@ -826,9 +715,9 @@ with verbs if the verb is further derived into a noun again:
 
 | Flag | Explanation
 | --- | --- 
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
@@ -837,14 +726,14 @@ do no harm.
 
 | Flag | Explanation
 | --- | ---  
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
+|  @D.CmpLast.TRUE@R | Block such words from entering R
+|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -853,8 +742,8 @@ given the proper use of these flags.
 
 | Flag | Explanation
 | --- | --- 
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
 
 
 ## The *Root* lexicon
@@ -944,7 +833,118 @@ Nothing done so far.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/affixes/propernouns.lexc)</small># The Romany morphophonological/twolc rules file 
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc) 
+
+## Declarations and definitions
+
+### Alphabet
+a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å@CODE@
+á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ@CODE@
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å@CODE@
+Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ@CODE@
+
+%>:0 ;@CODE@
+
+### Sets
+
+
+## Rules
+
+* **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
+
+* **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
+
+* *bereȟȟ*
+* *bere0ȟ*
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/phonology.twolc)</small># Prefixes
+So far no prefixes in the model for Finnish Romany .
+
+Prefixes No prefixes so far. Are there any?
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/prefixes.lexc)</small># Noun stems
+This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
+
+**LEXICON Nouns** 
+
+## maskuliinit
+*-o, -os, -is, -es, us; -iba, -ben*
+
+### o-vartalo: raklo
+
+### tunnuksettomia anguš, lau
+
+
+
+
+
+
+## feminiinit
+
+### i-loppuiset: butti, ...
+
+
+### tunnuksettomia: baar, ...
+
+
+### a-loppuisia: kamana, ..
+
+
+
+## The long list
+
+To be added šhen basis is in place.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/nouns.lexc)</small># Adjectives
+Not worked on.
+
+**LEXICON Adjectives** two so far, no subclasses.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/adjectives.lexc)</small># Pronouns
+Two pronouns so far
+
+Pronouns me, jou
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/pronouns.lexc)</small># Verbs
+No work has been done on verbs so far.
+
+**LEXICON Verbs** contains no verbs yet.
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/verbs.lexc)</small># Kale Romani Numerals
+Numerals so far only 1-10.
+
+**LEXICON Numerals** 
+
+**LEXICON Arabic**  shall be common files
+
+**LEXICON Numbers** preparing for composing
+
+
+**LEXICON 11to19** combining 11, 12, ..
+
+
+**LEXICON 1to10** 
+
+
+**LEXICON NUMCASE** gets tag
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/numerals.lexc)</small># Adverbs
+
+**LEXICON adv** gives tag
+
+**LEXICON Adverbs** The list, one so far.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/stems/adverbs.lexc)</small>
 
 
 We describe here how abbreviations are in Kalo Finnish Romani are read out, e.g.
