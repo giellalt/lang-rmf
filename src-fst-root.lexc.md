@@ -3,7 +3,6 @@
 
 This file defines all **multicharacter symbols**, and contains the initial lexicon **Root**.
 
-
 ## Analysis symbols
 The morphological analyses of wordforms for the Romany
 language are presented in this system in terms of the following symbols.
@@ -15,7 +14,6 @@ language are presented in this system in terms of the following symbols.
 * **+ABBR** abbreviations
 * **+ACR** acronyms
 * **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef** POS subtags
-
 
 ### The number, gender and case tags:
 
@@ -41,7 +39,6 @@ language are presented in this system in terms of the following symbols.
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess** From Sámi, probably delete several of these.
 * **+TV +IV** transitivity tags
 
-
 ### Other tags
 
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
@@ -53,7 +50,6 @@ language are presented in this system in terms of the following symbols.
 
 ### Question and Focus particles (probably not needed)
 * **+Qst +Foc** 
-
 
 ### Semantic tags
 
@@ -77,7 +73,6 @@ These are not yet in use
 * **+Sem/Veh** 
 * **+Sem/Clth** 
 
-
 ### Derivation
 
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -90,7 +85,6 @@ source and target part-of-speech.
 The Usage extents are marked using the following tags:
 * **+Err/Orth** tagging non-standard forms
 * **+Use/-Spell** tagging other forms not to be accepted by the speller
-
 
 ### Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -137,7 +131,6 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
 ## The *Root* lexicon
 LEXICON Root
 The word forms in Romany language start from the lexeme roots of basic
@@ -146,4 +139,8 @@ word classes, or optionally from prefixes:
 LEXICON **K** (for clitics, probably not needed)
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/root.lexc)</small>
+
+---
+

@@ -15,7 +15,6 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 ### Sets
 
-
 ## Rules
 
 * **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
@@ -26,4 +25,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 * *bere0ȟ*
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

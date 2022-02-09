@@ -13,16 +13,13 @@ BEREH
 
 VUUDAR 
 
-
 ### Feminines
 
 DZUULI 
 
-
 BAAR 
 
 KUKLA 
-
 
 ## Morphology
 
@@ -38,13 +35,15 @@ MSCOBL_PL
 
 To be written
 
-
 ### The oblique cases *-ke, -ta, -ha*
 
 OBLCASES 
 
 GENCASES 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-rmf/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
