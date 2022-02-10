@@ -1,7 +1,7 @@
 # Kalo Finnish Romani documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-rmf)](https://raw.githubusercontent.com/giellalt/lang-rmf/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-rmf)](https://github.com/giellalt/lang-rmf/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-rmf)](https://github.com/giellalt/lang-rmf/issues)
 [![Build status](https://github.com/giellalt/lang-rmf/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-rmf/actions)
 
