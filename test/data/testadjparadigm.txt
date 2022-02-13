@@ -1,0 +1,5 @@
++A+Pos+Msc+Sg
++A+Pos+Fem+Sg
++A+Pos+Pl
++A+Comp
+
