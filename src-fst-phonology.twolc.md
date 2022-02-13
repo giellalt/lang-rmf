@@ -1,7 +1,5 @@
 # The Romany morphophonological/twolc rules file 
 
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc) 
-
 ## Declarations and definitions
 
 ### Alphabet
@@ -11,13 +9,16 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
 
-%>:0 ;
+%>
+%^V:0 vowel copy
 
 ### Sets
 
 ## Rules
 
-* **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
+* **Deleting stem-final s in instrumental** ...  probably to be generalised
+
+* **Voicing of k suffix after n** ...  probably to be generalised
 
 * **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
 

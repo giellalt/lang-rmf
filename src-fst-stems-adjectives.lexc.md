@@ -1,7 +1,18 @@
 # Adjectives
-Not worked on.
 
 **LEXICON Adjectives** two so far, no subclasses.
+
+### (a) Temaattiset oloppuiset adjektiivit
+
+### (a) Atemaattiset o-loppuiset adjektiivit
+
+### (c) Temaattiset johdetut adjektivit
+
+### (d) Atemaattiset johdetut adjektivit
+
+## Temaattiset ja atemaattiset tunnuksettomat adjektiivit
+
+### Muut vokaaliloppuiset adjektiivit
 
 * * *
 

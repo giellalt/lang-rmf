@@ -5,31 +5,35 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Masculines
 
-RAKLO 
+**LEXICON RAKLO** adds -o for Sg Nom and redirects to MSCOBL
 
-LAU 
+**LEXICON LAU** 
 
-BEREH 
+**LEXICON BEREH** 
 
-VUUDAR 
+**LEXICON VUUDAR** 
 
 ### Feminines
 
-DZUULI 
+**LEXICON DZUULI** 
 
-BAAR 
+**LEXICON BAAR** 
 
-KUKLA 
+**LEXICON KUKLA** 
 
 ## Morphology
 
 ### Masculine morphology
 
-MSCOBL 
+**LEXICON MSCOBL** 
 
-MSCOBL_SG 
+**LEXICON MSCOBL_SG** 
 
-MSCOBL_PL 
+**LEXICON MSCOBL_PL** 
+
+**LEXICON MSCOBL_PL_OBL** 
+
+**LEXICON MSCOBL_PL_o** 
 
 ### Feminine morphology
 
@@ -37,9 +41,11 @@ To be written
 
 ### The oblique cases *-ke, -ta, -ha*
 
-OBLCASES 
+**LEXICON OBLCASES_SG** 
 
-GENCASES 
+**LEXICON OBLCASES_PL** 
+
+**LEXICON GENCASES** 
 
 * * *
 

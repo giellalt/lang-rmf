@@ -30,6 +30,10 @@ language are presented in this system in terms of the following symbols.
 * **+Ins**  Instrumentaali
 * **+Acc** Accusative
 
+* **+Kiiro**  name?
+* **+Kiire**  name?
+* **+Kiiri**  name?
+
 ### Other sub-tags
 
 * **+Comp +Superl** Comparative, superlative
@@ -90,7 +94,8 @@ The Usage extents are marked using the following tags:
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
-**No such symbols so far**
+* **^V** for long vowel
+* **^CDEL** for use in Ins.
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following

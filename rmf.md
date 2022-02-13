@@ -170,147 +170,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/functions.cg3)</small># Adjective inflection
+Nothing done.
 
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/functions.cg3)</small>
-
----
-
-# The Romany morphophonological/twolc rules file 
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc) 
-
-## Declarations and definitions
-
-### Alphabet
-a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
-á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
-
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
-Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
-
-%>:0 ;
-
-### Sets
-
-## Rules
-
-* **Deleting stem-final s in s genitive** ... this is probably just a dummy rule
-
-* **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
-
-* *bereȟȟ*
-* *bere0ȟ*
+TSUORO Just adding +A tag.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc)</small>
-
----
-
-# Noun stems
-This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
-
-**LEXICON Nouns** 
-
-## maskuliinit
-*-o, -os, -is, -es, us; -iba, -ben*
-
-### o-vartalo: raklo
-
-### tunnuksettomia anguš, lau
-
-## feminiinit
-
-### i-loppuiset: butti, ...
-
-### tunnuksettomia: baar, ...
-
-### a-loppuisia: kamana, ..
-
-## The long list
-
-To be added šhen basis is in place.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/nouns.lexc)</small>
-
----
-
-# Adverbs
-
-**LEXICON adv** gives tag
-
-**LEXICON Adverbs** The list, one so far.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adverbs.lexc)</small>
-
----
-
-# Pronouns
-Two pronouns so far
-
-Pronouns me, jou
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/pronouns.lexc)</small>
-
----
-
-# Kale Romani Numerals
-Numerals so far only 1-10.
-
-**LEXICON Numerals** 
-
-**LEXICON Arabic**  shall be common files
-
-**LEXICON Numbers** preparing for composing
-
-**LEXICON 11to19** combining 11, 12, ..
-
-**LEXICON 1to10** 
-
-**LEXICON NUMCASE** gets tag
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/numerals.lexc)</small>
-
----
-
-# Adjectives
-Not worked on.
-
-**LEXICON Adjectives** two so far, no subclasses.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adjectives.lexc)</small>
-
----
-
-# Prefixes
-So far no prefixes in the model for Finnish Romany .
-
-Prefixes No prefixes so far. Are there any?
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/prefixes.lexc)</small>
-
----
-
-# Verbs
-No work has been done on verbs so far.
-
-**LEXICON Verbs** contains no verbs yet.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -321,31 +188,35 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Masculines
 
-RAKLO 
+**LEXICON RAKLO** adds -o for Sg Nom and redirects to MSCOBL
 
-LAU 
+**LEXICON LAU** 
 
-BEREH 
+**LEXICON BEREH** 
 
-VUUDAR 
+**LEXICON VUUDAR** 
 
 ### Feminines
 
-DZUULI 
+**LEXICON DZUULI** 
 
-BAAR 
+**LEXICON BAAR** 
 
-KUKLA 
+**LEXICON KUKLA** 
 
 ## Morphology
 
 ### Masculine morphology
 
-MSCOBL 
+**LEXICON MSCOBL** 
 
-MSCOBL_SG 
+**LEXICON MSCOBL_SG** 
 
-MSCOBL_PL 
+**LEXICON MSCOBL_PL** 
+
+**LEXICON MSCOBL_PL_OBL** 
+
+**LEXICON MSCOBL_PL_o** 
 
 ### Feminine morphology
 
@@ -353,9 +224,11 @@ To be written
 
 ### The oblique cases *-ke, -ta, -ha*
 
-OBLCASES 
+**LEXICON OBLCASES_SG** 
 
-GENCASES 
+**LEXICON OBLCASES_PL** 
+
+**LEXICON GENCASES** 
 
 * * *
 
@@ -372,14 +245,14 @@ Nothing done so far.
 
 ---
 
-# Adjective inflection
-Nothing done.
 
-TSUORO Just adding +A tag.
+# Symbol affixes
+
+This content is just from the template, work has not begun.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/symbols.lexc)</small>
 
 ---
 
@@ -394,14 +267,36 @@ Persons just dummy entries, to be replaced.
 
 ---
 
+# The Romany morphophonological/twolc rules file 
 
-# Symbol affixes
+## Declarations and definitions
 
-This content is just from the template, work has not begun.
+### Alphabet
+a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
+á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
+Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ
+
+%>
+%^V:0 vowel copy
+
+### Sets
+
+## Rules
+
+* **Deleting stem-final s in instrumental** ...  probably to be generalised
+
+* **Voicing of k suffix after n** ...  probably to be generalised
+
+* **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
+
+* *bereȟȟ*
+* *bere0ȟ*
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc)</small>
 
 ---
 
@@ -436,6 +331,10 @@ language are presented in this system in terms of the following symbols.
 * **+Gen/Long**  name?
 * **+Ins**  Instrumentaali
 * **+Acc** Accusative
+
+* **+Kiiro**  name?
+* **+Kiire**  name?
+* **+Kiiri**  name?
 
 ### Other sub-tags
 
@@ -497,7 +396,8 @@ The Usage extents are marked using the following tags:
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
-**No such symbols so far**
+* **^V** for long vowel
+* **^CDEL** for use in Ins.
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -548,6 +448,147 @@ LEXICON **K** (for clitics, probably not needed)
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/root.lexc)</small>
+
+---
+
+# Adjectives
+
+**LEXICON Adjectives** two so far, no subclasses.
+
+### (a) Temaattiset oloppuiset adjektiivit
+
+### (a) Atemaattiset o-loppuiset adjektiivit
+
+### (c) Temaattiset johdetut adjektivit
+
+### (d) Atemaattiset johdetut adjektivit
+
+## Temaattiset ja atemaattiset tunnuksettomat adjektiivit
+
+### Muut vokaaliloppuiset adjektiivit
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+
+# Adverbs
+
+**LEXICON adv** gives tag
+
+**LEXICON Adverbs** The list, one so far.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+# Noun stems
+This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
+
+Nominatiivi päättyy yksikössä mm. -o, -i, -os, -is, -es, -a ja monikossa mm. -a, -ja, -i. 
+Instrumentaali saa yleensä yksikössäkin -sa-päätteen -iba- ja -ben- loppuisilla abstraktisubstantiiveilla:
+džaan-ibos-sa ’tiedolla’, ȟaaben- es-sa ’ruoan kanssa’ sekä sanoilla grai ’hevonen’ ja džii ’sydän’.
+Lyhyen genetiivin pääte on yksikössä -ko ja monikossa -go (rakl-es-ko ’pojan’, džuu-jen-go ’naisten’).
+Pitkä genetiivi päättyy yksikössä -kiir- o ja monikossa -giir-o (sikj-ibos-kiir-o ’opettaja’,
+tšell-ibon-giir-e ’tanssit’).9
+
+**LEXICON Nouns** 
+
+## maskuliinit
+*-o, -os, -is, -es, us; -iba, -ben*
+
+### (a) o-vartalo: raklo
+
+### (b) tunnuksettomia anguš, lau
+
+### (c) i-loppuinen
+
+### (c?) a-loppuinen
+
+### (d) -iba/-irba/-ilba-loppuisia abstraktisubstantiiveja
+
+### ben-loppuisia abstraktisubstantiiveja
+
+### os-loppuisia
+
+### is-loppuisia
+
+### es-loppuisia
+
+### us-loppuisia
+
+## feminiinit
+
+### i-loppuiset: butti, ...
+
+### tunnuksettomia: baar, ...
+
+### a-loppuisia: kamana, ..
+
+## The long list
+
+To be added šhen basis is in place.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
+# Kale Romani Numerals
+Numerals so far only 1-10.
+
+**LEXICON Numerals** 
+
+**LEXICON Arabic**  shall be common files
+
+**LEXICON Numbers** preparing for composing
+
+**LEXICON 11to19** combining 11, 12, ..
+
+**LEXICON 1to10** 
+
+**LEXICON NUMCASE** gets tag
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+
+# Prefixes
+So far no prefixes in the model for Finnish Romany .
+
+Prefixes No prefixes so far. Are there any?
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/prefixes.lexc)</small>
+
+---
+
+# Pronouns
+Two pronouns so far
+
+Pronouns me, jou
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+
+# Verbs
+No work has been done on verbs so far.
+
+**LEXICON Verbs** contains no verbs yet.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/verbs.lexc)</small>
 
 ---
 
@@ -720,20 +761,6 @@ retracted tongue root			_q
 
 
 
-% komma% :,      Root ;
-% tjuohkkis% :%. Root ;
-% kolon% :%:     Root ;
-% sárggis% :%-   Root ; 
-% násti% :%*     Root ; 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
----
-
-
-
 We describe here how abbreviations are in Kalo Finnish Romani are read out, e.g.
 for text-to-speech systems.
 
@@ -749,6 +776,20 @@ For example:
 * * *
 
 <small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
@@ -790,7 +831,6 @@ CLB
 LEFT
 RIGHT
 WEB
-QMARK
 PPUNCT
 PUNCT
 
@@ -904,9 +944,6 @@ Sem/Txt
 
 HUMAN
 
-HAB-ACTOR
-HAB-ACTOR-NOT-HUMAN
-
 PROP-ATTR
 PROP-SUR
 
@@ -995,8 +1032,6 @@ INITIAL
 ### Sets for word or not
 
 WORD
-REAL-WORD
-REAL-WORD-NOT-ABBR
 NOT-COMMA
 
 ### Case sets
@@ -1055,8 +1090,66 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-rmf/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for rmf
 
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-rmf/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+Usage:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+Apart from what's in our morphology, there are
+1. unknown word-like forms, and
+2. unmatched strings
+We want to give 1) a match, but let 2) be treated specially by
+`hfst-tokenise -a`
+Unknowns are made of:
+* lower-case ASCII
+* upper-case ASCII
+* select extended latin symbols
+ASCII digits
+* select symbols
+* Combining diacritics as individual symbols,
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+## Unknown handling
+Unknowns are tagged ?? and treated specially with `hfst-tokenise`
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-rmf/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
 
@@ -1120,69 +1213,6 @@ Finally we mark as a token any sequence making up a:
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-rmf/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
-
----
-
-# Tokeniser for rmf
-
-Usage:
-```
-$ make
-$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
-
-Characters which have analyses in the lexicon, but can appear without spaces
-before/after, that is, with no context conditions, and adjacent to words:
-* Punct contains ASCII punctuation marks
-* The symbol after m-dash is soft-hyphen `U+00AD`
-* The symbol following {•} is byte-order-mark / zero-width no-break space
-`U+FEFF`.
-
-Whitespace contains ASCII white space and
-the List contains some unicode white space characters
-* En Quad U+2000 to Zero-Width Joiner U+200d'
-* Narrow No-Break Space U+202F
-* Medium Mathematical Space U+205F
-* Word joiner U+2060
-
-Apart from what's in our morphology, there are
-1. unknown word-like forms, and
-2. unmatched strings
-We want to give 1) a match, but let 2) be treated specially by
-`hfst-tokenise -a`
-Unknowns are made of:
-* lower-case ASCII
-* upper-case ASCII
-* select extended latin symbols
-ASCII digits
-* select symbols
-* Combining diacritics as individual symbols,
-* various symbols from Private area (probably Microsoft),
-so far:
-* U+F0B7 for "x in box"
-
-## Unknown handling
-Unknowns are tagged ?? and treated specially with `hfst-tokenise`
-hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
-remove empty analyses from other readings. Empty readings are also
-legal in CG, they get a default baseform equal to the wordform, but
-no tag to check, so it's safer to let hfst-tokenise handle them.
-
-Finally we mark as a token any sequence making up a:
-* known word in context
-* unknown (OOV) token in context
-* sequence of word and punctuation
-* URL in context
-
-* * *
-
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-rmf/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
 
