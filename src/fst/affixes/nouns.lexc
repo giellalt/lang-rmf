@@ -7,43 +7,143 @@
 !! ### Masculines
 
 LEXICON RAKLO
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** adds -o for Sg Nom and redirects to MSCOBL
 +N+Msc+Sg+Nom:%>o K ;
 +N+Msc: MSCOBL ;
 
 LEXICON LAU
-!! @LEXNAME@ 
-+N+Msc+Sg+Nom: K ;
-+N+Msc: MSCOBL ;
+!! **LEXICON @LEXNAME@** 
++N+Msc+Sg+Nom:u K ;
++N+Msc:^Vv MSCOBL ;
 
 LEXICON BEREH
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom: K ;
 +N+Msc: MSCOBL ;
 
 LEXICON VUUDAR
-!! @LEXNAME@ 
-+N+Msc+Sg+Nom:%>ja K ;
-+N+Msc+Sg: MSCOBL_SG ;
-+N+Msc+Sg: MSCOBL_PL ;
-+N+Msc+Sg:j MSCOBL_PL ;
+!! **LEXICON @LEXNAME@** 
++N+Msc+Sg+Nom: K ;
++N+Msc:%>e MSCOBL_SG ;
+
++N+Msc+Pl+Nom:%>ja K ; ! vuudarja
++N+Msc+Pl+Obl:%>en K ; ! vuudaren
++N+Msc+Pl+Obl:j%>en K ; ! vuudarjen
++N+Msc+Pl:%>en OBLCASES_PL ;
++N+Msc+Pl:j%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:%>en GENCASES ;
++N+Msc+Pl+Gen:j%>en GENCASES ;
+
+
+LEXICON GRAI
++N+Msc+Sg+Nom:rai K ;
++N+Msc+Sg+Obl:es K ;
++N+Msc+Sg+Dat:res%>ke K ;
++N+Msc+Sg+Abl:res%>ta K ;
++N+Msc+Sg+Ins:res%>sa K ;
++N+Msc+Sg+Gen:r%>es GENCASES ;
+
++N+Msc+Pl+Nom:raija K ; ! 
++N+Msc+Pl+Obl:re%>en K ; ! džeenen
++N+Msc+Pl:r%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:r%>en GENCASES ;
+
+LEXICON DZII
++N+Msc+Sg+Nom:ii K ;
++N+Msc+Sg+Obl:es K ;
++N+Msc+Sg+Dat:es%>ke K ;
++N+Msc+Sg+Abl:es%>ta K ;
++N+Msc+Sg+Ins:es%>sa K ;
++N+Msc+Sg+Gen:es GENCASES ;
+
++N+Msc+Pl+Nom:ii%>ja K ; ! 
++N+Msc+Pl+Obl:%>en K ; ! džeenen
++N+Msc+Pl:%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:%>en GENCASES ;
+
+
+LEXICON IBA
++N+Msc+Sg+Nom:%>a K ;
++N+Msc: MSCOBL_o ;
++N+Msc+Sg+Ins:ossa K ;
+
+
+LEXICON BEN
++N+Msc+Sg+Nom: K ;
++N+Msc: MSCOBL ;
+
+LEXICON OS
++N+Msc+Sg+Nom:%>os K ;
++N+Msc:o MSCOBL_SG ;
++N+Msc+Pl+Nom:%>i K ; ! džeene
++N+Msc+Pl+Obl:%>en K ; ! džeenen
++N+Msc+Pl:%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:%>en GENCASES ;
+
+
+LEXICON NIS
++N+Msc+Sg+Nom:n%>is K ;
++N+Msc:n%>i MSCOBL_SG ;
+IS_PL ;
+
+LEXICON RIS
++N+Msc+Sg+Nom:r%>is K ;
++N+Msc:r%>i MSCOBL_SG ;
+IS_PL ;
+
+LEXICON TIS
++N+Msc+Sg+Nom:t%>is K ;
++N+Msc:t%>i MSCOBL_SG ;
+IS_PL ;
+
+LEXICON SSIS
++N+Msc+Sg+Nom:ss%>is K ;
++N+Msc:ss%>i MSCOBL_SG ;
+IS_PL ;
+
+LEXICON IS_PL
++N+Msc+Pl+Nom:ja K ; ! džeene
++N+Msc+Pl+Obl:j%>en K ; ! džeenen
++N+Msc+Pl:j%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:j%>en GENCASES ;
+
+
+LEXICON ES
++N+Msc+Sg+Nom:%>es K ;
++N+Msc:%>e MSCOBL_SG ;
++N+Msc+Pl+Nom:ja K ;
++N+Msc:%>e MSCOBL_PL_OBL ;
+
+
+LEXICON US
++N+Msc+Sg+Nom:%>us K ;
++N+Msc:%>u MSCOBL_SG ;
++N+Msc+Pl+Nom:u%>ja K ;
++N+Msc:%>uj MSCOBL_PL_OBL ;
+
+LEXICON YS
++N+Msc+Sg+Nom:%>ys K ;
++N+Msc:%>y MSCOBL_SG ;
++N+Msc+Pl+Nom:y%>ja K ;
++N+Msc:%>yj MSCOBL_PL_OBL ;
+
 
 
 !! ### Feminines
 
 LEXICON DZUULI
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom:%>i K ;
 +N+Fem: # ; ! todo
 
 
 LEXICON BAAR
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom: K ;
 +N+Fem: # ; ! todo
 
 LEXICON KUKLA
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom:%>a K ;
 +N+Fem: # ; ! todo
 
@@ -53,21 +153,39 @@ LEXICON KUKLA
 !! ### Masculine morphology
 
 LEXICON MSCOBL
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
 MSCOBL_SG ;
 MSCOBL_PL ;
 
+
 LEXICON MSCOBL_SG 
-!! @LEXNAME@ 
-+Sg+Obl:%>es K ;
-+Sg:%>es OBLCASES ;
-+Sg+Gen:%>es GENCASES ;
+!! **LEXICON @LEXNAME@** 
++Sg+Obl:s K ;
++Sg:s OBLCASES_SG ;
++Sg+Gen:s GENCASES ;
+
 
 LEXICON MSCOBL_PL 
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
 +Pl+Nom:%>e K ; ! džeene
 +Pl+Obl:%>en K ; ! džeenen
-+Pl:%>en OBLCASES ;
++Pl:%>en OBLCASES_PL ;
++Pl+Gen:%>en GENCASES ;
+
+LEXICON MSCOBL_PL_OBL 
+!! **LEXICON @LEXNAME@** 
++Pl+Obl:%>en K ; ! džeenen
++Pl:%>en OBLCASES_PL ;
++Pl+Gen:%>en GENCASES ;
+
+LEXICON MSCOBL_PL_o 
+!! **LEXICON @LEXNAME@** 
++Pl+Nom:%>i K ; ! džeene
++Pl+Obl:%>on K ; ! džeenen
++Pl:%>on OBLCASES_PL ;
++Pl+Gen:%>on GENCASES ;
+
+
 
 !! ### Feminine morphology
 
@@ -76,18 +194,25 @@ LEXICON MSCOBL_PL
 
 !! ### The oblique cases *-ke, -ta, -ha*
 
-LEXICON OBLCASES
-!! @LEXNAME@ 
+LEXICON OBLCASES_SG
+!! **LEXICON @LEXNAME@** 
 +Dat:%>ke K ;
 +Abl:%>ta K ;
-+Ins:%>ha K ;
++Ins:%>^CDELha K ;
+
+LEXICON OBLCASES_PL
+!! **LEXICON @LEXNAME@** 
++Dat:%>ge K ;
++Abl:%>na K ;
++Ins:%>sa K ;
 
 LEXICON GENCASES
-!! @LEXNAME@ 
+!! **LEXICON @LEXNAME@** 
       :%>ko K ;
 +Kiiro:%>kiiro K ; ! fix tags
 +Kiiri:%>kiiri K ;
 +Kiire:%>kiire K ;
+
 
 ! vim: set ft=xfst-lexc:
 

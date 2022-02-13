@@ -49,6 +49,10 @@ Multichar_Symbols
  +Ins  !!≈ * **@CODE@**  Instrumentaali
  +Acc  !!≈ * **@CODE@** Accusative
 
+ +Kiiro  !!≈ * **@CODE@**  name?
+ +Kiire  !!≈ * **@CODE@**  name?
+ +Kiiri  !!≈ * **@CODE@**  name?
+ 
 !! ### Other sub-tags
  
  +Comp +Superl !!≈ * **@CODE@** Comparative, superlative
@@ -114,7 +118,9 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 
-!! **No such symbols so far**
+^V !!≈ * **@CODE@** for long vowel
+^CDEL !!≈ * **@CODE@** for use in Ins.
+
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following

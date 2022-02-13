@@ -2,14 +2,48 @@
 !  --------------------
 !! Nothing done.
 
-LEXICON TSUORO
+LEXICON TSUORO ! to be deleted
 !! @LEXNAME@ Just adding +A tag.
 +A: # ;
 
-LEXICON Comparisons
-+A:0        K   ;
-+A+Comp:er       K   ;
-+A+Superl:est      K   ;
+
+LEXICON BARO
++A+Pos+Msc+Sg:%>o K ;
++A+Pos+Fem+Sg:%>i K ;
++A+Pos+Pl:%>e K ;
++A: comp ;
+
+LEXICON BESKO
++A+Pos+Msc+Sg:%>o K ;
++A+Pos+Fem+Sg:%>i K ;
++A+Pos+Pl:%>a K ;
++A: comp ;
+
+LEXICON FAARLIGO
++A+Pos+Msc+Sg:%>o K ;
++A+Pos+Fem+Sg:%>o K ;
++A+Pos+Pl:%>a K ;
++A: comp ;
+
+LEXICON DUUR
++A+Pos+Msc+Sg: K ;
++A+Pos+Fem+Sg: K ;
++A+Pos+Pl: K ;
++A: comp ;
+
+
+LEXICON FROO
++A+Pos+Msc+Sg: K ;
++A+Pos+Fem+Sg: K ;
++A+Pos+Pl: K ;
++A: comp ;
+
+
+
+
+
+LEXICON comp
++Comp:ide       K   ; ! monta virhettä...
 
 ! vim: set ft=xfst-lexc:
 

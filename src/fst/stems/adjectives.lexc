@@ -1,11 +1,61 @@
 !! # Adjectives
 !  ----------
-!! Not worked on.
+
 
 LEXICON Adjectives
 !! **LEXICON @LEXNAME@** two so far, no subclasses.
 tšuoro:tšuor TSUORO "köyhä" ;
 biuutiboskiiro:biuutiboskiir TSUORO "epäoikeutettu" ;
 
+!! ### (a) Temaattiset oloppuiset adjektiivit
+
+baro:bar BARO "iso" ;
+kaalo:kaal BARO "musta" ;
+latšo:latš BARO "kiltti" ;
+loolo:lool BARO "punainen" ;
+phuuro:phuur BARO "vanha" ;
+
+!! ### (a) Atemaattiset o-loppuiset adjektiivit
+
+besko:besk BESKO "pieni" ;
+fiino:fiin-i BESKO "viisas" ;
+tšiȟko:tšiȟk-i BESKO "hyvä" ;
+
+!! ### (c) Temaattiset johdetut adjektivit
+
+barvalo:barval BARO "rikas" ;
+maalano:maalan BARO "ystävllinen" ;
+tšatšuno:tšatšun BARO "todellinen" ;
+naaluno:naalun BARO "etummainen" ;
+sonakaano:sonakaan BARO "kultainen" ;
+
+!! ### (d) Atemaattiset johdetut adjektivit
+
+undravitiko:undravitik FAARLIGO "ihmeellinen" ;
+finitiko:finitik  FAARLIGO "suomalainen" ;
+faarligo:faarlig  FAARLIGO "vaarallinen" ;
+
+!! ## Temaattiset ja atemaattiset tunnuksettomat adjektiivit
+
+duur DUUR "kaukainen" ;
+ȟoor  DUUR "syvä" ;
+blyöt DUUR "läpimärkä" ;
+dum DUUR "tyhmä" ;
+hyög DUUR "korkea" ;
+klaar DUUR "selkeä" ;
+lagom DUUR "sopiva" ;
+reend DUUR "rehellinen" ;
+
+
+!! ### Muut vokaaliloppuiset adjektiivit
+
+froo FROO "eri" ;
+froomi FROO "turha" ;
+fäärdi FROO "valmis" ;
+halakulla FROO "sokea" ;
+ȟimlinga FROO "hämärä" ;
+rönska FROO "irstas" ;
+hellävä FROO "hellä" ;
+kultale FROO "kultainen" ;
 
 ! vim: set ft=xfst-lexc:

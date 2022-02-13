@@ -2,40 +2,127 @@
 !  -----
 !! This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
 
+!! Nominatiivi päättyy yksikössä mm. -o, -i, -os, -is, -es, -a ja monikossa mm. -a, -ja, -i. 
+!!
+!! Instrumentaali saa yleensä yksikössäkin -sa-päätteen -iba- ja -ben- loppuisilla abstraktisubstantiiveilla:
+!! džaan-ibos-sa ’tiedolla’, ȟaaben- es-sa ’ruoan kanssa’ sekä sanoilla grai ’hevonen’ ja džii ’sydän’.
+!!
+!! Lyhyen genetiivin pääte on yksikössä -ko ja monikossa -go (rakl-es-ko ’pojan’, džuu-jen-go ’naisten’).
+!! Pitkä genetiivi päättyy yksikössä -kiir- o ja monikossa -giir-o (sikj-ibos-kiir-o ’opettaja’,
+!! tšell-ibon-giir-e ’tanssit’).9
+
 LEXICON Nouns
 !! **LEXICON @LEXNAME@** 
 
 !! ## maskuliinit
 !! *-o, -os, -is, -es, us; -iba, -ben*
 
-!! ### o-vartalo: raklo
+!! ### (a) o-vartalo: raklo
 raklo:rakl RAKLO "poika" ; ! o-päätteiset maskuliinit
 ȟeero:ȟeer RAKLO "pää" ;
 khooro:khoor RAKLO "pullo" ;
 tšaaro:tšaar RAKLO "lautanen" ;
+sikjiboskiiro:sikjiboskiir RAKLO "opettaja" ;
+kaalo:kaal "romani" ;
+kuavo:kuav RAKLO "ei-romani" ;
 
-!! ### tunnuksettomia anguš, lau
+!! ### (b) tunnuksettomia anguš, lau
 
+tšeer:tšeer BEREH "talo" ;
 anguš BEREH "sormi" ;
-lau:laav LAU "sana" ;
 bereȟ:bereȟȟ BEREH "vuosi" ;
 kaȟt:kaȟt BEREH "puu" ;
-vuudarja:vuudar VUUDAR "ovi" ; ! ja ?
+vuudar:vuudar VUUDAR "ovi" ; ! ja ?
 
-nak LAU "nenä" ;
-dai LAU "äiti" ;
-mui LAU "suu" ;
-gau LAU "kylä" ;
-!freidos FREIDOS "rauha" ;
-roi LAU "lusikka" ;
-räi LAU "herra" ;
-ȟeu LAU "haava" ;
+lau:la LAU "sana" ;
+džiu:dži LAU "ruis, jyvä" ;
+džuu:džu LAU "täi" ;
+gau:ga LAU "kylä" ;
+jiu:ji LAU "lumi" ;
+nau:na LAU "nimi" ;
+
+grai:g GRAI "hevonen" ;
+
+!nak LAU "nenä" ;
+!dai LAU "äiti" ;
+!mui LAU "suu" ;
+!gau LAU "kylä" ;
+!roi LAU "lusikka" ;
+!räi LAU "herra" ;
+!ȟeu LAU "haava" ;
 !dielos FREIDOS "osa" ;
 !kiäji KIAJI "ei-romani" ;
-kuavo:kuav RAKLO "ei-romani" ;
 
 kriatuuros:kriatuuro RAKLO "eläin" ;
 !apreaaȟȟiba:apreaaȟȟib APPREAAHHIBA "ylösnousemus" ;
+
+
+!! ### (c) i-loppuinen
+
+džii:dž DZII "sydän" ;
+	
+
+!! ### (c?) a-loppuinen
+
+raadža:raadž RAADZA "kuningas" ;
+
+
+!! ### (d) -iba/-irba/-ilba-loppuisia abstraktisubstantiiveja
+
+looliba:loolib IBA "punaisuus" ;
+hajiba:hajib IBA "ymmärryys" ;
+ȟukkirba:hukkirb IBA "hiljaisuus" ;
+barvilba:barvilb IBA "rikkaus" ;
+džaaniba:džaanib IBA "tieto" ;
+
+!! ### ben-loppuisia abstraktisubstantiiveja
+
+diiben:diiben BEN "antaminen" ;
+ȟaaben:ȟaaben BEN "ruoka" ;
+
+!! ### os-loppuisia
+
+fooros:foor OS "kaupunki" ;
+ȟoȟȟos:ȟoȟȟ OS "jänis" ;
+kokalos:kokal OS "luu" ;
+lippos:lipp OS "huuli" ;
+lyönnos:lyönn OS "palkka" ;
+tšyöpos:tšyöp OS "kauppa" ;
+parlamentos:parlament OS "eduskunta" ;
+rannos:rann OS "kynä" ;
+
+
+!! ### is-loppuisia
+
+komunis:komu NIS "ihminen" ;
+balanis:bala NIS "sieni" ;
+gudunis:gudu NIS "kello" ;
+sapunis:sapu NIS "saippua" ;
+klokkaris:klokka RIS "lukkari" ;
+praataris:praata RIS "lörpöttelijä" ;
+granitis:grani TIS "graniitti" ;
+kuparis:kupa RIS "kuparis" ;
+kompassis:kompa SSIS "kompassi" ;
+
+
+!! ### es-loppuisia
+
+histores:histor ES "historia" ;
+kapitules:kapitul ES "kapituli" ;
+kulttures:kulttur ES "kulttuuri" ;
+musikes:musik ES "musiikki" ;
+
+!! ### us-loppuisia
+
+pappus:papp US "isoisä" ;
+balamys:balam YS "satu" ;
+siirus:siir US "itä" ;
+bankus:bank US "penkki" ;
+forsus:fors US "lapanen" ;
+džurpus:džurp US "mökki" ;
+rehus:reh US "rehu" ;
+kakkus:kakk US "kakku" ;
+proomus:proom US "proomu" ;
 
 
 
@@ -43,6 +130,7 @@ kriatuuros:kriatuuro RAKLO "eläin" ;
 
 !! ### i-loppuiset: butti, ...
 
+kaali:kaal DZUULI "kahvi" ;
 džuuli:džuul DZUULI "nainen" ;
 butti:butt DZUULI "työ" ;
 patti:patt DZUULI "kunnia" ;
