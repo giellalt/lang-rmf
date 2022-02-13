@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - : # pheen o-stem
+    pheen+N+Fem+Sg+Nom: pheen
+    pheen+N+Fem+Sg+Obl: phenja
+    pheen+N+Fem+Sg+Dat: phenjake
+    pheen+N+Fem+Sg+Abl: phenjata
+    pheen+N+Fem+Sg+Ins: phenjaha
+    pheen+N+Fem+Sg+Gen: phenjako
+    pheen+N+Fem+Sg+Gen+Kiiro: phenjakiiro
+    pheen+N+Fem+Pl+Nom: phenja
+    pheen+N+Fem+Pl+Obl: phenjen
+    pheen+N+Fem+Pl+Dat: phenjenge
+    pheen+N+Fem+Pl+Abl: phenjenna
+    pheen+N+Fem+Pl+Ins: phenjensa
+    pheen+N+Fem+Pl+Gen: phenjengo
+    pheen+N+Fem+Pl+Gen+Kiiro: phenjengiiro

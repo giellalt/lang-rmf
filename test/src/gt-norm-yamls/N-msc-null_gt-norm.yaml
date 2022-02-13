@@ -1,0 +1,111 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+
+Tests:
+
+  Noun - vuudar : # null stem
+    vuudar+N+Msc+Sg+Nom: vuudar
+    vuudar+N+Msc+Sg+Obl: vuudares
+    vuudar+N+Msc+Sg+Dat: vuudareske
+    vuudar+N+Msc+Sg+Abl: vuudaresta
+    vuudar+N+Msc+Sg+Ins: vuudareha
+    vuudar+N+Msc+Sg+Gen: vuudaresko
+    vuudar+N+Msc+Sg+Gen+Kiiro: vuudareskiiro
+    vuudar+N+Msc+Pl+Nom: vuudarja
+    vuudar+N+Msc+Pl+Obl: [vuudaren, vuudarjen]
+    vuudar+N+Msc+Pl+Dat: [vuudarenge, vuudarjenge]
+    vuudar+N+Msc+Pl+Abl: [vuudarenna, vuudarjenna]
+    vuudar+N+Msc+Pl+Ins: [vuudarensa, vuudarjensa]
+    vuudar+N+Msc+Pl+Gen: [vuudarengo, vuudarjengo]
+    vuudar+N+Msc+Pl+Gen+Kiiro: [vuudarengiiro, vuudarjengiiro]
+
+
+  Noun - grai : #  null stem
+    grai+N+Msc+Sg+Nom: grai
+    grai+N+Msc+Sg+Obl: ges
+    grai+N+Msc+Sg+Dat: greske
+    grai+N+Msc+Sg+Abl: gresta
+    grai+N+Msc+Sg+Ins: gressa
+    grai+N+Msc+Sg+Gen: gresko
+    grai+N+Msc+Sg+Gen+Kiiro: greskiiro
+    grai+N+Msc+Pl+Nom: graija
+    grai+N+Msc+Pl+Obl: green
+    grai+N+Msc+Pl+Dat: grenge
+    grai+N+Msc+Pl+Abl: grenna
+    grai+N+Msc+Pl+Ins: grensa
+    grai+N+Msc+Pl+Gen: grengo
+    grai+N+Msc+Pl+Gen+Kiiro: grengiiro
+
+  Noun - tšeer : #  null stem
+    tšeer+N+Msc+Sg+Nom: tšeer
+    tšeer+N+Msc+Sg+Obl: tšeeres
+    tšeer+N+Msc+Sg+Dat: tšeereske
+    tšeer+N+Msc+Sg+Abl: tšeeresta
+    tšeer+N+Msc+Sg+Ins: tšeereha
+    tšeer+N+Msc+Sg+Gen: tšeeresko
+    tšeer+N+Msc+Sg+Gen+Kiiro: tšeereskiiro
+    tšeer+N+Msc+Pl+Nom: tšeere
+    tšeer+N+Msc+Pl+Obl: tšeeren
+    tšeer+N+Msc+Pl+Dat: tšeerenge
+    tšeer+N+Msc+Pl+Abl: tšeerenna
+    tšeer+N+Msc+Pl+Ins: tšeerensa
+    tšeer+N+Msc+Pl+Gen: tšeerengo
+    tšeer+N+Msc+Pl+Gen+Kiiro: tšeerengiiro
+
+  Noun - bereȟ : #  null stem
+    bereȟ+N+Msc+Sg+Nom: bereȟ
+    bereȟ+N+Msc+Sg+Obl: bereȟȟes
+    bereȟ+N+Msc+Sg+Dat: bereȟȟeske
+    bereȟ+N+Msc+Sg+Abl: bereȟȟesta
+    bereȟ+N+Msc+Sg+Ins: bereȟȟeha
+    bereȟ+N+Msc+Sg+Gen: bereȟȟesko
+    bereȟ+N+Msc+Sg+Gen+Kiiro: bereȟȟeskiiro
+    bereȟ+N+Msc+Pl+Nom: bereȟȟe
+    bereȟ+N+Msc+Pl+Obl: bereȟȟen
+    bereȟ+N+Msc+Pl+Dat: bereȟȟenge
+    bereȟ+N+Msc+Pl+Abl: bereȟȟenna
+    bereȟ+N+Msc+Pl+Ins: bereȟȟensa
+    bereȟ+N+Msc+Pl+Gen: bereȟȟengo
+    bereȟ+N+Msc+Pl+Gen+Kiiro: bereȟȟengiiro
+
+
+  Noun - lau : #  null stem
+    lau+N+Msc+Sg+Nom: lau
+    lau+N+Msc+Sg+Obl: laaves
+    lau+N+Msc+Sg+Dat: laaveske
+    lau+N+Msc+Sg+Abl: laavesta
+    lau+N+Msc+Sg+Ins: laaveha
+    lau+N+Msc+Sg+Gen: laavesko
+    lau+N+Msc+Sg+Gen+Kiiro: laaveskiiro
+    lau+N+Msc+Pl+Nom: laave
+    lau+N+Msc+Pl+Obl: laaven
+    lau+N+Msc+Pl+Dat: laavenge
+    lau+N+Msc+Pl+Abl: laavenna
+    lau+N+Msc+Pl+Ins: laavensa
+    lau+N+Msc+Pl+Gen: laavengo
+    lau+N+Msc+Pl+Gen+Kiiro: laavengiiro
+
+  Noun - kaȟt : #  null stem
+    kaȟt+N+Msc+Sg+Nom: kaȟt
+    kaȟt+N+Msc+Sg+Obl: kaȟtes
+    kaȟt+N+Msc+Sg+Dat: kaȟteske
+    kaȟt+N+Msc+Sg+Abl: kaȟtesta
+    kaȟt+N+Msc+Sg+Ins: kaȟteha
+    kaȟt+N+Msc+Sg+Gen: kaȟtesko
+    kaȟt+N+Msc+Sg+Gen+Kiiro: kaȟteskiiro
+    kaȟt+N+Msc+Pl+Nom: kaȟte
+    kaȟt+N+Msc+Pl+Obl: kaȟten
+    kaȟt+N+Msc+Pl+Dat: kaȟtenge
+    kaȟt+N+Msc+Pl+Abl: kaȟtenna
+    kaȟt+N+Msc+Pl+Ins: kaȟtensa
+    kaȟt+N+Msc+Pl+Gen: kaȟtengo
+    kaȟt+N+Msc+Pl+Gen+Kiiro: kaȟtengiiro
+
+

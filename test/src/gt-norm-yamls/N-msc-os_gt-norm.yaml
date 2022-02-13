@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - fooros : #  o-stem
+    fooros+N+Msc+Sg+Nom: fooros
+    fooros+N+Msc+Sg+Obl: fooros
+    fooros+N+Msc+Sg+Dat: fooroske
+    fooros+N+Msc+Sg+Abl: foorosta
+    fooros+N+Msc+Sg+Ins: fooroha
+    fooros+N+Msc+Sg+Gen: foorosko
+    fooros+N+Msc+Sg+Gen+Kiiro: fooroskiiro
+    fooros+N+Msc+Pl+Nom: foori
+    fooros+N+Msc+Pl+Obl: fooren
+    fooros+N+Msc+Pl+Dat: foorenge
+    fooros+N+Msc+Pl+Abl: foorenna
+    fooros+N+Msc+Pl+Ins: foorensa
+    fooros+N+Msc+Pl+Gen: foorengo
+    fooros+N+Msc+Pl+Gen+Kiiro: foorengiiro

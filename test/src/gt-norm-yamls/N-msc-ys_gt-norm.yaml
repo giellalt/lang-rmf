@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - balamys : #  ys-stem
+    balamys+N+Msc+Sg+Nom: balamys
+    balamys+N+Msc+Sg+Obl: balamys
+    balamys+N+Msc+Sg+Dat: balamyske
+    balamys+N+Msc+Sg+Abl: balamysta
+    balamys+N+Msc+Sg+Ins: balamyha
+    balamys+N+Msc+Sg+Gen: balamysko
+    balamys+N+Msc+Sg+Gen+Kiiro: balamyskiiro
+    balamys+N+Msc+Pl+Nom: balamyja
+    balamys+N+Msc+Pl+Obl: balamyjen
+    balamys+N+Msc+Pl+Dat: balamyjenge
+    balamys+N+Msc+Pl+Abl: balamyjenna
+    balamys+N+Msc+Pl+Ins: balamyjensa
+    balamys+N+Msc+Pl+Gen: balamyjengo
+    balamys+N+Msc+Pl+Gen+Kiiro: balamyjengiiro

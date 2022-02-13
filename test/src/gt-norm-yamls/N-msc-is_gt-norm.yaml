@@ -1,0 +1,74 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - komunis : #  o-stem
+    komunis+N+Msc+Sg+Nom: komunis
+    komunis+N+Msc+Sg+Obl: komunis
+    komunis+N+Msc+Sg+Dat: komuniske
+    komunis+N+Msc+Sg+Abl: komunista
+    komunis+N+Msc+Sg+Ins: komuniha
+    komunis+N+Msc+Sg+Gen: komunisko
+    komunis+N+Msc+Sg+Gen+Kiiro: komuniskiiro
+    komunis+N+Msc+Pl+Nom: komuja
+    komunis+N+Msc+Pl+Obl: komujen
+    komunis+N+Msc+Pl+Dat: komujenge
+    komunis+N+Msc+Pl+Abl: komujenna
+    komunis+N+Msc+Pl+Ins: komujensa
+    komunis+N+Msc+Pl+Gen: komujengo
+    komunis+N+Msc+Pl+Gen+Kiiro: komujengiiro
+
+  Noun - klokkaris : #  o-stem
+    klokkaris+N+Msc+Sg+Nom: klokkaris
+    klokkaris+N+Msc+Sg+Obl: klokkaris
+    klokkaris+N+Msc+Sg+Dat: klokkariske
+    klokkaris+N+Msc+Sg+Abl: klokkarista
+    klokkaris+N+Msc+Sg+Ins: klokkariha
+    klokkaris+N+Msc+Sg+Gen: klokkarisko
+    klokkaris+N+Msc+Sg+Gen+Kiiro: klokkariskiiro
+    klokkaris+N+Msc+Pl+Nom: klokkaja
+    klokkaris+N+Msc+Pl+Obl: klokkajen
+    klokkaris+N+Msc+Pl+Dat: klokkajenge
+    klokkaris+N+Msc+Pl+Abl: klokkajenna
+    klokkaris+N+Msc+Pl+Ins: klokkajensa
+    klokkaris+N+Msc+Pl+Gen: klokkajengo
+    klokkaris+N+Msc+Pl+Gen+Kiiro: klokkajengiiro
+
+  Noun - granitis : #  o-stem
+    granitis+N+Msc+Sg+Nom: granitis
+    granitis+N+Msc+Sg+Obl: granitis
+    granitis+N+Msc+Sg+Dat: granitiske
+    granitis+N+Msc+Sg+Abl: granitista
+    granitis+N+Msc+Sg+Ins: granitiha
+    granitis+N+Msc+Sg+Gen: granitisko
+    granitis+N+Msc+Sg+Gen+Kiiro: granitiskiiro
+    granitis+N+Msc+Pl+Nom: granija
+    granitis+N+Msc+Pl+Obl: granijen
+    granitis+N+Msc+Pl+Dat: granijenge
+    granitis+N+Msc+Pl+Abl: granijenna
+    granitis+N+Msc+Pl+Ins: granijensa
+    granitis+N+Msc+Pl+Gen: granijengo
+    granitis+N+Msc+Pl+Gen+Kiiro: granijengiiro
+
+  Noun - kompassis : #  o-stem
+    kompassis+N+Msc+Sg+Nom: kompassis
+    kompassis+N+Msc+Sg+Obl: kompassis
+    kompassis+N+Msc+Sg+Dat: kompassiske
+    kompassis+N+Msc+Sg+Abl: kompassista
+    kompassis+N+Msc+Sg+Ins: kompassiha
+    kompassis+N+Msc+Sg+Gen: kompassisko
+    kompassis+N+Msc+Sg+Gen+Kiiro: kompassiskiiro
+    kompassis+N+Msc+Pl+Nom: kompaja
+    kompassis+N+Msc+Pl+Obl: kompajen
+    kompassis+N+Msc+Pl+Dat: kompajenge
+    kompassis+N+Msc+Pl+Abl: kompajenna
+    kompassis+N+Msc+Pl+Ins: kompajensa
+    kompassis+N+Msc+Pl+Gen: kompajengo
+    kompassis+N+Msc+Pl+Gen+Kiiro: kompajengiiro
+

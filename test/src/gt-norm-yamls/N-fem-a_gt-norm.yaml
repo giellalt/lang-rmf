@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - : # skoolo o-stem
+    skoolo+N+Fem+Sg+Nom: skoola
+    skoolo+N+Fem+Sg+Obl: skoolas
+    skoolo+N+Fem+Sg+Dat: skoolake
+    skoolo+N+Fem+Sg+Abl: skoolata
+    skoolo+N+Fem+Sg+Ins: skoolaha
+    skoolo+N+Fem+Sg+Gen: skoolako
+    skoolo+N+Fem+Sg+Gen+Kiiro: skoolakiiro
+    skoolo+N+Fem+Pl+Nom: skooli
+    skoolo+N+Fem+Pl+Obl: skoolen
+    skoolo+N+Fem+Pl+Dat: skoolenge
+    skoolo+N+Fem+Pl+Abl: skoolenna
+    skoolo+N+Fem+Pl+Ins: skoolensa
+    skoolo+N+Fem+Pl+Gen: skoolengo
+    skoolo+N+Fem+Pl+Gen+Kiiro: skoolengiiro

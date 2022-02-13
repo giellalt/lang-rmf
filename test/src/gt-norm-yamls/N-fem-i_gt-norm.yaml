@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - : # kaali i-stem
+    kaali+N+Fem+Sg+Nom: kaali
+    kaali+N+Fem+Sg+Obl: kalja
+    kaali+N+Fem+Sg+Dat: kaljake
+    kaali+N+Fem+Sg+Abl: kaljata
+    kaali+N+Fem+Sg+Ins: kaljaha
+    kaali+N+Fem+Sg+Gen: kaljako
+    kaali+N+Fem+Sg+Gen+Kiiro: [kaljakiiro, kaalijakkiiro]
+    kaali+N+Fem+Pl+Nom: kalja
+    kaali+N+Fem+Pl+Obl: kaljen
+    kaali+N+Fem+Pl+Dat: kaljenge
+    kaali+N+Fem+Pl+Abl: kaljenna
+    kaali+N+Fem+Pl+Ins: kaljensa
+    kaali+N+Fem+Pl+Gen: kaljengo
+    kaali+N+Fem+Pl+Gen+Kiiro: kaljengiiro
+
+
+
+Tests:
+  Noun - : # kaali i-stem
+    kaali+N+Fem+Sg+Nom: kaali
+    kaali+N+Fem+Sg+Obl: kalja
+    kaali+N+Fem+Sg+Dat: kaljake
+    kaali+N+Fem+Sg+Abl: kaljata
+    kaali+N+Fem+Sg+Ins: kaljaha
+    kaali+N+Fem+Sg+Gen: kaljako
+    kaali+N+Fem+Sg+Gen+Kiiro: [kaljakiiro, kaalijakkiiro]
+    kaali+N+Fem+Pl+Nom: kalja
+    kaali+N+Fem+Pl+Obl: kaljen
+    kaali+N+Fem+Pl+Dat: kaljenge
+    kaali+N+Fem+Pl+Abl: kaljenna
+    kaali+N+Fem+Pl+Ins: kaljensa
+    kaali+N+Fem+Pl+Gen: kaljengo
+    kaali+N+Fem+Pl+Gen+Kiiro: kaljengiiro

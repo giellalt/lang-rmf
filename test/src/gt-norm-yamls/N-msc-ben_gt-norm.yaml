@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - : # ȟaaben o-stem
+    ȟaaben+N+Msc+Sg+Nom: ȟaaben
+    ȟaaben+N+Msc+Sg+Obl: ȟaabenes
+    ȟaaben+N+Msc+Sg+Dat: ȟaabeneske
+    ȟaaben+N+Msc+Sg+Abl: ȟaabenesta
+    ȟaaben+N+Msc+Sg+Ins: ȟaabeneha
+    ȟaaben+N+Msc+Sg+Gen: ȟaabenesko
+    ȟaaben+N+Msc+Sg+Gen+Kiiro: ȟaabeneskiiro
+    ȟaaben+N+Msc+Pl+Nom: ȟaabene
+    ȟaaben+N+Msc+Pl+Obl: ȟaabenen
+    ȟaaben+N+Msc+Pl+Dat: ȟaabenenge
+    ȟaaben+N+Msc+Pl+Abl: ȟaabenenna
+    ȟaaben+N+Msc+Pl+Ins: ȟaabenensa
+    ȟaaben+N+Msc+Pl+Gen: ȟaabenengo
+    ȟaaben+N+Msc+Pl+Gen+Kiiro: ȟaabenengiiro

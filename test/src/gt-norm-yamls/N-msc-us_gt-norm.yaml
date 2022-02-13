@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+  Noun - pappus : #  o-stem
+    pappus+N+Msc+Sg+Nom: pappus
+    pappus+N+Msc+Sg+Obl: pappus
+    pappus+N+Msc+Sg+Dat: pappuske
+    pappus+N+Msc+Sg+Abl: pappusta
+    pappus+N+Msc+Sg+Ins: pappuha
+    pappus+N+Msc+Sg+Gen: pappusko
+    pappus+N+Msc+Sg+Gen+Kiiro: pappuskiiro
+    pappus+N+Msc+Pl+Nom: pappuja
+    pappus+N+Msc+Pl+Obl: pappujen
+    pappus+N+Msc+Pl+Dat: pappujenge
+    pappus+N+Msc+Pl+Abl: pappujenna
+    pappus+N+Msc+Pl+Ins: pappujensa
+    pappus+N+Msc+Pl+Gen: pappujengo
+    pappus+N+Msc+Pl+Gen+Kiiro: pappujengiiro
