@@ -1,0 +1,43 @@
+!! # Kale Romani determiners
+
+LEXICON Determiners
+dauva+Det: DAUVA ;
+kouva+Det:k KOUVA ;
+douva+Det:d KOUVA ;
+
+LEXICON DAUVA
++Sg+Nom:dauva # ;
++Sg+Obl:daales # ;
++Sg+Dat:daaleske # ;
++Sg+Abl:daalesta # ;
++Sg+Ins:daaleha # ;
++Sg+Gen:daalesko # ;
+
++Pl+Nom:daala # ;
++Pl+Obl:daalen # ;
++Pl+Dat:daalenge # ;
++Pl+Abl:daalenna # ;
++Pl+Ins:daalensa # ;
++Pl+Gen:daalengo # ;
+
+LEXICON KOUVA
++Sg+Nom:ouva # ;
++Sg+Obl:ooles # ;
++Sg+Dat:ooleske # ;
++Sg+Abl:oolesta # ;
++Sg+Ins:ooleha # ;
++Sg+Gen:oolesko # ;
+
++Pl+Nom:oola # ;
++Pl+Obl:oolen # ;
++Pl+Dat:oolenge # ;
++Pl+Abl:oolenna # ;
++Pl+Ins:oolensa # ;
++Pl+Gen:oolengo # ;
+
+
+
+
+
+
+

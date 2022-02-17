@@ -1,0 +1,41 @@
+
+!! # Romani kale adpositions
+
+!! ## Tags
+
+LEXICON pr
++Pr: # ;
+
+LEXICON po
++Po: # ;
+
+LEXICON ad
++Pr: # ;
++Po: # ;
+
+LEXICON Adpositions
+paale po "takana" ;
+paȟ po "vieressä" ;
+teele po "alla" ;
+maȟkar ad "keskelle" ;
+naal ad "edessä, eteen" ;
+neer ad "lähellä, lähelle" ;
+trystal ad "ympärillä" ;
+praal ad "päällä" ;
+apraal ad "päällä" ;
+palal ad "takana" ;
+paȟal ad "vieressä" ;
+teelal ad "alla" ;
+naalal po "edestä" ;
+naalalesta po "edestä" ;
+naalales po "edestä" ;
+praalesta po "päältä" ;
+praaleetta po "päältä" ;
+arreatta po "sisältä" ;
+maȟkaral po "keskeltä" ;
+maȟkarta  po "keskeltä" ;
+maȟkaresta  po "keskeltä" ;
+maȟkareatta po "keskeltä" ;
+! e)
+
+

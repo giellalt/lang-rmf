@@ -1,0 +1,10 @@
+!! # conjunctions
+
+LEXICON cc
++Cc: # ;
+
+LEXICON Conjunctions
+ta cc "ja" ;
+o cc "ja" ;
+elle cc "tai, vai" ;
+bi vv "mutta, vaan" ;
