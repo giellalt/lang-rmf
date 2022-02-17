@@ -26,6 +26,29 @@ sikjiboskiiro:sikjiboskiir RAKLO "opettaja" ;
 kaalo:kaal "romani" ;
 kuavo:kuav RAKLO "ei-romani" ;
 
+baakiboskiiro:baakiboskiir RAKLO "leipure" ;
+baȟiboskiiro:baȟiboskiir RAKLO "soittaja" ;
+dekakiiro:dekakiir RAKLO "sotilas" ;
+drambeskiiro:drambeskiir RAKLO "lääkäri" ;
+džambiboskiiro:džambiboskiir RAKLO "laulaja" ;
+jelpakiiro:jelpakiir RAKLO "apulainen" ;
+masseskiiro:masseskiir RAKLO "lihakauppias" ;
+matšengiiro:matšengiir RAKLO "kalastaja" ;
+sikjiboskiiro:sikjiboskiir RAKLO "opettaja" ;
+tšelliboskiiro:tšelliboskiir RAKLO "tanssija" ;
+
+
+
+
+
+
+
+
+
+
+
+
+
 !! ### (b) tunnuksettomia anguš, lau
 
 tšeer:tšeer BEREH "talo" ;
@@ -53,7 +76,10 @@ grai:g GRAI "hevonen" ;
 !dielos FREIDOS "osa" ;
 !kiäji KIAJI "ei-romani" ;
 
-kriatuuros:kriatuuro RAKLO "eläin" ;
+kriatuuros:kriatuuro FINNOS "eläin" ;
+finnos:finno FINNOS "suomalainen" ;
+sveittos:sveitto FINNOS "ruotsalainen" ;
+
 !apreaaȟȟiba:apreaaȟȟib APPREAAHHIBA "ylösnousemus" ;
 
 
@@ -74,6 +100,8 @@ hajiba:hajib IBA "ymmärryys" ;
 ȟukkirba:hukkirb IBA "hiljaisuus" ;
 barvilba:barvilb IBA "rikkaus" ;
 džaaniba:džaanib IBA "tieto" ;
+feldakoroodiba:feldakoroodib IBA "kenttätutkimus" ;
+koroodiba:koroodib IBA "tutkimus" ;
 
 !! ### ben-loppuisia abstraktisubstantiiveja
 
@@ -134,11 +162,42 @@ kaali:kaal DZUULI "kahvi" ;
 džuuli:džuul DZUULI "nainen" ;
 butti:butt DZUULI "työ" ;
 patti:patt DZUULI "kunnia" ;
+paani:paan DZUULI "vesi" ;
+raani:raan DZUULI "rouva" ;
+saani:saan DZUULI "velli" ;
+
+baakiboskiiri:baakiboskiir DZUULI "leipuritar" ;
+baȟiboskiiri:baȟiboskiir DZUULI "soittajatar" ;
+dekakiiri:dekakiir DZUULI "sotilastar" ;
+drambeskiiri:drambeskiir DZUULI "lääkäritär" ;
+džambiboskiiri:džambiboskiir DZUULI "laulajatar" ;
+jelpakiiri:jelpakiir DZUULI "apulainentar" ;
+masseskiiri:masseskiir DZUULI "lihakauppiastar" ;
+matšengiiri:matšengiir DZUULI "kalastajatar" ;
+sikjiboskiiri:sikjiboskiir DZUULI "opettajatar" ;
+tšelliboskiiri:tšelliboskiir DZUULI "tanssijatar" ;
+
+
 
 !! ### tunnuksettomia: baar, ...
 
 baar:baar BAAR "aita" ;
 bok:bok BAAR "nälkä" ;
+pheen:pheen BAAR "sisko" ;
+tšimb:tšimb BAAR "kieli" ;
+tšam:tšam BAAR "poski" ;
+džin:džin BAAR "luku" ;
+meen:meen BAAR "kaula" ;
+raan:raan BAAR "vitsa" ;
+mool:mool BAAR "viini" ;
+phaal:phaal BAAR "lauta" ;
+svaal:svaal BAAR "kyynel" ;
+daar:daar BAAR "pelko" ;
+džaar:džaar BAAR "karva" ;
+jaar:jaar BAAR "naskali" ;
+poor:poor BAAR "silta" ;
+džou:džou BAAR "kaura" ;
+
 
 !! ### a-loppuisia: kamana, ..
 

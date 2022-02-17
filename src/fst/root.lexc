@@ -28,7 +28,7 @@ Multichar_Symbols
 
 !! ### Parts-of-speech tags:
  +N +A +Adv +V                                 !!≈ * **@CODE@** open POS
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈ * **@CODE@** closed POS
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Det !!≈ * **@CODE@** closed POS
  +ABBR  !!≈ * **@CODE@** abbreviations
  +ACR  !!≈ * **@CODE@** acronyms
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ * **@CODE@** POS subtags
@@ -57,11 +57,15 @@ Multichar_Symbols
  
  +Comp +Superl !!≈ * **@CODE@** Comparative, superlative
  +Attr  !!≈ * **@CODE@** attribute 
- +Card +Ord  !!≈ * **@CODE@** Cardinal and ordinal numerals 
+ +Card +Ord  !!≈ * **@CODE@** Cardinal and ordinal numerals +Poss
  +Ind +Prs +Prt +Pot +Cond +Imprt !!≈ * **@CODE@** Verb tense andmood
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess !!≈ * **@CODE@** From Sámi, probably delete several of these.
  +TV +IV !!≈ * **@CODE@** transitivity tags
 
++Cc
++Cs
++Der/Adv
++Pos
 
 !! ### Other tags
 
@@ -167,12 +171,16 @@ LEXICON Root
 !! LEXICON @LEXNAME@
 !! The word forms in Romany language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
+0   Determiners       ;
 0   Nouns       ;
 0   Verbs       ;
 0   Adjectives  ;
 0   Pronouns    ;
 0   Numerals    ;
 0   Prefixes    ;
+0   Adpositions ;
+0   Subjunctions ;
+0   Conjunctions ;
     Punctuation ;
     Symbols     ;
 

@@ -140,12 +140,12 @@ LEXICON DZUULI
 LEXICON BAAR
 !! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom: K ;
-+N+Fem: # ; ! todo
++N+Fem: FEMOBL ; ! todo
 
 LEXICON KUKLA
 !! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom:%>a K ;
-+N+Fem: # ; ! todo
++N+Fem: FEMOBL ; ! todo
 
 
 !! ## Morphology
@@ -189,7 +189,44 @@ LEXICON MSCOBL_PL_o
 
 !! ### Feminine morphology
 
-!! To be written
+
+LEXICON FEMOBL
+!! **LEXICON @LEXNAME@** 
+FEMOBL_SG ;
+FEMOBL_PL ;
+
+
+LEXICON FEMOBL_SG 
+!! **LEXICON @LEXNAME@** 
++Sg+Obl:ja K ; ! phenja
++Sg+Obl:a K ; ! xxx check this tšimba
++Sg+Obl:e K ; ! xxx check this tšimbe
++Sg:ja OBLCASES_SG ;
++Sg:a OBLCASES_SG ;
++Sg:e OBLCASES_SG ;
++Sg+Gen:ja GENCASES ;
++Sg+Gen:a GENCASES ;
++Sg+Gen:e GENCASES ;
+
+LEXICON FEMOBL_PL 
+!! **LEXICON @LEXNAME@** 
++Pl+Nom:%>e K ; ! džeene
++Pl+Obl:%>en K ; ! džeenen
++Pl:%>en OBLCASES_PL ;
++Pl+Gen:%>en GENCASES ;
+
+LEXICON FEMOBL_PL_OBL 
+!! **LEXICON @LEXNAME@** 
++Pl+Obl:%>en K ; ! džeenen
++Pl:%>en OBLCASES_PL ;
++Pl+Gen:%>en GENCASES ;
+
+LEXICON FEMOBL_PL_o 
+!! **LEXICON @LEXNAME@** 
++Pl+Nom:%>i K ; ! džeene
++Pl+Obl:%>on K ; ! džeenen
++Pl:%>on OBLCASES_PL ;
++Pl+Gen:%>on GENCASES ;
 
 
 !! ### The oblique cases *-ke, -ta, -ha*

@@ -7,17 +7,19 @@ LEXICON TSUORO ! to be deleted
 +A: # ;
 
 
-LEXICON BARO
+LEXICON BARO !!≈ @CODE@ temaattiset o-loppuiset adjektiivit
 +A+Pos+Msc+Sg:%>o K ;
 +A+Pos+Fem+Sg:%>i K ;
 +A+Pos+Pl:%>e K ;
 +A: comp ;
++A+Der/Adv+Adv:%>es K ; ! latšo > latšes "kiltti" > "kiltisti"
 
-LEXICON BESKO
+LEXICON BESKO !!≈ @CODE@ atemaattiset o-loppuiset adjektiivit
 +A+Pos+Msc+Sg:%>o K ;
 +A+Pos+Fem+Sg:%>i K ;
 +A+Pos+Pl:%>a K ;
 +A: comp ;
++A+Der/Adv+Adv:%>as K ; ! 
 
 LEXICON FAARLIGO
 +A+Pos+Msc+Sg:%>o K ;

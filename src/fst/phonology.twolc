@@ -26,6 +26,8 @@ Sets
 !! ## Rules
 Rules
 
+!! ### Consonant rules
+
 "Deleting stem-final s in instrumental"
 !!  * **@RULENAME@** ...  probably to be generalised
  s:0 <=> %> [i|e|o|u|y] _ %> %^CDEL: h a [%>|.#.];
@@ -37,14 +39,31 @@ Rules
 !!  * **@RULENAME@** ...  probably to be generalised
  k:g <=> n %> _ Vow ;
 
-"Vowel lenghening"
-%^V:Vx <=> Vx _ ;
-      where Vx in ( a e i o u y ) ;
-
 "Shortening stem-final ȟȟ in final position"
 !!  * **@RULENAME@** for bereȟȟ to bereȟ
  ȟ:0 <=> _ ȟ .#. ;
 
 !!€ bereȟȟ
 !!€ bere0ȟ
+
+"Shortening stem-final rr in front of suffix"
+!!  * **@RULENAME@** for lurrela : lurna
+Cx:0 <=> Vow Cx _ %> Cns ;
+     where Cx in ( l r ) ;
+     
+
+
+!! ## Vowel rules
+
+"Vowel lenghening"
+!!  * **@RULENAME@** a vowel copying rule
+%^V:Vx <=> Vx _ ;
+      where Vx in ( a e i o u y ) ;
+
+"Stem shortening"
+!!  * **@RULENAME@** perhaps with a trigger ^VSH?
+Vx:0 <=> Vx _ %> Cns ;
+     where Vx in (a e i o u y ) ;
+
+
 

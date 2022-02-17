@@ -1,16 +1,133 @@
 !! # Verb inflection
 !  ---------------
-!! Not worked on
+!! Under constructions
 
-LEXICON Persons
+!! ## Auxiliaries
+
+LEXICON HIN
 !! @LEXNAME@ just dummy entries, to be replaced.
-+V+Inf:0    #   ;
-+V+Sg1:en   #   ;
-+V+Sg2:et   #   ;
-+V+Sg3:e    #   ;
-+V+Pl1:ien  #   ;
-+V+Pl2:iet  #   ;
-+V+Pl3:iet  #   ;
++Ind+Prs+Sg1:som  #   ;
++Ind+Prs+Sg2:sal  #   ;
++Ind+Prs+Sg3:hin  #   ;
++Ind+Prs+Pl1:sam  #   ;
++Ind+Prs+Pl1:sommas  #   ;
++Ind+Prs+Pl2:san  #   ;
++Ind+Prs+Pl3:hin  #   ;
++Ind+Prs+Neg:naa  #   ;
+
++Ind+Prt+Sg1:sommas  #   ;
++Ind+Prt+Sg2:sallas  #   ;
++Ind+Prt+Sg3:sas  #   ;
++Ind+Prt+Pl1:sammas  #   ;
++Ind+Prt+Pl1:sommas  #   ;
++Ind+Prt+Pl2:sannas  #   ;
++Ind+Prt+Pl3:sas  #   ;
++Ind+Prt+Neg:na  #   ;
++Ind+Prt+Sg3+Neg:naas  #   ;
++Ind+Prt+Pl3+Neg:naas  #   ;
+
++Ind+Prf+Sg1:aaȟtom  #   ;
++Ind+Prf+Sg2:aaȟtal  #   ;
++Ind+Prf+Sg3:aaȟtin  #   ;
++Ind+Prf+Pl1:aaȟtam  #   ;
++Ind+Prf+Pl1:aaȟtommas  #   ;
++Ind+Prf+Pl2:aaȟte  #   ;
++Ind+Prf+Pl3:aaȟt  #   ;
+
+
++Cond+Sg1:aaȟȟaa # ;
++Cond+Sg2:aaȟȟes # ;
++Cond+Sg3:aaȟȟel # ;
++Cond+Pl1:aaȟȟen # ;
++Cond+Pl2:aaȟȟen # ;
++Cond+Pl3:aaȟȟen # ;
+
+
+!! ## Lexical verbs
+
+!! ### r-stems
+
+LEXICON BOLL
+!! @LEXNAME@ primary verb, other than r-stem
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>d pretsuff ;
+
+LEXICON TSEER
+!! @LEXNAME@ primary verb, r-stem
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>id pretsuff ;
+
+LEXICON TRAAD
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>t pretsuff ;
+
+LEXICON BAHH
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>d pretsuff ;
+
+LEXICON MEKK
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>d pretsuff ;
+
+LEXICON D
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>d pretsuff ;
+
+
+LEXICON DZA
+!! @LEXNAME@ just dummy entries, to be replaced.
++Ind+Prs: vow_pressuff ;
+
+LEXICON PILA
+!! @LEXNAME@ just dummy entries, to be replaced.
++Ind+Prs+Sg1:iv%>a  #   ;
++Ind+Prs+Sg2:%>ha  #   ;
++Ind+Prs+Sg3:%>la  #   ;
++Ind+Prs+Pl1:iiv%>aha  #   ;
++Ind+Prs+Pl2:%>na #   ;
++Ind+Prs+Pl3:%>na  #   ;
+
+
+
+!! ### Person suffixes
+
+LEXICON cns_pressuff
++Sg1:%>aa  #   ;
++Sg2:%>eha  #   ;
++Sg3:%>ela  #   ;
++Pl1:%>ena  #   ;
++Pl2:%>ena  #   ;
++Pl3:%>ena  #   ;
+
+LEXICON vow_pressuff
++Sg1:%>a  #   ;
++Sg2:%>ha  #   ;
++Sg3:%>la  #   ;
++Pl1:%>ha  #   ;
++Pl2:%>na  #   ;
++Pl3:%>na  #   ;
+
+
+LEXICON pretsuff
++Sg1:%>om  #   ;
++Sg2:%>al  #   ;
++Sg3:%>as  #   ;
++Pl1:%>am  #   ;
++Pl1:%>ommas  #   ;
++Pl2:%>e  #   ;
++Pl3:%>e  #   ;
+
+
++Ind+Prt+Sg1:%>  #   ;
++Ind+Prt+Sg2:%>  #   ;
++Ind+Prt+Sg3:%>  #   ;
++Ind+Prt+Pl1:%>  #   ;
++Ind+Prt+Pl2:%>  #   ;
++Ind+Prt+Pl3:%>  #   ;
+
+
 
 ! vim: set ft=xfst-lexc:
+
+
 

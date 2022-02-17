@@ -18,8 +18,8 @@ phuuro:phuur BARO "vanha" ;
 !! ### (a) Atemaattiset o-loppuiset adjektiivit
 
 besko:besk BESKO "pieni" ;
-fiino:fiin-i BESKO "viisas" ;
-tšiȟko:tšiȟk-i BESKO "hyvä" ;
+fiino:fiin BESKO "viisas" ;
+tšiȟko:tšiȟk BESKO "hyvä" ;
 
 !! ### (c) Temaattiset johdetut adjektivit
 
@@ -28,12 +28,16 @@ maalano:maalan BARO "ystävllinen" ;
 tšatšuno:tšatšun BARO "todellinen" ;
 naaluno:naalun BARO "etummainen" ;
 sonakaano:sonakaan BARO "kultainen" ;
+romano:roman BARO "romanilainen" ; ! atemaattinen?
 
 !! ### (d) Atemaattiset johdetut adjektivit
 
 undravitiko:undravitik FAARLIGO "ihmeellinen" ;
 finitiko:finitik  FAARLIGO "suomalainen" ;
+finnosko:finnosk  FAARLIGO "suomalainen" ; 
 faarligo:faarlig  FAARLIGO "vaarallinen" ;
+sveittiko:sveittik FAARLIGO "ruotsalainen" ;
+instituutosko:instituutosk FARLIGO "laitoksellinen" ;
 
 !! ## Temaattiset ja atemaattiset tunnuksettomat adjektiivit
 

@@ -3,7 +3,44 @@
 !! No work has been done on verbs so far.
 
 LEXICON Verbs
-!! **LEXICON @LEXNAME@** contains no verbs yet.
-# ;
+!! **LEXICON @LEXNAME@** 
+
+!! ## Auxiliaries
+
+hin+V: HIN ; !!≈ @CODE@ copula
+
+!! ## Lexical verbs
+
+!! ### Consonant stems
+
+!! #### (a) Other than r-stems, primary verbs
+bollela:boll BOLL "kastaa" ;
+traadela:traad TRAAD "ajaa" ;
+baȟȟela:baȟȟ BAHH "pyytää" ;
+mekkela:mekk MEKK "jättää";
+dela:d D "antaa" ;
+
+!! #### (b) r-stems, primary verbs
+tšerra+V:tšeer TSEER ;
+perra+V:peer TSEER ;
+khaarela+V:khaar TSEER ;
+lurrela+V:lurr LURR ;
+kurrela+V:kurr LURR ;
+
+!! #### id past tense
+džamba+V:džamb DZAMB "laulaa" ;
+khanda+V:khand DDAMB "haista" ;
+
+
+!! #### Transitive derivatives
+
+
+!! ### Vowel stem, primary verbs
+
+džala+V:dža DZA "mennä" ;
+ȟala+V:ȟa DZA "syödä" ;
+sala+V:sa DZA "nauraa" ;
+pila+V:pi PILA "juoda" ;
+
 
 ! vim: set ft=xfst-lexc:
