@@ -16,6 +16,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 ## Rules
 
+### Consonant rules
+
 * **Deleting stem-final s in instrumental** ...  probably to be generalised
 
 * **Voicing of k suffix after n** ...  probably to be generalised
@@ -24,6 +26,14 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 * *bereȟȟ*
 * *bere0ȟ*
+
+* **Shortening stem-final rr in front of suffix** for lurrela : lurna
+
+## Vowel rules
+
+* **Vowel lenghening** a vowel copying rule
+
+* **Stem shortening** perhaps with a trigger ^VSH?
 
 * * *
 

@@ -12,11 +12,15 @@
         * [root.lexc](src-fst-root.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/root.lexc))
         * `stems/`
             * [adjectives.lexc](src-fst-stems-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adjectives.lexc))
+            * [adpositions.lexc](src-fst-stems-adpositions.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adpositions.lexc))
             * [adverbs.lexc](src-fst-stems-adverbs.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adverbs.lexc))
+            * [conjunctions.lexc](src-fst-stems-conjunctions.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/conjunctions.lexc))
+            * [determiners.lexc](src-fst-stems-determiners.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/determiners.lexc))
             * [nouns.lexc](src-fst-stems-nouns.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/nouns.lexc))
             * [numerals.lexc](src-fst-stems-numerals.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/numerals.lexc))
             * [prefixes.lexc](src-fst-stems-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/prefixes.lexc))
             * [pronouns.lexc](src-fst-stems-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/pronouns.lexc))
+            * [subjunctions.lexc](src-fst-stems-subjunctions.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/subjunctions.lexc))
             * [verbs.lexc](src-fst-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/verbs.lexc))
     * `phonetics/`
         * [txt2ipa.xfscript](src-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/phonetics/txt2ipa.xfscript))

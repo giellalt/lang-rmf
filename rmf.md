@@ -175,6 +175,10 @@ Nothing done.
 
 TSUORO Just adding +A tag.
 
+LEXICON BARO temaattiset o-loppuiset adjektiivit
+
+LEXICON BESKO atemaattiset o-loppuiset adjektiivit
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/adjectives.lexc)</small>
@@ -220,7 +224,15 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Feminine morphology
 
-To be written
+**LEXICON FEMOBL** 
+
+**LEXICON FEMOBL_SG** 
+
+**LEXICON FEMOBL_PL** 
+
+**LEXICON FEMOBL_PL_OBL** 
+
+**LEXICON FEMOBL_PL_o** 
 
 ### The oblique cases *-ke, -ta, -ha*
 
@@ -257,9 +269,25 @@ This content is just from the template, work has not begun.
 ---
 
 # Verb inflection
-Not worked on
+Under constructions
 
-Persons just dummy entries, to be replaced.
+## Auxiliaries
+
+HIN just dummy entries, to be replaced.
+
+## Lexical verbs
+
+### r-stems
+
+BOLL primary verb, other than r-stem
+
+TSEER primary verb, r-stem
+
+DZA just dummy entries, to be replaced.
+
+PILA just dummy entries, to be replaced.
+
+### Person suffixes
 
 * * *
 
@@ -285,6 +313,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 ## Rules
 
+### Consonant rules
+
 * **Deleting stem-final s in instrumental** ...  probably to be generalised
 
 * **Voicing of k suffix after n** ...  probably to be generalised
@@ -293,6 +323,14 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 * *bereȟȟ*
 * *bere0ȟ*
+
+* **Shortening stem-final rr in front of suffix** for lurrela : lurna
+
+## Vowel rules
+
+* **Vowel lenghening** a vowel copying rule
+
+* **Stem shortening** perhaps with a trigger ^VSH?
 
 * * *
 
@@ -312,7 +350,7 @@ language are presented in this system in terms of the following symbols.
 
 ### Parts-of-speech tags:
 * **+N +A +Adv +V** open POS
-* **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num** closed POS
+* **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Det** closed POS
 * **+ABBR** abbreviations
 * **+ACR** acronyms
 * **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef** POS subtags
@@ -340,7 +378,7 @@ language are presented in this system in terms of the following symbols.
 
 * **+Comp +Superl** Comparative, superlative
 * **+Attr** attribute 
-* **+Card +Ord** Cardinal and ordinal numerals 
+* **+Card +Ord** Cardinal and ordinal numerals +Poss
 * **+Ind +Prs +Prt +Pot +Cond +Imprt** Verb tense andmood
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess** From Sámi, probably delete several of these.
 * **+TV +IV** transitivity tags
@@ -473,6 +511,17 @@ LEXICON **K** (for clitics, probably not needed)
 
 ---
 
+
+# Romani kale adpositions
+
+## Tags
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adpositions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adpositions.lexc)</small>
+
+---
+
 # Adverbs
 
 **LEXICON adv** gives tag
@@ -482,6 +531,22 @@ LEXICON **K** (for clitics, probably not needed)
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+# conjunctions
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/conjunctions.lexc)</small>
+
+---
+
+# Kale Romani determiners
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/determiners.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/determiners.lexc)</small>
 
 ---
 
@@ -571,9 +636,11 @@ Prefixes No prefixes so far. Are there any?
 ---
 
 # Pronouns
-Two pronouns so far
+Three pronouns so far
 
-Pronouns me, jou
+Personal me, jou
+
+## Case inflection (move to affixes?)
 
 * * *
 
@@ -581,10 +648,36 @@ Pronouns me, jou
 
 ---
 
+# subjunctions
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/subjunctions.lexc)</small>
+
+---
+
 # Verbs
 No work has been done on verbs so far.
 
-**LEXICON Verbs** contains no verbs yet.
+**LEXICON Verbs** 
+
+## Auxiliaries
+
+hin+V: HIN ; copula
+
+## Lexical verbs
+
+### Consonant stems
+
+#### (a) Other than r-stems, primary verbs
+
+#### (b) r-stems, primary verbs
+
+#### id past tense
+
+#### Transitive derivatives
+
+### Vowel stem, primary verbs
 
 * * *
 

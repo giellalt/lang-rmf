@@ -1,7 +1,25 @@
 # Verbs
 No work has been done on verbs so far.
 
-**LEXICON Verbs** contains no verbs yet.
+**LEXICON Verbs** 
+
+## Auxiliaries
+
+hin+V: HIN ; copula
+
+## Lexical verbs
+
+### Consonant stems
+
+#### (a) Other than r-stems, primary verbs
+
+#### (b) r-stems, primary verbs
+
+#### id past tense
+
+#### Transitive derivatives
+
+### Vowel stem, primary verbs
 
 * * *
 

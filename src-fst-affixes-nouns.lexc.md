@@ -37,7 +37,15 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Feminine morphology
 
-To be written
+**LEXICON FEMOBL** 
+
+**LEXICON FEMOBL_SG** 
+
+**LEXICON FEMOBL_PL** 
+
+**LEXICON FEMOBL_PL_OBL** 
+
+**LEXICON FEMOBL_PL_o** 
 
 ### The oblique cases *-ke, -ta, -ha*
 

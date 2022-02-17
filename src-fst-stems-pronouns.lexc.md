@@ -1,7 +1,9 @@
 # Pronouns
-Two pronouns so far
+Three pronouns so far
 
-Pronouns me, jou
+Personal me, jou
+
+## Case inflection (move to affixes?)
 
 * * *
 

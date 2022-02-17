@@ -10,7 +10,7 @@ language are presented in this system in terms of the following symbols.
 
 ### Parts-of-speech tags:
 * **+N +A +Adv +V** open POS
-* **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num** closed POS
+* **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Det** closed POS
 * **+ABBR** abbreviations
 * **+ACR** acronyms
 * **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef** POS subtags
@@ -38,7 +38,7 @@ language are presented in this system in terms of the following symbols.
 
 * **+Comp +Superl** Comparative, superlative
 * **+Attr** attribute 
-* **+Card +Ord** Cardinal and ordinal numerals 
+* **+Card +Ord** Cardinal and ordinal numerals +Poss
 * **+Ind +Prs +Prt +Pot +Cond +Imprt** Verb tense andmood
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess** From Sámi, probably delete several of these.
 * **+TV +IV** transitivity tags

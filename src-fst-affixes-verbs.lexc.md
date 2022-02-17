@@ -1,7 +1,23 @@
 # Verb inflection
-Not worked on
+Under constructions
 
-Persons just dummy entries, to be replaced.
+## Auxiliaries
+
+HIN just dummy entries, to be replaced.
+
+## Lexical verbs
+
+### r-stems
+
+BOLL primary verb, other than r-stem
+
+TSEER primary verb, r-stem
+
+DZA just dummy entries, to be replaced.
+
+PILA just dummy entries, to be replaced.
+
+### Person suffixes
 
 * * *
 
