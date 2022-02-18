@@ -21,6 +21,8 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON KUKLA** 
 
+**LEXICON RAADZA** 
+
 ## Morphology
 
 ### Masculine morphology

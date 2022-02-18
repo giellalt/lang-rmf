@@ -36,12 +36,15 @@ language are presented in this system in terms of the following symbols.
 
 ### Other sub-tags
 
+* **+Pos** positive
 * **+Comp +Superl** Comparative, superlative
 * **+Attr** attribute 
-* **+Card +Ord** Cardinal and ordinal numerals +Poss
+* **+Card +Ord** Cardinal and ordinal numerals 
 * **+Ind +Prs +Prt +Pot +Cond +Imprt** Verb tense andmood
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess** From Sámi, probably delete several of these.
 * **+TV +IV** transitivity tags
+
+* **+Poss** possessive 
 
 ### Other tags
 

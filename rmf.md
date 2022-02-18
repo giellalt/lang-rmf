@@ -4,6 +4,21 @@ All documents in one file
 
 
 
+# Romani kale  disambiguator 
+
+## Tags and sets 
+
+## Pre or post
+
+## Adjectives
+
+## Pronouns
+
+## Verbs
+
+* * *
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/disambiguator.cg3)</small>
+
 * Sets for POS sub-categories
 
 * Sets for Semantic tags
@@ -208,6 +223,8 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON KUKLA** 
 
+**LEXICON RAADZA** 
+
 ## Morphology
 
 ### Masculine morphology
@@ -278,6 +295,8 @@ HIN just dummy entries, to be replaced.
 ## Lexical verbs
 
 ### r-stems
+
+### Other stems
 
 BOLL primary verb, other than r-stem
 
@@ -376,12 +395,15 @@ language are presented in this system in terms of the following symbols.
 
 ### Other sub-tags
 
+* **+Pos** positive
 * **+Comp +Superl** Comparative, superlative
 * **+Attr** attribute 
-* **+Card +Ord** Cardinal and ordinal numerals +Poss
+* **+Card +Ord** Cardinal and ordinal numerals 
 * **+Ind +Prs +Prt +Pot +Cond +Imprt** Verb tense andmood
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess** From Sámi, probably delete several of these.
 * **+TV +IV** transitivity tags
+
+* **+Poss** possessive 
 
 ### Other tags
 

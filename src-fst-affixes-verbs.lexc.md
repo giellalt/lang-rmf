@@ -9,6 +9,8 @@ HIN just dummy entries, to be replaced.
 
 ### r-stems
 
+### Other stems
+
 BOLL primary verb, other than r-stem
 
 TSEER primary verb, r-stem
