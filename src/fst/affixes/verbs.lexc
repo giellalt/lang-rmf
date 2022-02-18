@@ -47,6 +47,9 @@ LEXICON HIN
 
 !! ### r-stems
 
+
+!! ### Other stems
+
 LEXICON BOLL
 !! @LEXNAME@ primary verb, other than r-stem
 +Ind+Prs: cns_pressuff ;
@@ -60,6 +63,33 @@ LEXICON TSEER
 LEXICON TRAAD
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>t pretsuff ;
+
+LEXICON TSUUV
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>t pretsuff ;
+
+LEXICON LURR
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>t pretsuff ;
+
+LEXICON DZAMB
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>t pretsuff ;
+
+LEXICON MANG
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>t pretsuff ;
+
+LEXICON DIKK
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>t pretsuff ;
+
+LEXICON KAMM
++Ind+Prs: cns_pressuff ;
++Ind+Prt:%>t pretsuff ;
+
+
+
 
 LEXICON BAHH
 +Ind+Prs: cns_pressuff ;
