@@ -9,7 +9,8 @@ Numbers ;
 
 LEXICON Arabic
 !! **LEXICON @LEXNAME@**  shall be common files
-1 # ;
+<0-9> Arabic ;
++Num: # ; ! to be fixed
 
 LEXICON Numbers
 !! **LEXICON @LEXNAME@** preparing for composing

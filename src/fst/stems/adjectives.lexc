@@ -37,7 +37,7 @@ finitiko:finitik  FAARLIGO "suomalainen" ;
 finnosko:finnosk  FAARLIGO "suomalainen" ; 
 faarligo:faarlig  FAARLIGO "vaarallinen" ;
 sveittiko:sveittik FAARLIGO "ruotsalainen" ;
-instituutosko:instituutosk FARLIGO "laitoksellinen" ;
+instituutosko:instituutosk FAARLIGO "laitoksellinen" ;
 
 !! ## Temaattiset ja atemaattiset tunnuksettomat adjektiivit
 

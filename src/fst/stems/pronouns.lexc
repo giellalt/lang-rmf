@@ -17,26 +17,26 @@ LEXICON Reflexive
 +Pron+Refl:son # ;
 
 LEXICON Possessive 
-+Pron+Poss+Sg+Sg1+Msc:mo # ;
-+Pron+Poss+Sg+Sg1+Msc:muro # ;
-+Pron+Poss+Sg+Sg2+Msc:to # ;
-+Pron+Poss+Sg+Sg2+Msc:tiro # ;
-+Pron+Poss+Sg+Pl1+Msc:maro # ;
-+Pron+Poss+Sg+Pl2+Msc:tumaro # ;
+mo+Pron+Poss+Sg+Sg1+Msc:mo # ;
+mo+Pron+Poss+Sg+Sg1+Msc:muro # ;
+to+Pron+Poss+Sg+Sg2+Msc:to # ;
+to+Pron+Poss+Sg+Sg2+Msc:tiro # ;
+maro+Pron+Poss+Sg+Pl1+Msc:maro # ;
+tumaro+Pron+Poss+Sg+Pl2+Msc:tumaro # ;
 
-+Pron+Poss+Sg+Sg1+Fem:mi # ;
-+Pron+Poss+Sg+Sg1+Fem:muri # ;
-+Pron+Poss+Sg+Sg2+Fem:ti # ;
-+Pron+Poss+Sg+Sg2+Fem:tiri # ;
-+Pron+Poss+Sg+Pl1+Fem:mari # ;
-+Pron+Poss+Sg+Pl2+Fem:tumari # ;
+mo+Pron+Poss+Sg+Sg1+Fem:mi # ;
+mo+Pron+Poss+Sg+Sg1+Fem:muri # ;
+to+Pron+Poss+Sg+Sg2+Fem:ti # ;
+tp+Pron+Poss+Sg+Sg2+Fem:tiri # ;
+maro+Pron+Poss+Sg+Pl1+Fem:mari # ;
+tumaro+Pron+Poss+Sg+Pl2+Fem:tumari # ;
 
-+Pron+Poss+Pl+Sg1:me # ;
-+Pron+Poss+Pl+Sg1:mure # ;
-+Pron+Poss+Pl+Sg2:te # ;
-+Pron+Poss+Pl+Sg2:tire # ;
-+Pron+Poss+Pl+Pl1:mare # ;
-+Pron+Poss+Pl+Pl2:tumare # ;
+me+Pron+Poss+Pl+Sg1:me # ;
+me+Pron+Poss+Pl+Sg1:mure # ;
+te+Pron+Poss+Pl+Sg2:te # ;
+te+Pron+Poss+Pl+Sg2:tire # ;
+mare+Pron+Poss+Pl+Pl1:mare # ;
+tumare+Pron+Poss+Pl+Pl2:tumare # ;
 
 !! ## Case inflection (move to affixes?)
 

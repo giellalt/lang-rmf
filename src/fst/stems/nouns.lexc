@@ -23,7 +23,7 @@ raklo:rakl RAKLO "poika" ; ! o-päätteiset maskuliinit
 khooro:khoor RAKLO "pullo" ;
 tšaaro:tšaar RAKLO "lautanen" ;
 sikjiboskiiro:sikjiboskiir RAKLO "opettaja" ;
-kaalo:kaal "romani" ;
+kaalo:kaal RAKLO "romani" ;
 kuavo:kuav RAKLO "ei-romani" ;
 
 baakiboskiiro:baakiboskiir RAKLO "leipure" ;
@@ -76,9 +76,6 @@ grai:g GRAI "hevonen" ;
 !dielos FREIDOS "osa" ;
 !kiäji KIAJI "ei-romani" ;
 
-kriatuuros:kriatuuro FINNOS "eläin" ;
-finnos:finno FINNOS "suomalainen" ;
-sveittos:sveitto FINNOS "ruotsalainen" ;
 
 !apreaaȟȟiba:apreaaȟȟib APPREAAHHIBA "ylösnousemus" ;
 
@@ -102,6 +99,7 @@ barvilba:barvilb IBA "rikkaus" ;
 džaaniba:džaanib IBA "tieto" ;
 feldakoroodiba:feldakoroodib IBA "kenttätutkimus" ;
 koroodiba:koroodib IBA "tutkimus" ;
+džeenjiba:džeenjib IBA "hanke" ;
 
 !! ### ben-loppuisia abstraktisubstantiiveja
 
@@ -111,6 +109,7 @@ diiben:diiben BEN "antaminen" ;
 !! ### os-loppuisia
 
 fooros:foor OS "kaupunki" ;
+instituutos:instituut OS "laitos" ;
 ȟoȟȟos:ȟoȟȟ OS "jänis" ;
 kokalos:kokal OS "luu" ;
 lippos:lipp OS "huuli" ;
@@ -118,6 +117,9 @@ lyönnos:lyönn OS "palkka" ;
 tšyöpos:tšyöp OS "kauppa" ;
 parlamentos:parlament OS "eduskunta" ;
 rannos:rann OS "kynä" ;
+kriatuuros:kriatuuro OS "eläin" ;
+finnos:finno OS "suomalainen" ;
+sveittos:sveitto OS "ruotsalainen" ;
 
 
 !! ### is-loppuisia
@@ -185,6 +187,7 @@ baar:baar BAAR "aita" ;
 bok:bok BAAR "nälkä" ;
 pheen:pheen BAAR "sisko" ;
 tšimb:tšimb BAAR "kieli" ;
+dakotšimb:dakotšimb BAAR "äidinkieli" ;
 tšam:tšam BAAR "poski" ;
 džin:džin BAAR "luku" ;
 meen:meen BAAR "kaula" ;
