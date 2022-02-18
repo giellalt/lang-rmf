@@ -64,7 +64,7 @@ LEXICON DZII
 
 LEXICON IBA
 +N+Msc+Sg+Nom:%>a K ;
-+N+Msc: MSCOBL_o ;
++N+Msc:o MSCOBL ;
 +N+Msc+Sg+Ins:ossa K ;
 
 
@@ -146,6 +146,12 @@ LEXICON KUKLA
 !! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom:%>a K ;
 +N+Fem: FEMOBL ; ! todo
+
+LEXICON RAADZA
+!! **LEXICON @LEXNAME@** 
++N+Fem+Sg+Nom:%>a K ;
++N+Fem: FEMOBL ; ! todo
+
 
 
 !! ## Morphology
