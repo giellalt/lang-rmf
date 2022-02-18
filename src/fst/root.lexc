@@ -55,17 +55,16 @@ Multichar_Symbols
  
 !! ### Other sub-tags
  
- +Comp +Superl !!≈ * **@CODE@** Comparative, superlative
++Pos  !!≈ * **@CODE@** positive
++Comp +Superl !!≈ * **@CODE@** Comparative, superlative
  +Attr  !!≈ * **@CODE@** attribute 
- +Card +Ord  !!≈ * **@CODE@** Cardinal and ordinal numerals +Poss
+ +Card +Ord  !!≈ * **@CODE@** Cardinal and ordinal numerals 
  +Ind +Prs +Prt +Pot +Cond +Imprt !!≈ * **@CODE@** Verb tense andmood
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess !!≈ * **@CODE@** From Sámi, probably delete several of these.
  +TV +IV !!≈ * **@CODE@** transitivity tags
 
-+Cc
-+Cs
 +Der/Adv
-+Pos
++Poss !!≈ * **@CODE@** possessive 
 
 !! ### Other tags
 
