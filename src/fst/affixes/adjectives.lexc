@@ -8,44 +8,48 @@ LEXICON TSUORO ! to be deleted
 
 
 LEXICON BARO !!≈ @CODE@ temaattiset o-loppuiset adjektiivit
-+A+Pos+Msc+Sg:%>o K ;
-+A+Pos+Fem+Sg:%>i K ;
-+A+Pos+Pl:%>e K ;
++A+Pos+Msc+Sg:%>o # ;
++A+Pos+Fem+Sg:%>i # ;
++A+Pos+Pl:%>e # ;
 +A: comp ;
-+A+Der/Adv+Adv:%>es K ; ! latšo > latšes "kiltti" > "kiltisti"
++A+Der/Adv+Adv:%>es # ; ! latšo > latšes "kiltti" > "kiltisti"
 
 LEXICON BESKO !!≈ @CODE@ atemaattiset o-loppuiset adjektiivit
-+A+Pos+Msc+Sg:%>o K ;
-+A+Pos+Fem+Sg:%>i K ;
-+A+Pos+Pl:%>a K ;
++A+Pos+Msc+Sg:%>o # ;
++A+Pos+Fem+Sg:%>i # ;
++A+Pos+Pl:%>a # ;
 +A: comp ;
-+A+Der/Adv+Adv:%>as K ; ! 
++A+Der/Adv+Adv:%>as # ; ! 
 
 LEXICON FAARLIGO
-+A+Pos+Msc+Sg:%>o K ;
-+A+Pos+Fem+Sg:%>o K ;
-+A+Pos+Pl:%>a K ;
++A+Pos+Msc+Sg:%>o # ;
++A+Pos+Fem+Sg:%>o # ;
++A+Pos+Pl:%>a # ;
 +A: comp ;
 
 LEXICON DUUR
-+A+Pos+Msc+Sg: K ;
-+A+Pos+Fem+Sg: K ;
-+A+Pos+Pl: K ;
++A+Pos+Msc+Sg: # ;
++A+Pos+Fem+Sg: # ;
++A+Pos+Pl: # ;
 +A: comp ;
 
 
 LEXICON FROO
-+A+Pos+Msc+Sg: K ;
-+A+Pos+Fem+Sg: K ;
-+A+Pos+Pl: K ;
++A+Pos+Msc+Sg: # ;
++A+Pos+Fem+Sg: # ;
++A+Pos+Pl: # ;
 +A: comp ;
 
 
+LEXICON PRFPRS
++Pos+Msc+Sg:%>o K ;
++Pos+Fem+Sg:%>i K ;
++Pos+Pl:%>e K ;
 
 
 
 LEXICON comp
-+Comp:ide       K   ; ! monta virhettä...
++Comp:ide       #   ; ! monta virhettä...
 
 ! vim: set ft=xfst-lexc:
 

@@ -170,21 +170,36 @@ LEXICON Root
 !! LEXICON @LEXNAME@
 !! The word forms in Romany language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   Determiners       ;
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
-0   Adpositions ;
-0   Subjunctions ;
-0   Conjunctions ;
-    Punctuation ;
-    Symbols     ;
+   Determiners       ;
+   Nouns       ;
+   Verbs       ;
+   Adverbs  ;
+   Adjectives  ;
+   Pronouns    ;
+   Particles    ;
+   Interjections    ;
+   Pronouns    ;
+   Numerals    ;
+   Prefixes    ;
+   Adpositions ;
+   Subjunctions ;
+   Conjunctions ;
+   Punctuation ;
+   Symbols     ;
+   rmf-propernouns ;
 
 LEXICON K
  !! LEXICON **@LEXNAME@** (for clitics, probably not needed)
  # ;
+ +Qst:ko # ; ! hinko ...
+ +Foc:ki # ;
+ +Foc:kaa # ;
+ +Foc:pa # ;
+ +Foc:ha # ;
+
+LEXICON Kneg
+# ;
++Clt:ka # ; 
+
 
 ! vim: set ft=xfst-lexc:

@@ -5,10 +5,49 @@
 !! ## Auxiliaries
 
 LEXICON HIN
-!! @LEXNAME@ just dummy entries, to be replaced.
+!! @LEXNAME@ spells out the whole paradigm
 +Ind+Prs+Sg1:som  #   ;
 +Ind+Prs+Sg2:sal  #   ;
-+Ind+Prs+Sg3:hin  #   ;
++Ind+Prs+Sg3:hin  K   ;
++Ind+Prs+Pl1:sam  #   ;
++Ind+Prs+Pl1:sommas  #   ;
++Ind+Prs+Pl2:san  #   ;
++Ind+Prs+Pl3:hin  #   ;
++Ind+Prs+Neg:naa  Kneg   ;
+
++Ind+Prt+Sg1:sommas  #   ;
++Ind+Prt+Sg2:sallas  #   ;
++Ind+Prt+Sg3:sas  #   ;
++Ind+Prt+Pl1:sammas  #   ;
++Ind+Prt+Pl1:sommas  #   ;
++Ind+Prt+Pl2:sannas  #   ;
++Ind+Prt+Pl3:sas  #   ;
++Ind+Prt+Neg:na  Kneg ;
++Ind+Prt+Sg3+Neg:naas  Kneg   ;
++Ind+Prt+Pl3+Neg:naas  Kneg   ;
+
++Ind+Prf+Sg1:aaȟtom  #   ;
++Ind+Prf+Sg2:aaȟtal  #   ;
++Ind+Prf+Sg3:aaȟtin  #   ;
++Ind+Prf+Pl1:aaȟtam  #   ;
++Ind+Prf+Pl1:aaȟtommas  #   ;
++Ind+Prf+Pl2:aaȟte  #   ;
++Ind+Prf+Pl3:aaȟt  #   ;
+
+
++Cond+Sg1:aaȟȟaa # ;
++Cond+Sg2:aaȟȟes # ;
++Cond+Sg3:aaȟȟel # ;
++Cond+Pl1:aaȟȟen # ;
++Cond+Pl2:aaȟȟen # ;
++Cond+Pl3:aaȟȟen # ;
+
+
+LEXICON VAA
++PrfPrs:aul PRFPRS ;
++Ind+Prs+Sg1:som  #   ;
++Ind+Prs+Sg2:sal  #   ;
++Ind+Prs+Sg3:vaa  K   ;
 +Ind+Prs+Pl1:sam  #   ;
 +Ind+Prs+Pl1:sommas  #   ;
 +Ind+Prs+Pl2:san  #   ;
@@ -17,7 +56,7 @@ LEXICON HIN
 
 +Ind+Prt+Sg1:sommas  #   ;
 +Ind+Prt+Sg2:sallas  #   ;
-+Ind+Prt+Sg3:sas  #   ;
++Ind+Prt+Sg3: K   ;
 +Ind+Prt+Pl1:sammas  #   ;
 +Ind+Prt+Pl1:sommas  #   ;
 +Ind+Prt+Pl2:sannas  #   ;
@@ -43,6 +82,9 @@ LEXICON HIN
 +Cond+Pl3:aaȟȟen # ;
 
 
+
+
+
 !! ## Lexical verbs
 
 !! ### r-stems
@@ -54,72 +96,145 @@ LEXICON BOLL
 !! @LEXNAME@ primary verb, other than r-stem
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>d pretsuff ;
++PrfPrs:%>d PRFPRS ;
 
 LEXICON TSEER
 !! @LEXNAME@ primary verb, r-stem
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>id pretsuff ;
++Ind+Prt:%>d pretsuff ;
++PrfPrs:%>d PRFPRS ;
 
 LEXICON TRAAD
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>t pretsuff ;
++Ind+Prt:%>id pretsuff ;
 
 LEXICON TSUUV
-+Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>t pretsuff ;
++Ind+Prs:v cns_pressuff ;
++Ind+Prt:nd%> pretsuff ;
++PrfPrs:nd PRFPRS ;
 
 LEXICON LURR
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>t pretsuff ;
++Ind+Prt:%>d pretsuff ;
++PrfPrs:%>d PRFPRS ;
 
 LEXICON DZAMB
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>t pretsuff ;
++Ind+Prt:%>id pretsuff ;
++PrfPrs:id PRFPRS ;
 
 LEXICON MANG
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>t pretsuff ;
++Ind+Prt: pretsuff_jom ;
 
 LEXICON DIKK
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>t pretsuff ;
++Ind+Prt: pretsuff_jom ;
 
 LEXICON KAMM
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>t pretsuff ;
++Ind+Prt: pretsuff_jom ;
 
 
 
 
 LEXICON BAHH
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>d pretsuff ;
++Ind+Prt:%>t pretsuff ;
++PrfPrs:t PRFPRS ;
 
 LEXICON MEKK
 +Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>d pretsuff ;
++Ind+Prt:%>l pretsuff ;
++Ind+Prt:%>n pretsuff ;
 
-LEXICON D
-+Ind+Prs: cns_pressuff ;
-+Ind+Prt:%>d pretsuff ;
-
+LEXICON D 
++Ind+Prs:el cns_pressuff ;
++Ind+Prt:ii pretsuff_jom ;
++PrfPrs:iil PRFPRS ;
 
 LEXICON DZA
 !! @LEXNAME@ just dummy entries, to be replaced.
-+Ind+Prs: vow_pressuff ;
++Ind+Prs:a vow_pressuff ;
++PrfPrs:eel PRFPRS ;
++Ind+Prt:ei pretsuff_jom ;
 
 LEXICON PILA
-!! @LEXNAME@ just dummy entries, to be replaced.
+!! @LEXNAME@ "juoda"
++PrfPrs:il PRFPRS ;
 +Ind+Prs+Sg1:iv%>a  #   ;
 +Ind+Prs+Sg2:%>ha  #   ;
 +Ind+Prs+Sg3:%>la  #   ;
 +Ind+Prs+Pl1:iiv%>aha  #   ;
 +Ind+Prs+Pl2:%>na #   ;
 +Ind+Prs+Pl3:%>na  #   ;
++Ind+Prt:ij pretsuff ;
 
 
+!! ## Transitive morphology
 
-!! ### Person suffixes
+LEXICON RAKKAVELA
++Ind+Prs:av cns_pressuff ;
++Ind+Prs+Sg3:ila # ;
++Ind+Prs+Sg3:ina # ;
++Ind+Prs+Pl2:ina # ;
++Ind+Prs+Pl3:ina # ;
++Ind+Prs+Pl2:ana # ;
++Ind+Prs+Pl3:ana # ;
++Ind+Prt:ad pretsuff ;
+
+LEXICON PHAGARVELA
++Ind+Prs:arv cns_pressuff ;
++Ind+Prs:erv cns_pressuff ;
++Ind+Prs+Sg3:irla # ;
++Ind+Prs+Sg3:ervela # ;
++Ind+Prt:ard pretsuff ;
+
+LEXICON TSJALJEVELA
++Ind+Prs:ev cns_pressuff ;
++Ind+Prt:ed pretsuff ;
+
+LEXICON TSEEKJIVELA
++Ind+Prs+Sg3:ila # ;
++Ind+Prs+Sg3:ina # ;
++Ind+Prs+Pl2:ina # ;
++Ind+Prs+Pl3:ina # ;
++Ind+Prt:id pretsuff ;
+
+
+LEXICON DZORALVELA
++Ind+Prs:alv cns_pressuff ;
++Ind+Prs+Sg3:ila # ;
++Ind+Prs+Pl2:ina # ;
++Ind+Prs+Pl3:ina # ;
++Ind+Prt:ad pretsuff ;
+
+
+!! ## Intransitive morphology
+
+LEXICON GARUVELA
++Ind+Prs:uv cns_pressuff ;
++Ind+Prs+Sg3:ila # ;
++Ind+Prs+Sg3:ina # ;
++Ind+Prs+Pl2:ina # ;
++Ind+Prs+Pl3:ina # ;
++Ind+Prt:ud pretsuff ;
++Ind+Prt:udii pretsuff_jom ;
++Ind+Prt:adii pretsuff_jom ;
+
+LEXICON AGURVELA
++Ind+Prs:urv cns_pressuff ;
++Ind+Prt:urd pretsuff ;
++Ind+Prt:urdii pretsuff_jom ;
++Ind+Prt:ardii pretsuff_jom ;
+
+LEXICON DZORJULVELA
++Ind+Prs:ulv cns_pressuff ;
++Ind+Prt:ud pretsuff ;
++Ind+Prt:udii pretsuff_jom ;
++Ind+Prt:adii pretsuff_jom ;
+
+!! ## Person suffixes
 
 LEXICON cns_pressuff
 +Sg1:%>aa  #   ;
@@ -147,13 +262,16 @@ LEXICON pretsuff
 +Pl2:%>e  #   ;
 +Pl3:%>e  #   ;
 
-
-+Ind+Prt+Sg1:%>  #   ;
-+Ind+Prt+Sg2:%>  #   ;
-+Ind+Prt+Sg3:%>  #   ;
-+Ind+Prt+Pl1:%>  #   ;
-+Ind+Prt+Pl2:%>  #   ;
-+Ind+Prt+Pl3:%>  #   ;
+LEXICON pretsuff_jom
++Ind+Prt+Sg1:%>jom  #   ;
++Ind+Prt+Sg2:%>jal  #   ;
++Ind+Prt+Sg3:%>lo  #   ;
++Ind+Prt+Pl1:%>jam  #   ;
++Ind+Prt+Pl1:%>jommas  #   ;
++Ind+Prt+Pl2:%>le  #   ;
++Ind+Prt+Pl2:%>ne  #   ;
++Ind+Prt+Pl3:%>le  #   ;
++Ind+Prt+Pl3:%>ne  #   ;
 
 
 

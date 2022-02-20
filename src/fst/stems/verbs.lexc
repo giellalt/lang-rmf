@@ -8,6 +8,7 @@ LEXICON Verbs
 !! ## Auxiliaries
 
 hin+V: HIN ; !!≈ @CODE@ copula
+vaa+V: VAA "tulla" ; !!≈ @CODE@ tulla
 
 !! ## Lexical verbs
 
@@ -22,7 +23,7 @@ tšellela+V:tšell BOLL "tanssia" ;
 tšollela+V:tšoll BOLL "kuoria" ;
 
 ! 6.23 (b) d-preteriti, stem -v-
-tšuuvela+V:tšuund TSUUV "laittaa" ;
+tšuuvela+V:tšuu TSUUV "laittaa" ;
 
 traadela+V:traad TRAAD "ajaa" ;
 
@@ -81,13 +82,24 @@ tšinn+V:tšinn KAMM "ostaa" ;
 
 !! #### Transitive derivatives
 
+rakkavela+V:rakk RAKKAVELA "puhua" ;
+phagarvela+V:phag PHAGARVELA "rikkoa" ;
+tšaaljevela+V:tšaalj TSJALJEVELA "tehdä kylläiseksi" ;
+tšeekjivela+V:tšeekj TSEEKJIVELA "tunnustaa" ;
+džorjalvela+V:dšorj DZORALVELA "vahvistaa" ;
+
+!! #### Intransitive derivatives
+
+garuvela+V:gar GARUVELA "piiloutua" ;
+agurvela+V:ag AGURVELA "loppua" ;
+džorjulvela+V:džorj DZORJULVELA "vahvistua" ;
 
 !! ### Vowel stem, primary verbs
 
-džala+V:dža DZA "mennä" ;
-ȟala+V:ȟa DZA "syödä" ;
-sala+V:sa DZA "nauraa" ;
+džala+V:dž DZA "mennä" ;
+ȟala+V:ȟ DZA "syödä" ;
+sala+V:s DZA "nauraa" ;
 pila+V:pi PILA "juoda" ;
-
+lila+V:li PILA "ottaa, saada" ;
 
 ! vim: set ft=xfst-lexc:

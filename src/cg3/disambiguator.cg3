@@ -267,6 +267,11 @@ REMOVE:Fem Msc IF (0 A + Fem)(1C N + Fem);
 
 REMOVE:Pers Poss IF (0 Pers)(1C V);
 
+#!! ## Determiners
+
+REMOVE:DetSg Pl IF (0 Det + Sg)(1C N + Sg);
+REMOVE:DetSgNP Pl IF (0 Det + Sg)(*1C N + Sg BARRIER NPNH);
+
 #!! ## Verbs
 
 SELECT:Sg2 Sg1 IF (-1C ("me") + Pron + Nom);

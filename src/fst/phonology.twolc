@@ -41,15 +41,16 @@ Rules
 
 "Shortening stem-final ȟȟ in final position"
 !!  * **@RULENAME@** for bereȟȟ to bereȟ
- ȟ:0 <=> _ ȟ .#. ;
+ Cx:0 <=> _ Cx .#. ;
+      where Cx in ( ȟ k m ) ;
 
 !!€ bereȟȟ
 !!€ bere0ȟ
 
-"Shortening stem-final rr in front of suffix"
+"Shortening stem-final geminate in front of suffix"
 !!  * **@RULENAME@** for lurrela : lurna
 Cx:0 <=> Vow Cx _ %> Cns ;
-     where Cx in ( l r ) ;
+     where Cx in ( ȟ k l m n r ) ;
      
 
 
@@ -62,7 +63,7 @@ Cx:0 <=> Vow Cx _ %> Cns ;
 
 "Stem shortening"
 !!  * **@RULENAME@** perhaps with a trigger ^VSH?
-Vx:0 <=> Vx _ %> Cns ;
+Vx:0 <=> Vx _ (Cns) %> Cns ;
      where Vx in (a e i o u y ) ;
 
 

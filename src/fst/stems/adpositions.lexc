@@ -14,28 +14,48 @@ LEXICON ad
 +Po: # ;
 
 LEXICON Adpositions
-paale po "takana" ;
-paȟ po "vieressä" ;
-teele po "alla" ;
-maȟkar ad "keskelle" ;
-naal ad "edessä, eteen" ;
-neer ad "lähellä, lähelle" ;
-trystal ad "ympärillä" ;
-praal ad "päällä" ;
+
+angnaal ad "edestä" ;
+apo ad "-lla, -lle" ;
 apraal ad "päällä" ;
-palal ad "takana" ;
-paȟal ad "vieressä" ;
-teelal ad "alla" ;
-naalal po "edestä" ;
-naalalesta po "edestä" ;
-naalales po "edestä" ;
-praalesta po "päältä" ;
-praaleetta po "päältä" ;
+apraal ad "päällä" ;
+aro ad "-ssa, -Vn" ;
 arreatta po "sisältä" ;
+dženom ad "kautta" ;
+džin ad "saakka" ;
+džinom ad "kautta" ;
+kajo ad "kohti" ;
+maȟkar ad "keskelle" ;
 maȟkaral po "keskeltä" ;
-maȟkarta  po "keskeltä" ;
-maȟkaresta  po "keskeltä" ;
 maȟkareatta po "keskeltä" ;
-! e)
-
-
+maȟkaresta  po "keskeltä" ;
+maȟkarta  po "keskeltä" ;
+naal ad "edessä, eteen" ;
+naalal po "edestä" ;
+naalales po "edestä" ;
+naales po "edestä" ;
+naalesta po "edestä" ;
+neer ad "lähellä, lähelle" ;
+neeresta ad "läheltä" ;
+om ad "ohi" ;
+paalal ad "takana" ;
+paale po "takana" ;
+paaleatta ad "takaa" ;
+paalesta ad "takaa" ;
+paȟ po "vieressä" ;
+paȟal ad "vieressä" ;
+paȟalesta ad "vieressä" ;
+praal ad "päällä" ;
+praaleetta po "päältä" ;
+praalesta po "päältä" ;
+prissi ad "vastaan" ;
+straal ad "vuoksi" ;
+teelal ad "alla" ;
+teele po "alla" ;
+teelealta po "alta" ;
+teelesta po "alta" ;
+teereatta ad "läheltä" ;
+trystal ad "ympärillä" ;
+trystalo ad "ympärillä" ;
+uutan ad "ilman" ;
+ȟaal ad "vuoksi" ;

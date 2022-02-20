@@ -5,4 +5,13 @@ LEXICON cs
 
 LEXICON Subjunctions
 at cs "että" ;
+te cs "että" ;
+so cs "som" ; ! ???
+ka cs "kun" ;
+ajadissi cs "kunnes" ;
+om cs "jos" ;
+ke cs "jos" ;
+vaȟka cs "vaikka" ;
+jakkes% sar cs "niin kuin" ;
+it% sar cs "yhtä kuin" ; ! xxx cc?
 

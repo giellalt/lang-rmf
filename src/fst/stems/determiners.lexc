@@ -5,6 +5,10 @@ dauva+Det: DAUVA ;
 kouva+Det:k KOUVA ;
 douva+Det:d KOUVA ;
 
+ada+Det:ada # "tämä" ;
+ako+Det:ako # "tuo" ;
+do+Det:do # "se" ;
+
 LEXICON DAUVA
 +Sg+Nom:dauva # ;
 +Sg+Obl:dala # ;

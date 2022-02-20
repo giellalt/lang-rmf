@@ -1,4 +1,4 @@
-!! # Adverbs
+!! # AdverAbs
 
 LEXICON adv
 !! **LEXICON @LEXNAME@** gives tag
@@ -6,6 +6,18 @@ LEXICON adv
 
 LEXICON Adverbs
 !! **LEXICON @LEXNAME@** The list, one so far.
+ma adv "älä, älkää" ; ! xxx
+ka adv "kun" ;
+nikki adv "pois" ;
+buut adv "paljon" ;
+huot adv "heti" ;
+jakkes adv "niin" ;
+koni adv "eniten" ;
+kaan adv "nyt" ;
+daari adv "tässä" ;
+doori adv "siinä" ;
+koori adv "tuossa" ;
+sar adv "kuinka" ;
 biofti adv "harvoin" ;
 horttas adv "hyvin" ;
 aka% diives adv "tänään" ;
@@ -52,8 +64,8 @@ teelal adv "alhaalla" ;
 naalal adv "edestä" ;
 naalesta adv "edestä" ;
 naales adv "edestä" ;
-praalesta adv "ylhäältä"
-praaleatta adv "ylhäältä"
+praalesta adv "ylhäältä" ;
+praaleatta adv "ylhäältä" ;
 arreatta adv "sisältä" ;
 auriatta adv "sisältä" ;
 daarita adv "täältä" ;
@@ -66,3 +78,5 @@ maȟkaral adv "keskeltä" ;
 maȟkarta adv "keskeltä" ;
 maȟkaresta adv "keskeltä" ;
 maȟkareatta adv "keskeltä" ;
+dooleske adv "siksi" ;
+doolesko% ȟaal adv "sen vuoksi" ;

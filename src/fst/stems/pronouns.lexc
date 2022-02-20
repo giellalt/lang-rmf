@@ -6,6 +6,7 @@ LEXICON Pronouns
 Personal ;
 Reflexive ;
 Possessive ;
+Interrogative ;
 
 LEXICON Personal 
 !! @LEXNAME@ me, jou
@@ -15,6 +16,22 @@ jou+Pron+Pers: jou_pron "hän" ;
 
 LEXICON Reflexive 
 +Pron+Refl:son # ;
++Pron+Refl: reflpron ;
++Pron+Refl:iego # "oma" ; ! xxx
+
+LEXICON reflpron
++Sg+Obl:pes # ;
++Sg+Dat:peske # ;
++Sg+Abl:pesta # ;
++Sg+Ins:pessa # ;
++Sg+Gen:pes GENCASES ;
++Pl+Obl:peen # ;
++Pl+Dat:penge # ;
++Pl+Abl:penna # ;
++Pl+Ins:pensa # ;
++Pl+Gen:pen GENCASES ;
+
+
 
 LEXICON Possessive 
 mo+Pron+Poss+Sg+Sg1+Msc:mo # ;
@@ -38,6 +55,14 @@ te+Pron+Poss+Pl+Sg2:tire # ;
 mare+Pron+Poss+Pl+Pl1:mare # ;
 tumare+Pron+Poss+Pl+Pl2:tumare # ;
 
+!! ### Interrogative
+
+LEXICON Interrogative
+koon adv "kuka" ;
+
+
+
+
 !! ## Case inflection (move to affixes?)
 
 LEXICON me_pron !"minä"
@@ -48,11 +73,18 @@ LEXICON me_pron !"minä"
 +Sg+Ins:mansa # ;
 +Sg+Gen:mango # ;
 +Pl+Nom:men # ;
++Pl+Nom:ame # ;
++Pl+Nom:amen # ;
 +Pl+Obl:meen # ;
++Pl+Obl:ameen # ;
 +Pl+Dat:maege # ;
 +Pl+Abl:menna # ;
 +Pl+Ins:mensa # ;
 +Pl+Gen:mengo # ;
++Pl+Dat:amaege # ;
++Pl+Abl:amenna # ;
++Pl+Ins:amensa # ;
++Pl+Gen:amengo # ;
 
 LEXICON tu_pron !"sinä" 
 +Sg+Nom:tu # ;
@@ -63,7 +95,9 @@ LEXICON tu_pron !"sinä"
 +Sg+Ins:tuha # ;
 +Sg+Gen:tukko # ;
 +Pl+Nom:tumen # ;
++Pl+Nom:tume # ;
 +Pl+Obl:tumeen # ;
++Pl+Obl:tumen # ;
 +Pl+Dat:tumege # ;
 +Pl+Abl:tumenna # ;
 +Pl+Ins:tumensa # ;

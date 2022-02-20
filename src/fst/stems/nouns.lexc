@@ -54,6 +54,7 @@ tšelliboskiiro:tšelliboskiir RAKLO "tanssija" ;
 tšeer:tšeer BEREH "talo" ;
 anguš BEREH "sormi" ;
 bereȟ:bereȟȟ BEREH "vuosi" ;
+berȟ:berȟȟ BEREH "vuosi" ;
 kaȟt:kaȟt BEREH "puu" ;
 vuudar:vuudar VUUDAR "ovi" ; ! ja ?
 
@@ -67,7 +68,6 @@ nau:na LAU "nimi" ;
 grai:g GRAI "hevonen" ;
 
 !nak LAU "nenä" ;
-!dai LAU "äiti" ;
 !mui LAU "suu" ;
 !gau LAU "kylä" ;
 !roi LAU "lusikka" ;
@@ -160,9 +160,8 @@ proomus:proom US "proomu" ;
 
 !! ### i-loppuiset: butti, ...
 
-kaali:kaal DZUULI "kahvi" ;
 džuuli:džuul DZUULI "nainen" ;
-butti:butt DZUULI "työ" ;
+kaali:kaal DZUULI "kahvi" ;
 patti:patt DZUULI "kunnia" ;
 paani:paan DZUULI "vesi" ;
 raani:raan DZUULI "rouva" ;
@@ -178,6 +177,30 @@ masseskiiri:masseskiir DZUULI "lihakauppiastar" ;
 matšengiiri:matšengiir DZUULI "kalastajatar" ;
 sikjiboskiiri:sikjiboskiir DZUULI "opettajatar" ;
 tšelliboskiiri:tšelliboskiir DZUULI "tanssijatar" ;
+
+
+! (nämä 4 "tai kuten angrusti")
+butti:butt DZUULI "työ" ;
+kakli:kakl DZUULI "sakset" ;
+siiri:siir DZUULI "sipuli" ;
+tšefni:tšefn DZUULI "kuori" ;
+
+
+angrusti:angrust ANGRUSTI "sormus" ;
+biibi:biib ANGRUSTI "täti" ;
+ȟistardi:ȟistard ANGRUSTI "arkku" ;
+kirsi:kirs ANGRUSTI "hartijahuivi" ;
+maami:maam ANGRUSTI "isoäiti" ;
+maamri:maamr ANGRUSTI "isoäiti" ;
+mortši:mortš ANGRUSTI "nahka" ;
+patti:patt ANGRUSTI "kunnia" ;
+sessi:sess ANGRUSTI "emäntä" ;
+siivi:siiv ANGRUSTI "valkolaisnainen" ;
+staadi:staad ANGRUSTI "hattu" ;
+tatti:tatt ANGRUSTI "sauna" ;
+tšerki:tšerk ANGRUSTI "viina" ;
+vaali:vaal ANGRUSTI "lasi" ;
+vaalpi:vaalp ANGRUSTI "tulitikku" ;
 
 
 
@@ -200,13 +223,61 @@ džaar:džaar BAAR "karva" ;
 jaar:jaar BAAR "naskali" ;
 poor:poor BAAR "silta" ;
 džou:džou BAAR "kaura" ;
+khuu:khuu BAAR "kantapää" ;
+heu:heu BAAR "haava" ;
+ȟeu:ȟeu BAAR "reikä" ;
+phuu:phuu BAAR "maa" ;
+ruu:ruu BAAR "susi" ;
+suu:suu BAAR "neula" ;
+bai:bai BAAR "hiha" ;
+roi:roi BAAR "lusikka" ;
+
+khurmin:khurmi KHURMIN "ryyni" ;
+phossin:phossi KHURMIN "lonkka" ;
+postin:posti KHURMIN "turkki" ;
+skammin:skammi KHURMIN "tuoli" ;
+fäärdyn:fäärdy KHURMIN "auto" ;
+
+bornik:borni BORNIK "nyrkki" ;
+
+dai:da DAI "äiti" ;
+tšai:tša DAI "tyttö" ;
+
+tšimb:tšimb TSIMB "kieli" ;
+buȟt:buȟt TSIMB "varras" ;
+bok:bokk TSIMB "nälkä" ;
+duk:dukk TSIMB "tauti" ;
+dummuk:dummuk TSIMB "nyrkki" ;
+jak:jakk TSIMB "silmä" ;
+kotšuk:kotšuk TSIMB "nappi" ;
+phak:phakk TSIMB "siipi" ;
+tšik:tšikk TSIMB "lika" ;
+damb:damb TSIMB "isku" ;
+ring:ring TSIMB "puoli" ;
+tšang:tšang TSIMB "polvi" ;
+doȟ:doȟȟ TSIMB "syy" ;
+miritš:miritš TSIMB "helmi" ;
+buul:buul TSIMB "takamus" ;
+ȟirȟil:ȟirȟil TSIMB "herne" ;
+tšum:tšumm TSIMB "suukko" ;
+
+
+
 
 
 !! ### a-loppuisia: kamana, ..
 
-kamana:kaman KUKLA "kello" ;
-kukla:kukl KUKLA "nukke" ;
-luvina:luvin KUKLA "olut" ;
+skoola:skool SKOOLA "koulu" ;
+kamana:kaman SKOOLA "kello" ;
+kukla:kukl SKOOLA "nukke" ;
+miija:miij SKOOLA "peninkulma" ;
+muura:muur SKOOLA "marja" ;
+maȟka:maȟk SKOOLA "kissa" ;
+ansiȟta:ansiȟt SKOOLA "kasvot" ;
+apinjara:apinjar SKOOLA "apina" ;
+bakka:bakk SKOOLA "mäki" ;
+luvina:luvin SKOOLA "olut" ;
+tiija:tiij SKOOLA "aika" ; ! xxx check
 
 
 !! ## The long list

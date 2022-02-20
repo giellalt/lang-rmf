@@ -2,5 +2,12 @@
 !  ----------------------
 !! Nothing done so far.
 
+LEXICON prop-mal
++N+Prop+Sem/Mal: # ;
+
+LEXICON prop-fem
++N+Prop+Sem/Fem: # ;
+
+
 ! vim: set ft=xfst-lexc:
 
