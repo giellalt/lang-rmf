@@ -27,7 +27,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 * *bereȟȟ*
 * *bere0ȟ*
 
-* **Shortening stem-final rr in front of suffix** for lurrela : lurna
+* **Shortening stem-final geminate in front of suffix** for lurrela : lurna
 
 ## Vowel rules
 

@@ -14,6 +14,8 @@ All documents in one file
 
 ## Pronouns
 
+## Determiners
+
 ## Verbs
 
 * * *
@@ -221,7 +223,17 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON BAAR** 
 
-**LEXICON KUKLA** 
+**LEXICON ANGRUSTI** 
+
+**LEXICON KHURMIN** 
+
+**LEXICON BORNIK** 
+
+**LEXICON DAI** 
+
+**LEXICON TSIMB** 
+
+**LEXICON SKOOLA** 
 
 **LEXICON RAADZA** 
 
@@ -290,7 +302,7 @@ Under constructions
 
 ## Auxiliaries
 
-HIN just dummy entries, to be replaced.
+HIN spells out the whole paradigm
 
 ## Lexical verbs
 
@@ -304,9 +316,13 @@ TSEER primary verb, r-stem
 
 DZA just dummy entries, to be replaced.
 
-PILA just dummy entries, to be replaced.
+PILA "juoda"
 
-### Person suffixes
+## Transitive morphology
+
+## Intransitive morphology
+
+## Person suffixes
 
 * * *
 
@@ -343,7 +359,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 * *bereȟȟ*
 * *bere0ȟ*
 
-* **Shortening stem-final rr in front of suffix** for lurrela : lurna
+* **Shortening stem-final geminate in front of suffix** for lurrela : lurna
 
 ## Vowel rules
 
@@ -544,7 +560,7 @@ LEXICON **K** (for clitics, probably not needed)
 
 ---
 
-# Adverbs
+# AdverAbs
 
 **LEXICON adv** gives tag
 
@@ -569,6 +585,14 @@ LEXICON **K** (for clitics, probably not needed)
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/determiners.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/determiners.lexc)</small>
+
+---
+
+# Interjections
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/interjections.lexc)</small>
 
 ---
 
@@ -646,6 +670,14 @@ Numerals so far only 1-10.
 
 ---
 
+# Particles
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/particles.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/particles.lexc)</small>
+
+---
+
 # Prefixes
 So far no prefixes in the model for Finnish Romany .
 
@@ -661,6 +693,8 @@ Prefixes No prefixes so far. Are there any?
 Three pronouns so far
 
 Personal me, jou
+
+### Interrogative
 
 ## Case inflection (move to affixes?)
 
@@ -686,6 +720,7 @@ No work has been done on verbs so far.
 ## Auxiliaries
 
 hin+V: HIN ; copula
+vaa+V: VAA "tulla" ; tulla
 
 ## Lexical verbs
 
@@ -698,6 +733,8 @@ hin+V: HIN ; copula
 #### id past tense
 
 #### Transitive derivatives
+
+#### Intransitive derivatives
 
 ### Vowel stem, primary verbs
 

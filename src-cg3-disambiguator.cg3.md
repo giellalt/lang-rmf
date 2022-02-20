@@ -10,6 +10,8 @@
 
 ## Pronouns
 
+## Determiners
+
 ## Verbs
 
 * * *

@@ -3,6 +3,8 @@ Three pronouns so far
 
 Personal me, jou
 
+### Interrogative
+
 ## Case inflection (move to affixes?)
 
 * * *

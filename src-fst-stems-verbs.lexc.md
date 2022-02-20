@@ -6,6 +6,7 @@ No work has been done on verbs so far.
 ## Auxiliaries
 
 hin+V: HIN ; copula
+vaa+V: VAA "tulla" ; tulla
 
 ## Lexical verbs
 
@@ -18,6 +19,8 @@ hin+V: HIN ; copula
 #### id past tense
 
 #### Transitive derivatives
+
+#### Intransitive derivatives
 
 ### Vowel stem, primary verbs
 

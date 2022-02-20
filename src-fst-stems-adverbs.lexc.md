@@ -1,4 +1,4 @@
-# Adverbs
+# AdverAbs
 
 **LEXICON adv** gives tag
 

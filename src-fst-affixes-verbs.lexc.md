@@ -3,7 +3,7 @@ Under constructions
 
 ## Auxiliaries
 
-HIN just dummy entries, to be replaced.
+HIN spells out the whole paradigm
 
 ## Lexical verbs
 
@@ -17,9 +17,13 @@ TSEER primary verb, r-stem
 
 DZA just dummy entries, to be replaced.
 
-PILA just dummy entries, to be replaced.
+PILA "juoda"
 
-### Person suffixes
+## Transitive morphology
+
+## Intransitive morphology
+
+## Person suffixes
 
 * * *
 

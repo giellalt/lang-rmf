@@ -19,7 +19,17 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON BAAR** 
 
-**LEXICON KUKLA** 
+**LEXICON ANGRUSTI** 
+
+**LEXICON KHURMIN** 
+
+**LEXICON BORNIK** 
+
+**LEXICON DAI** 
+
+**LEXICON TSIMB** 
+
+**LEXICON SKOOLA** 
 
 **LEXICON RAADZA** 
 
