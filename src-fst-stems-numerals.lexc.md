@@ -1,5 +1,6 @@
 # Kale Romani Numerals
-Numerals so far only 1-10.
+Numerals so far only 1-10, the tens, hundred , thousand, million.
+No inflection added.
 
 **LEXICON Numerals** 
 
@@ -7,11 +8,17 @@ Numerals so far only 1-10.
 
 **LEXICON Numbers** preparing for composing
 
+**LEXICON HIGHNUMERALS** 
+
+**LEXICON TENS** 
+
 **LEXICON 11to19** combining 11, 12, ..
 
 **LEXICON 1to10** 
 
 **LEXICON NUMCASE** gets tag
+
+**LEXICON MILJ** 
 
 * * *
 

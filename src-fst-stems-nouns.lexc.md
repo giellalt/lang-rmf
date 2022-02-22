@@ -1,5 +1,5 @@
 # Noun stems
-This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
+This documents the file `stems/nouns.lexc`. So far only close to 200 words distributed on different inflection types.
 
 Nominatiivi päättyy yksikössä mm. -o, -i, -os, -is, -es, -a ja monikossa mm. -a, -ja, -i. 
 Instrumentaali saa yleensä yksikössäkin -sa-päätteen -iba- ja -ben- loppuisilla abstraktisubstantiiveilla:
@@ -43,7 +43,7 @@ tšell-ibon-giir-e ’tanssit’).9
 
 ## The long list
 
-To be added šhen basis is in place.
+To be added when basis is in place.
 
 * * *
 

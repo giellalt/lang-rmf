@@ -1,6 +1,9 @@
 # Adjectives
 
-**LEXICON Adjectives** two so far, no subclasses.
+contains the adjectives, so far grouped by type.
+thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
+
+**LEXICON Adjectives** 
 
 ### (a) Temaattiset oloppuiset adjektiivit
 

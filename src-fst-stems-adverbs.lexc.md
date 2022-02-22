@@ -1,8 +1,8 @@
-# AdverAbs
+# Adverbs
 
-**LEXICON adv** gives tag
+**LEXICON adv** gives tag **+Adv**
 
-**LEXICON Adverbs** The list, one so far.
+**LEXICON Adverbs** The list, 70 so far.
 
 * * *
 

@@ -1,11 +1,36 @@
 # Pronouns
-Three pronouns so far
+The pronouns are here. Some of the inflexion is in ../affixes.
 
-Personal me, jou
+## The lexicon Pronouns, splitting in subtypes
+
+**LEXICON Pronouns** with 5 sublexica
+* *Personal ;* 
+* *Reflexive ;* 
+* *Possessive ;* 
+* *Interrogative ;*
+* *Indefinite ;* 
+
+### Personal
+
+**LEXICON Personal** for me, jou, ...
+
+### Reflexive
+
+**LEXICON Reflexive** 
+
+**LEXICON reflpron** 
 
 ### Interrogative
 
-## Case inflection (move to affixes?)
+**LEXICON Interrogative** for koon...
+
+### Indefinite
+
+**LEXICON Indefinite** 
+
+### Possessive
+
+**LEXICON Possessive** for mo, to, ...
 
 * * *
 

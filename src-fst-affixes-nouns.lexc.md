@@ -13,6 +13,32 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON VUUDAR** 
 
+**LEXICON GRAI** 
+
+**LEXICON DZII** 
+
+**LEXICON IBA** 
+
+**LEXICON BEN** 
+
+**LEXICON OS** 
+
+**LEXICON NIS** 
+
+**LEXICON RIS** 
+
+**LEXICON TIS** 
+
+**LEXICON SSIS** 
+
+**LEXICON IS_PL** 
+
+**LEXICON ES** 
+
+**LEXICON US** 
+
+**LEXICON YS** 
+
 ### Feminines
 
 **LEXICON DZUULI** 
@@ -37,7 +63,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Masculine morphology
 
-**LEXICON MSCOBL** 
+**LEXICON MSCOBL** pointing to sg and pl lexica
 
 **LEXICON MSCOBL_SG** 
 
@@ -49,7 +75,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Feminine morphology
 
-**LEXICON FEMOBL** 
+**LEXICON FEMOBL** pointing to sg and pl lexica
 
 **LEXICON FEMOBL_SG** 
 

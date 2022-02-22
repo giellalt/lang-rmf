@@ -22,7 +22,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 * **Voicing of k suffix after n** ...  probably to be generalised
 
-* **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
+* **Shortening stem-final geminate in final position** for bereȟȟ to bereȟ
 
 * *bereȟȟ*
 * *bere0ȟ*

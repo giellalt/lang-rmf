@@ -1,5 +1,9 @@
 # Proper noun inflection
-Nothing done so far.
+Nothing done so far, just adding tags
+
+**LEXICON prop-mal** male names
+
+**LEXICON prop-fem** female names
 
 * * *
 

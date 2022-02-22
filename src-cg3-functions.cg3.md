@@ -1,4 +1,7 @@
 
+Kalo Finnish Romani syntactic functions.
+
+Nothing done with this topic so far. This file is just a dummy copy of the North Saami file.
 
 * Sets for POS sub-categories
 

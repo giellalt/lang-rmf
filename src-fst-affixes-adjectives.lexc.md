@@ -1,11 +1,21 @@
 # Adjective inflection
-Nothing done.
+Oblique cases not looked into.
 
 TSUORO Just adding +A tag.
 
 LEXICON BARO temaattiset o-loppuiset adjektiivit
 
 LEXICON BESKO atemaattiset o-loppuiset adjektiivit
+
+**LEXICON FAARLIGO** 
+
+**LEXICON DUUR** 
+
+**LEXICON FROO** 
+
+**LEXICON PRFPRS** for participles
+
+**LEXICON PRFPRS** contains only -ide for now.
 
 * * *
 

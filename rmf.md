@@ -4,22 +4,48 @@ All documents in one file
 
 
 
-# Romani kale  disambiguator 
+# Kalo Finnish Romani  disambiguator 
+
+This is a file for automatic syntactic analysis of Kalo Finnish  Romani.
+It is written within the *Constraint grammar* formalism.
+It is in an initial state, containing only a handful of rules.
 
 ## Tags and sets 
 
-## Pre or post
+This section just defines all grammatical tags from the morphology.
 
-## Adjectives
+# Rule section
 
-## Pronouns
+## Adposition rules
 
-## Determiners
+Rule **Po**: Pre or post? Removes Pr reading when Gen is to the left and not to the right.
 
-## Verbs
+## Adjective rules
+
+Rule **Msc** selects masculine adjective if following noun is masculine
+Rule **Fem** selects feminine adjective if following noun is feminine
+
+## Pronoun rules
+
+Rule **Pers** removes Poss if next word is verb (to be refined)
+
+## Determiner rules
+
+Rule **DetSg** removes Pl reading of Det if next word is singular noun.
+
+Rule **DetSgNP** removes Pl reading of Det if to the left is singular noun and only pre-np words inbetween
+
+## Verb rules
+
+Rule **Sg1** selects Sg1 if nominative *me* to the left. 
+
+Rule **Sg3** removes Pl3 reading for verb if word to the left is singular nominative N or Pron.
 
 * * *
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/disambiguator.cg3)</small>
+Kalo Finnish Romani syntactic functions.
+
+Nothing done with this topic so far. This file is just a dummy copy of the North Saami file.
 
 * Sets for POS sub-categories
 
@@ -188,13 +214,23 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/functions.cg3)</small># Adjective inflection
-Nothing done.
+Oblique cases not looked into.
 
 TSUORO Just adding +A tag.
 
 LEXICON BARO temaattiset o-loppuiset adjektiivit
 
 LEXICON BESKO atemaattiset o-loppuiset adjektiivit
+
+**LEXICON FAARLIGO** 
+
+**LEXICON DUUR** 
+
+**LEXICON FROO** 
+
+**LEXICON PRFPRS** for participles
+
+**LEXICON PRFPRS** contains only -ide for now.
 
 * * *
 
@@ -216,6 +252,32 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 **LEXICON BEREH** 
 
 **LEXICON VUUDAR** 
+
+**LEXICON GRAI** 
+
+**LEXICON DZII** 
+
+**LEXICON IBA** 
+
+**LEXICON BEN** 
+
+**LEXICON OS** 
+
+**LEXICON NIS** 
+
+**LEXICON RIS** 
+
+**LEXICON TIS** 
+
+**LEXICON SSIS** 
+
+**LEXICON IS_PL** 
+
+**LEXICON ES** 
+
+**LEXICON US** 
+
+**LEXICON YS** 
 
 ### Feminines
 
@@ -241,7 +303,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Masculine morphology
 
-**LEXICON MSCOBL** 
+**LEXICON MSCOBL** pointing to sg and pl lexica
 
 **LEXICON MSCOBL_SG** 
 
@@ -253,7 +315,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Feminine morphology
 
-**LEXICON FEMOBL** 
+**LEXICON FEMOBL** pointing to sg and pl lexica
 
 **LEXICON FEMOBL_SG** 
 
@@ -277,8 +339,38 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ---
 
+
+
+## Case inflection (move to affixes?)
+
+**LEXICON me_pron** *minä*
+
+**LEXICON tu_pron** "sinä" 
+
+**LEXICON jou_pron** "hän"  
+
+**LEXICON es_case** 
+
+**LEXICON SAARO** 
+
+**LEXICON es_case_obl** c
+
+**LEXICON SAKKO** 
+
+**LEXICON indef_temaattinen** thematic adjectival declension. Oblique?
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/pronouns.lexc)</small>
+
+---
+
 # Proper noun inflection
-Nothing done so far.
+Nothing done so far, just adding tags
+
+**LEXICON prop-mal** male names
+
+**LEXICON prop-fem** female names
 
 * * *
 
@@ -297,32 +389,81 @@ This content is just from the template, work has not begun.
 
 ---
 
-# Verb inflection
-Under constructions
+# Kalo Finnish Romani verb inflection
+
+Under construction.
+
+First come auxiliaries, then lexical verb classes. 
+Finally there is a section on common verb suffixes.
 
 ## Auxiliaries
 
-HIN spells out the whole paradigm
+**LEXICON HIN** spells out the whole paradigm
+
+**LEXICON VAA** spells out the whole paradigm
 
 ## Lexical verbs
 
-### r-stems
-
-### Other stems
+The lexical setup follows the grammar, but
+several lexica may probably be unified.
 
 BOLL primary verb, other than r-stem
 
-TSEER primary verb, r-stem
+TSEER primary verb, r-stem, d pret
 
-DZA just dummy entries, to be replaced.
+**LEXICON TRAAD** cns pres and id pret
 
-PILA "juoda"
+**LEXICON TSUUV** cns pres and nd pret
+
+**LEXICON LURR** cns pres and d pret
+
+**LEXICON DZAMB** cns pres and id pret
+
+**LEXICON MANG** cns pres and jom pret
+
+**LEXICON DIKK** cns pres and jom pret
+
+**LEXICON KAMM** cns pres and jom pret
+
+**LEXICON BAHH** cns pres and t pret
+
+**LEXICON MEKK** cns pres and l/n pret
+
+**LEXICON D** for "to do", cns pres and jom pret
+
+**LEXICON DZA** vow pres and id pret
+
+**LEXICON PILA** cns pres and id pret "juoda"
 
 ## Transitive morphology
 
+**LEXICON RAKKAVELA** cns pres and ad pret + parallel forms
+
+**LEXICON PHAGARVELA** cns pres and ard pret
+
+**LEXICON TSJALJEVELA** cns pres and ed pret
+
+**LEXICON TSEEKJIVELA**  id pret
+
+**LEXICON DZORALVELA** cns pres and ad pret
+
 ## Intransitive morphology
 
+**LEXICON GARUVELA** cns pres and jom pret
+
+**LEXICON AGURVELA** cns pres and jom pret
+
 ## Person suffixes
+
+Here come the person suffixes.
+
+**LEXICON cns_pressuff** cns pres: aa, eha, ela, ...
+
+**LEXICON vow_pressuff** vcow pres: a, ha, la, ...
+
+**LEXICON pretsuff** om, al, as...
+
+**LEXICON pretsuff_jom** jom, jal, lo, ...
 
 * * *
 
@@ -354,7 +495,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 * **Voicing of k suffix after n** ...  probably to be generalised
 
-* **Shortening stem-final ȟȟ in final position** for bereȟȟ to bereȟ
+* **Shortening stem-final geminate in final position** for bereȟȟ to bereȟ
 
 * *bereȟȟ*
 * *bere0ȟ*
@@ -529,7 +670,10 @@ LEXICON **K** (for clitics, probably not needed)
 
 # Adjectives
 
-**LEXICON Adjectives** two so far, no subclasses.
+contains the adjectives, so far grouped by type.
+thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
+
+**LEXICON Adjectives** 
 
 ### (a) Temaattiset oloppuiset adjektiivit
 
@@ -554,17 +698,25 @@ LEXICON **K** (for clitics, probably not needed)
 
 ## Tags
 
+**LEXICON pr** for +Pr
+
+**LEXICON po** for +Po
+
+**LEXICON ad** for +Pr and +Po
+
+**LEXICON Adpositions** contains the list
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/adpositions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adpositions.lexc)</small>
 
 ---
 
-# AdverAbs
+# Adverbs
 
-**LEXICON adv** gives tag
+**LEXICON adv** gives tag **+Adv**
 
-**LEXICON Adverbs** The list, one so far.
+**LEXICON Adverbs** The list, 70 so far.
 
 * * *
 
@@ -574,6 +726,10 @@ LEXICON **K** (for clitics, probably not needed)
 
 # conjunctions
 
+**LEXICON cc** adds the tag **+CC**
+
+**LEXICON Conjunctions** contains 10 or so.
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/conjunctions.lexc)</small>
@@ -581,6 +737,12 @@ LEXICON **K** (for clitics, probably not needed)
 ---
 
 # Kale Romani determiners
+
+**LEXICON Determiners** 6 of them
+
+**LEXICON DAUVA** for dauva
+
+**LEXICON KOUVA** for kouva and douva
 
 * * *
 
@@ -590,6 +752,10 @@ LEXICON **K** (for clitics, probably not needed)
 
 # Interjections
 
+**LEXICON ij** adds tag **+Interj**
+
+**LEXICON Interjections** contains one so far.
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/interjections.lexc)</small>
@@ -597,7 +763,7 @@ LEXICON **K** (for clitics, probably not needed)
 ---
 
 # Noun stems
-This documents the file `stems/nouns.lexc`. So far only some 10-20 words distributed on different inflection types.
+This documents the file `stems/nouns.lexc`. So far only close to 200 words distributed on different inflection types.
 
 Nominatiivi päättyy yksikössä mm. -o, -i, -os, -is, -es, -a ja monikossa mm. -a, -ja, -i. 
 Instrumentaali saa yleensä yksikössäkin -sa-päätteen -iba- ja -ben- loppuisilla abstraktisubstantiiveilla:
@@ -641,7 +807,7 @@ tšell-ibon-giir-e ’tanssit’).9
 
 ## The long list
 
-To be added šhen basis is in place.
+To be added when basis is in place.
 
 * * *
 
@@ -650,7 +816,8 @@ To be added šhen basis is in place.
 ---
 
 # Kale Romani Numerals
-Numerals so far only 1-10.
+Numerals so far only 1-10, the tens, hundred , thousand, million.
+No inflection added.
 
 **LEXICON Numerals** 
 
@@ -658,11 +825,17 @@ Numerals so far only 1-10.
 
 **LEXICON Numbers** preparing for composing
 
+**LEXICON HIGHNUMERALS** 
+
+**LEXICON TENS** 
+
 **LEXICON 11to19** combining 11, 12, ..
 
 **LEXICON 1to10** 
 
 **LEXICON NUMCASE** gets tag
+
+**LEXICON MILJ** 
 
 * * *
 
@@ -671,6 +844,14 @@ Numerals so far only 1-10.
 ---
 
 # Particles
+
+In the grammar, *Particles* is a wide category, containing
+indeclineable words. Several of these should get syntactically
+defined POS.
+
+**LEXICON pcle** 
+
+**LEXICON Particles** contains 30 or so words.
 
 * * *
 
@@ -690,13 +871,38 @@ Prefixes No prefixes so far. Are there any?
 ---
 
 # Pronouns
-Three pronouns so far
+The pronouns are here. Some of the inflexion is in ../affixes.
 
-Personal me, jou
+## The lexicon Pronouns, splitting in subtypes
+
+**LEXICON Pronouns** with 5 sublexica
+* *Personal ;* 
+* *Reflexive ;* 
+* *Possessive ;* 
+* *Interrogative ;*
+* *Indefinite ;* 
+
+### Personal
+
+**LEXICON Personal** for me, jou, ...
+
+### Reflexive
+
+**LEXICON Reflexive** 
+
+**LEXICON reflpron** 
 
 ### Interrogative
 
-## Case inflection (move to affixes?)
+**LEXICON Interrogative** for koon...
+
+### Indefinite
+
+**LEXICON Indefinite** 
+
+### Possessive
+
+**LEXICON Possessive** for mo, to, ...
 
 * * *
 
@@ -704,7 +910,20 @@ Personal me, jou
 
 ---
 
+
+**LEXICON rmf-propernouns** contains just a handful, with no inflection.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/rmf-propernouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/rmf-propernouns.lexc)</small>
+
+---
+
 # subjunctions
+
+**LEXICON cs** adds the tag **+CS**
+
+**LEXICON Subjunctions** for at, te, so, ka, ...
 
 * * *
 
@@ -713,9 +932,9 @@ Personal me, jou
 ---
 
 # Verbs
-No work has been done on verbs so far.
+This lists verbs as presented in the grammar.
 
-**LEXICON Verbs** 
+**LEXICON Verbs** is the lexicon, containing the verb list
 
 ## Auxiliaries
 
@@ -728,15 +947,70 @@ vaa+V: VAA "tulla" ; tulla
 
 #### (a) Other than r-stems, primary verbs
 
+6.23 (b) d-preteriti, stem -l-
+* bollela+V:boll BOLL "kastaa" ; 
+* spillela+V:spill BOLL "pistää" ;
+
+6.23 (b) d-preteriti, stem -v-
+* tšuuvela+V:tšuu TSUUV "laittaa" ;
+
+* traadela+V:traad TRAAD "ajaa" ;
+
+* baȟȟela+V:baȟȟ BAHH "pyytää" ;
+
+* mekkela+V:mekk MEKK "jättää";
+
+* dela+V:d D "antaa" ;
+
 #### (b) r-stems, primary verbs
 
+6.23 (a) d-preteriti, stem -r-
+* tšerra+V:tšeer TSEER "tehdä" ;
+* perra+V:peer TSEER "kaataa" ;
+
+* lurrela+V:lurr LURR "" ;
+* kurrela+V:kurr LURR "tapella" ;
+
 #### id past tense
+6.24 stem b, d, t, id past tense
+* džamba+V:džamb DZAMB "laulaa" ;
+* khanda+V:khand DZAMB "haista" ;
+
+6.24 stem -n-, past tens -id
+* džaan+V:džaan DZAMB "tietää" ;
+* dann+V:kann DZAMB "totella" ;
+
+6.26 t past tense
+
+* baȟȟ+V:baȟȟ BAHH "pyytää" ;
+* beȟȟ+V:beȟȟ BAHH "istua" ;
+
+6.27 Stem -g, -k, past tense l
+* mang+V:mang MANG "pyytää" ; ! mangl-
+
+* mukk+V:mukk DIKK "jättää" ; dikl, dikn
+* dikk+V:dikk DIKK "nähdä" ;
+
+* kamm+V:kamm KAMM "haluta" ; kaml
+* aan+V:ann KAMM "tuoda" ;
 
 #### Transitive derivatives
 
+* rakkavela+V:rakk RAKKAVELA "puhua" ;
+* phagarvela+V:phag PHAGARVELA "rikkoa" ;
+
 #### Intransitive derivatives
 
+* garuvela+V:gar GARUVELA "piiloutua" ;
+* agurvela+V:ag AGURVELA "loppua" ;
+
 ### Vowel stem, primary verbs
+
+* džala+V:dž DZA "mennä" ;
+* ȟala+V:ȟ DZA "syödä" ;
+* sala+V:s DZA "nauraa" ;
+* pila+V:pi PILA "juoda" ;
+* lila+V:li PILA "ottaa, saada" ;
 
 * * *
 

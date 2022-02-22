@@ -6,6 +6,7 @@
         * `affixes/`
             * [adjectives.lexc](src-fst-affixes-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/adjectives.lexc))
             * [nouns.lexc](src-fst-affixes-nouns.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/nouns.lexc))
+            * [pronouns.lexc](src-fst-affixes-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/pronouns.lexc))
             * [propernouns.lexc](src-fst-affixes-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/propernouns.lexc))
             * [symbols.lexc](src-fst-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/symbols.lexc))
             * [verbs.lexc](src-fst-affixes-verbs.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/verbs.lexc))
@@ -23,6 +24,7 @@
             * [particles.lexc](src-fst-stems-particles.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/particles.lexc))
             * [prefixes.lexc](src-fst-stems-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/prefixes.lexc))
             * [pronouns.lexc](src-fst-stems-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/pronouns.lexc))
+            * [rmf-propernouns.lexc](src-fst-stems-rmf-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/rmf-propernouns.lexc))
             * [subjunctions.lexc](src-fst-stems-subjunctions.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/subjunctions.lexc))
             * [verbs.lexc](src-fst-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/verbs.lexc))
     * `phonetics/`
