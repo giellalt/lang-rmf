@@ -1,11 +1,16 @@
-!! # Verb inflection
+!! # Kalo Finnish Romani verb inflection
 !  ---------------
-!! Under constructions
+
+!! Under construction.
+
+!! First come auxiliaries, then lexical verb classes. 
+!! Finally there is a section on common verb suffixes.
+
 
 !! ## Auxiliaries
 
 LEXICON HIN
-!! @LEXNAME@ spells out the whole paradigm
+!! **LEXICON @LEXNAME@** spells out the whole paradigm
 +Ind+Prs+Sg1:som  #   ;
 +Ind+Prs+Sg2:sal  #   ;
 +Ind+Prs+Sg3:hin  K   ;
@@ -44,6 +49,7 @@ LEXICON HIN
 
 
 LEXICON VAA
+!! **LEXICON @LEXNAME@** spells out the whole paradigm
 +PrfPrs:aul PRFPRS ;
 +Ind+Prs+Sg1:som  #   ;
 +Ind+Prs+Sg2:sal  #   ;
@@ -87,10 +93,8 @@ LEXICON VAA
 
 !! ## Lexical verbs
 
-!! ### r-stems
-
-
-!! ### Other stems
+!! The lexical setup follows the grammar, but
+!! several lexica may probably be unified.
 
 LEXICON BOLL
 !! @LEXNAME@ primary verb, other than r-stem
@@ -99,39 +103,46 @@ LEXICON BOLL
 +PrfPrs:%>d PRFPRS ;
 
 LEXICON TSEER
-!! @LEXNAME@ primary verb, r-stem
+!! @LEXNAME@ primary verb, r-stem, d pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>d pretsuff ;
 +PrfPrs:%>d PRFPRS ;
 
 LEXICON TRAAD
+!! **LEXICON @LEXNAME@** cns pres and id pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>id pretsuff ;
 
 LEXICON TSUUV
+!! **LEXICON @LEXNAME@** cns pres and nd pret
 +Ind+Prs:v cns_pressuff ;
 +Ind+Prt:nd%> pretsuff ;
 +PrfPrs:nd PRFPRS ;
 
 LEXICON LURR
+!! **LEXICON @LEXNAME@** cns pres and d pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>d pretsuff ;
 +PrfPrs:%>d PRFPRS ;
 
 LEXICON DZAMB
+!! **LEXICON @LEXNAME@** cns pres and id pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>id pretsuff ;
 +PrfPrs:id PRFPRS ;
 
 LEXICON MANG
+!! **LEXICON @LEXNAME@** cns pres and jom pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt: pretsuff_jom ;
 
 LEXICON DIKK
+!! **LEXICON @LEXNAME@** cns pres and jom pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt: pretsuff_jom ;
 
 LEXICON KAMM
+!! **LEXICON @LEXNAME@** cns pres and jom pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt: pretsuff_jom ;
 
@@ -139,28 +150,31 @@ LEXICON KAMM
 
 
 LEXICON BAHH
+!! **LEXICON @LEXNAME@** cns pres and t pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>t pretsuff ;
 +PrfPrs:t PRFPRS ;
 
 LEXICON MEKK
+!! **LEXICON @LEXNAME@** cns pres and l/n pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>l pretsuff ;
 +Ind+Prt:%>n pretsuff ;
 
 LEXICON D 
+!! **LEXICON @LEXNAME@** for "to do", cns pres and jom pret
 +Ind+Prs:el cns_pressuff ;
 +Ind+Prt:ii pretsuff_jom ;
 +PrfPrs:iil PRFPRS ;
 
 LEXICON DZA
-!! @LEXNAME@ just dummy entries, to be replaced.
+!! **LEXICON @LEXNAME@** vow pres and id pret
 +Ind+Prs:a vow_pressuff ;
 +PrfPrs:eel PRFPRS ;
 +Ind+Prt:ei pretsuff_jom ;
 
 LEXICON PILA
-!! @LEXNAME@ "juoda"
+!! **LEXICON @LEXNAME@** cns pres and id pret "juoda"
 +PrfPrs:il PRFPRS ;
 +Ind+Prs+Sg1:iv%>a  #   ;
 +Ind+Prs+Sg2:%>ha  #   ;
@@ -174,6 +188,7 @@ LEXICON PILA
 !! ## Transitive morphology
 
 LEXICON RAKKAVELA
+!! **LEXICON @LEXNAME@** cns pres and ad pret + parallel forms
 +Ind+Prs:av cns_pressuff ;
 +Ind+Prs+Sg3:ila # ;
 +Ind+Prs+Sg3:ina # ;
@@ -184,6 +199,7 @@ LEXICON RAKKAVELA
 +Ind+Prt:ad pretsuff ;
 
 LEXICON PHAGARVELA
+!! **LEXICON @LEXNAME@** cns pres and ard pret
 +Ind+Prs:arv cns_pressuff ;
 +Ind+Prs:erv cns_pressuff ;
 +Ind+Prs+Sg3:irla # ;
@@ -191,10 +207,12 @@ LEXICON PHAGARVELA
 +Ind+Prt:ard pretsuff ;
 
 LEXICON TSJALJEVELA
+!! **LEXICON @LEXNAME@** cns pres and ed pret
 +Ind+Prs:ev cns_pressuff ;
 +Ind+Prt:ed pretsuff ;
 
 LEXICON TSEEKJIVELA
+!! **LEXICON @LEXNAME@**  id pret
 +Ind+Prs+Sg3:ila # ;
 +Ind+Prs+Sg3:ina # ;
 +Ind+Prs+Pl2:ina # ;
@@ -203,6 +221,7 @@ LEXICON TSEEKJIVELA
 
 
 LEXICON DZORALVELA
+!! **LEXICON @LEXNAME@** cns pres and ad pret
 +Ind+Prs:alv cns_pressuff ;
 +Ind+Prs+Sg3:ila # ;
 +Ind+Prs+Pl2:ina # ;
@@ -213,6 +232,7 @@ LEXICON DZORALVELA
 !! ## Intransitive morphology
 
 LEXICON GARUVELA
+!! **LEXICON @LEXNAME@** cns pres and jom pret
 +Ind+Prs:uv cns_pressuff ;
 +Ind+Prs+Sg3:ila # ;
 +Ind+Prs+Sg3:ina # ;
@@ -223,6 +243,7 @@ LEXICON GARUVELA
 +Ind+Prt:adii pretsuff_jom ;
 
 LEXICON AGURVELA
+!! **LEXICON @LEXNAME@** cns pres and jom pret
 +Ind+Prs:urv cns_pressuff ;
 +Ind+Prt:urd pretsuff ;
 +Ind+Prt:urdii pretsuff_jom ;
@@ -234,9 +255,13 @@ LEXICON DZORJULVELA
 +Ind+Prt:udii pretsuff_jom ;
 +Ind+Prt:adii pretsuff_jom ;
 
+
 !! ## Person suffixes
 
+!! Here come the person suffixes.
+
 LEXICON cns_pressuff
+!! **LEXICON @LEXNAME@** cns pres: aa, eha, ela, ...
 +Sg1:%>aa  #   ;
 +Sg2:%>eha  #   ;
 +Sg3:%>ela  #   ;
@@ -245,6 +270,7 @@ LEXICON cns_pressuff
 +Pl3:%>ena  #   ;
 
 LEXICON vow_pressuff
+!! **LEXICON @LEXNAME@** vcow pres: a, ha, la, ...
 +Sg1:%>a  #   ;
 +Sg2:%>ha  #   ;
 +Sg3:%>la  #   ;
@@ -254,6 +280,7 @@ LEXICON vow_pressuff
 
 
 LEXICON pretsuff
+!! **LEXICON @LEXNAME@** om, al, as...
 +Sg1:%>om  #   ;
 +Sg2:%>al  #   ;
 +Sg3:%>as  #   ;
@@ -263,6 +290,7 @@ LEXICON pretsuff
 +Pl3:%>e  #   ;
 
 LEXICON pretsuff_jom
+!! **LEXICON @LEXNAME@** jom, jal, lo, ...
 +Ind+Prt+Sg1:%>jom  #   ;
 +Ind+Prt+Sg2:%>jal  #   ;
 +Ind+Prt+Sg3:%>lo  #   ;

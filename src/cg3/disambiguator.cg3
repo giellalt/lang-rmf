@@ -1,9 +1,12 @@
 
 
 # =============================== #
-#!! # Romani kale  disambiguator 
+#!! # Kalo Finnish Romani  disambiguator 
 # =============================== #
 
+#!! This is a file for automatic syntactic analysis of Kalo Finnish  Romani.
+#!! It is written within the *Constraint grammar* formalism.
+#!! It is in an initial state, containing only a handful of rules.
 
 # ========== #
 # Delimiters #
@@ -18,6 +21,7 @@ DELIMITERS = "<.>" "<!>" "<?>" "<¶>";
 #!! ## Tags and sets 
 # ============= #
 
+#!! This section just defines all grammatical tags from the morphology.
 
 # ========
    SETS
@@ -244,7 +248,7 @@ LIST BAREPLURALS = "barn" "fólk" "bygdafólk" "konufólk" ;
 
 ########################                  #########################
 ########################                  #########################
-                        # disambiguation #
+                        #!! # Rule section
 ########################                  #########################
 ########################                  #########################
 
@@ -254,28 +258,38 @@ SECTION
 REMOVE Guess ; # If any other reading is possible.
 
 
-#!! ## Pre or post
+#!! ## Adposition rules
+
+#!! Rule **Po**: Pre or post? Removes Pr reading when Gen is to the left and not to the right.
 
 REMOVE:Po Pr IF (-1 Gen)(0 Po)(NOT *1 Gen);
 
-#!! ## Adjectives
+#!! ## Adjective rules
 
+#!! Rule **Msc** selects masculine adjective if following noun is masculine
 REMOVE:Msc Fem IF (0 A + Msc)(1C N + Msc);
+#!! Rule **Fem** selects feminine adjective if following noun is feminine
 REMOVE:Fem Msc IF (0 A + Fem)(1C N + Fem);
 
-#!! ## Pronouns
+#!! ## Pronoun rules
 
+#!! Rule **Pers** removes Poss if next word is verb (to be refined)
 REMOVE:Pers Poss IF (0 Pers)(1C V);
 
-#!! ## Determiners
+#!! ## Determiner rules
 
+#!! Rule **DetSg** removes Pl reading of Det if next word is singular noun.
 REMOVE:DetSg Pl IF (0 Det + Sg)(1C N + Sg);
+
+#!! Rule **DetSgNP** removes Pl reading of Det if to the left is singular noun and only pre-np words inbetween
 REMOVE:DetSgNP Pl IF (0 Det + Sg)(*1C N + Sg BARRIER NPNH);
 
-#!! ## Verbs
+#!! ## Verb rules
 
-SELECT:Sg2 Sg1 IF (-1C ("me") + Pron + Nom);
+#!! Rule **Sg1** selects Sg1 if nominative *me* to the left. 
+SELECT:Sg1 Sg1 IF (-1C ("me") + Pron + Nom);
 
+#!! Rule **Sg3** removes Pl3 reading for verb if word to the left is singular nominative N or Pron.
 REMOVE:Sg3 Pl3 IF (-1C N + Sg OR Pron + Sg3 OR Det + Sg)(0 V);
 
 

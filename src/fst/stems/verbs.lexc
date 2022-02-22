@@ -1,9 +1,9 @@
 !! # Verbs
 !  -----
-!! No work has been done on verbs so far.
+!! This lists verbs as presented in the grammar.
 
 LEXICON Verbs
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@** is the lexicon, containing the verb list
 
 !! ## Auxiliaries
 
@@ -16,90 +16,90 @@ vaa+V: VAA "tulla" ; !!≈ @CODE@ tulla
 
 !! #### (a) Other than r-stems, primary verbs
 
-! 6.23 (b) d-preteriti, stem -l-
-bollela+V:boll BOLL "kastaa" ;
-spillela+V:spill BOLL "pistää" ;
+!! 6.23 (b) d-preteriti, stem -l-
+bollela+V:boll BOLL "kastaa" ; !!≈ * @CODE@ 
+spillela+V:spill BOLL "pistää" ; !!≈ * @CODE@
 tšellela+V:tšell BOLL "tanssia" ;
 tšollela+V:tšoll BOLL "kuoria" ;
 
-! 6.23 (b) d-preteriti, stem -v-
-tšuuvela+V:tšuu TSUUV "laittaa" ;
+!! 6.23 (b) d-preteriti, stem -v-
+tšuuvela+V:tšuu TSUUV "laittaa" ; !!≈ * @CODE@
 
-traadela+V:traad TRAAD "ajaa" ;
+traadela+V:traad TRAAD "ajaa" ; !!≈ * @CODE@
 
-baȟȟela+V:baȟȟ BAHH "pyytää" ;
+baȟȟela+V:baȟȟ BAHH "pyytää" ; !!≈ * @CODE@
 
-mekkela+V:mekk MEKK "jättää";
+mekkela+V:mekk MEKK "jättää"; !!≈ * @CODE@
 
-dela+V:d D "antaa" ;
+dela+V:d D "antaa" ; !!≈ * @CODE@
 
 
 !! #### (b) r-stems, primary verbs
 
-! 6.23 (a) d-preteriti, stem -r-
-tšerra+V:tšeer TSEER "tehdä" ;
-perra+V:peer TSEER "kaataa" ;
+!! 6.23 (a) d-preteriti, stem -r-
+tšerra+V:tšeer TSEER "tehdä" ; !!≈ * @CODE@
+perra+V:peer TSEER "kaataa" ; !!≈ * @CODE@
 khaarela+V:khaar TSEER "kutsua" ;
 
-lurrela+V:lurr LURR "" ;
-kurrela+V:kurr LURR "tapella" ;
+lurrela+V:lurr LURR "" ; !!≈ * @CODE@
+kurrela+V:kurr LURR "tapella" ; !!≈ * @CODE@
 
 !! #### id past tense
-! 6.24 stem b, d, t, id past tense
-džamba+V:džamb DZAMB "laulaa" ;
-khanda+V:khand DZAMB "haista" ;
+!! 6.24 stem b, d, t, id past tense
+džamba+V:džamb DZAMB "laulaa" ; !!≈ * @CODE@
+khanda+V:khand DZAMB "haista" ; !!≈ * @CODE@
 rooda+V:rood DZAMB "etsiä" ;
 traada+V:traad DZAMB "ajaa" ;
 prasta+V:prast DZAMB "juosta" ;
 
-! 6.24 stem -n-, past tens -id
-džaan+V:džaan DZAMB "tietää" ;
-dann+V:kann DZAMB "totella" ;
+!! 6.24 stem -n-, past tens -id
+džaan+V:džaan DZAMB "tietää" ; !!≈ * @CODE@
+dann+V:kann DZAMB "totella" ; !!≈ * @CODE@
 phann+V:phann DZAMB "vangita" ;
 rann+V:rann DZAMB "kirjoittaa" ;
 
-! 6.26 t past tense
+!! 6.26 t past tense
 
-baȟȟ+V:baȟȟ BAHH "pyytää" ;
-beȟȟ+V:beȟȟ BAHH "istua" ;
+baȟȟ+V:baȟȟ BAHH "pyytää" ; !!≈ * @CODE@
+beȟȟ+V:beȟȟ BAHH "istua" ; !!≈ * @CODE@
 koȟȟ+V:koȟȟ BAHH "kirota" ;
 naȟȟ+V:haȟȟ BAHH "karata" ;
 traȟȟ+V:traȟȟ BAHH "pelätä" ; 
 khoss+V:khoss BAHH "pyyhkiä" ;
 
-! 6.27 Stem -g, -k, past tense l
-mang+V:mang MANG "pyytää" ; ! mangl-
+!! 6.27 Stem -g, -k, past tense l
+mang+V:mang MANG "pyytää" ; ! !!≈ * @CODE@ mangl-
 
-mukk+V:mukk DIKK "jättää" ; ! dikl, dikn
-dikk+V:dikk DIKK "nähdä" ;
+mukk+V:mukk DIKK "jättää" ;  !!≈ * @CODE@ dikl, dikn
+dikk+V:dikk DIKK "nähdä" ; !!≈ * @CODE@
 mekk+V:mekk DIKK "jättää" ;
 pekk+V:pekk DIKK "paistaa" ;
 
-kamm+V:kamm KAMM "haluta" ; ! kaml
-aan+V:ann KAMM "tuoda" ;
+kamm+V:kamm KAMM "haluta" ;  !!≈ * @CODE@ kaml
+aan+V:ann KAMM "tuoda" ; !!≈ * @CODE@
 ȟunn+V:ȟunn KAMM "kuulla" ;
 tšinn+V:tšinn KAMM "ostaa" ;
 
 !! #### Transitive derivatives
 
-rakkavela+V:rakk RAKKAVELA "puhua" ;
-phagarvela+V:phag PHAGARVELA "rikkoa" ;
+rakkavela+V:rakk RAKKAVELA "puhua" ; !!≈ * @CODE@
+phagarvela+V:phag PHAGARVELA "rikkoa" ; !!≈ * @CODE@
 tšaaljevela+V:tšaalj TSJALJEVELA "tehdä kylläiseksi" ;
 tšeekjivela+V:tšeekj TSEEKJIVELA "tunnustaa" ;
 džorjalvela+V:dšorj DZORALVELA "vahvistaa" ;
 
 !! #### Intransitive derivatives
 
-garuvela+V:gar GARUVELA "piiloutua" ;
-agurvela+V:ag AGURVELA "loppua" ;
+garuvela+V:gar GARUVELA "piiloutua" ; !!≈ * @CODE@
+agurvela+V:ag AGURVELA "loppua" ; !!≈ * @CODE@
 džorjulvela+V:džorj DZORJULVELA "vahvistua" ;
 
 !! ### Vowel stem, primary verbs
 
-džala+V:dž DZA "mennä" ;
-ȟala+V:ȟ DZA "syödä" ;
-sala+V:s DZA "nauraa" ;
-pila+V:pi PILA "juoda" ;
-lila+V:li PILA "ottaa, saada" ;
+džala+V:dž DZA "mennä" ; !!≈ * @CODE@
+ȟala+V:ȟ DZA "syödä" ; !!≈ * @CODE@
+sala+V:s DZA "nauraa" ; !!≈ * @CODE@
+pila+V:pi PILA "juoda" ; !!≈ * @CODE@
+lila+V:li PILA "ottaa, saada" ; !!≈ * @CODE@
 
 ! vim: set ft=xfst-lexc:

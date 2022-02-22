@@ -1,5 +1,6 @@
 
 LEXICON rmf-propernouns
+!! **LEXICON @LEXNAME@** contains just a handful, with no inflection.
 Allan prop-mal ;
 Kyösti prop-mal ;
 Milaja prop-fem ;

@@ -1,6 +1,7 @@
 !! # Kale Romani determiners
 
 LEXICON Determiners
+!! **LEXICON @LEXNAME@** 6 of them
 dauva+Det: DAUVA ;
 kouva+Det:k KOUVA ;
 douva+Det:d KOUVA ;
@@ -10,6 +11,7 @@ ako+Det:ako # "tuo" ;
 do+Det:do # "se" ;
 
 LEXICON DAUVA
+!! **LEXICON @LEXNAME@** for dauva
 +Sg+Nom:dauva # ;
 +Sg+Obl:dala # ;
 +Sg+Obl:daales # ;
@@ -27,6 +29,7 @@ LEXICON DAUVA
 +Pl+Gen:daalengo # ;
 
 LEXICON KOUVA
+!! **LEXICON @LEXNAME@** for kouva and douva
 +Sg+Nom:ouva # ;
 +Sg+Obl:ola # ;
 +Sg+Obl:ooles # ;

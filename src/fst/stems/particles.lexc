@@ -1,9 +1,15 @@
 !! # Particles
 
+!! In the grammar, *Particles* is a wide category, containing
+!! indeclineable words. Several of these should get syntactically
+!! defined POS.
+
 LEXICON pcle
+!! **LEXICON @LEXNAME@** 
 +Pcle: # ;
 
 LEXICON Particles
+!! **LEXICON @LEXNAME@** contains 30 or so words.
 te pcle ;
 ȟun pcle "kuule" ;
 uo pcle ;

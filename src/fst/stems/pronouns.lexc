@@ -1,25 +1,36 @@
 !! # Pronouns
 !  --------
-!! Three pronouns so far
+!! The pronouns are here. Some of the inflexion is in ../affixes.
+
+!! ## The lexicon Pronouns, splitting in subtypes
 
 LEXICON Pronouns
-Personal ;
-Reflexive ;
-Possessive ;
-Interrogative ;
+!! **LEXICON @LEXNAME@** with 5 sublexica
+Personal ; !!≈ * *@CODE@* 
+Reflexive ; !!≈ * *@CODE@* 
+Possessive ; !!≈ * *@CODE@* 
+Interrogative ; !!≈ * *@CODE@*
+Indefinite ; !!≈ * *@CODE@* 
+
+!! ### Personal
 
 LEXICON Personal 
-!! @LEXNAME@ me, jou
+!! **LEXICON @LEXNAME@** for me, jou, ...
 me+Pron+Pers: me_pron "minä" ;
-tu+Pron+Pers+: tu_pron "sinä" ;
+tu+Pron+Pers: tu_pron "sinä" ;
 jou+Pron+Pers: jou_pron "hän" ; 
 
+
+!! ### Reflexive
+
 LEXICON Reflexive 
+!! **LEXICON @LEXNAME@** 
 +Pron+Refl:son # ;
 +Pron+Refl: reflpron ;
 +Pron+Refl:iego # "oma" ; ! xxx
 
 LEXICON reflpron
+!! **LEXICON @LEXNAME@** 
 +Sg+Obl:pes # ;
 +Sg+Dat:peske # ;
 +Sg+Abl:pesta # ;
@@ -32,8 +43,49 @@ LEXICON reflpron
 +Pl+Gen:pen GENCASES ;
 
 
+!! ### Interrogative
+
+LEXICON Interrogative
+!! **LEXICON @LEXNAME@** for koon...
+koon adv "kuka" ;
+
+
+!! ### Indefinite
+
+LEXICON Indefinite
+!! **LEXICON @LEXNAME@** 
+tšek+Pron+Indef:tšekk es_case "joku" ;
+tši+Pron+Indef:tši # "jokin, mitään" ;
+tšitši+Pron+Indef:tšitši # "jokin, mitään" ;
+tšeeni+Pron+Indef:tšeeni # "jossakin" ;
+varekai+Pron+Indef:varekai # "jossakin" ;
+tšekkar+Pron+Indef:tšekkar # "koskaan" ;
+paarong+Pron+Indef:paarong # "joskus" ;
+sakko+Pron+Indef:sakk SAKKO "joka" ;
+saaro+Pron+Indef:saar SAARO "kaikki" ;
+soobi+Pron+Indef:soobi K "mikä vain" ;
+koonbi+Pron+Indef:koonbi K "kuka vain" ;
+vaȟkaso+Pron+Indef:vaȟkaso K "vaikka mikä" ;
+vaȟkas+Pron+Indef:vaȟkas K "vaikka mikä" ;
+vaȟkaskoon+Pron+Indef:vaȟkaskoon K "vaikka kuka" ;
+vaȟkakai+Pron+Indef:vaȟkakai K "vaikke missä" ;
+vaȟkakaana+Pron+Indef:vaȟkakaana K "vaikka milloin" ;
+vaȟkasar+Pron+Indef:vaȟkasar K "vaikka miten" ;
+
+buut+Pron+Indef:buut K "monta" ;
+buutide+Pron+Indef:buutide K "enemmän" ;
+kutti+Pron+Indef:kutti K "harva, harvoja" ;
+noogra+Pron+Indef:noogra K "muutama" ;
+dosta+Pron+Indef:dosta K "tarpeeksi" ;
+iek+Pron+Indef:iek K "eräs" ;
+it+Pron+Indef:it K "sama" ;
+froo+Pron+Indef:froo K "eri" ;
+vauro+Pron+Indef:vaur indef_temaattinen "muut" ;
+
+!! ### Possessive
 
 LEXICON Possessive 
+!! **LEXICON @LEXNAME@** for mo, to, ...
 mo+Pron+Poss+Sg+Sg1+Msc:mo # ;
 mo+Pron+Poss+Sg+Sg1+Msc:muro # ;
 to+Pron+Poss+Sg+Sg2+Msc:to # ;
@@ -55,72 +107,5 @@ te+Pron+Poss+Pl+Sg2:tire # ;
 mare+Pron+Poss+Pl+Pl1:mare # ;
 tumare+Pron+Poss+Pl+Pl2:tumare # ;
 
-!! ### Interrogative
-
-LEXICON Interrogative
-koon adv "kuka" ;
 
 
-
-
-!! ## Case inflection (move to affixes?)
-
-LEXICON me_pron !"minä"
-+Sg+Nom:me # ;
-+Sg+Obl:maan # ;
-+Sg+Dat:mange # ;
-+Sg+Abl:manna # ;
-+Sg+Ins:mansa # ;
-+Sg+Gen:mango # ;
-+Pl+Nom:men # ;
-+Pl+Nom:ame # ;
-+Pl+Nom:amen # ;
-+Pl+Obl:meen # ;
-+Pl+Obl:ameen # ;
-+Pl+Dat:maege # ;
-+Pl+Abl:menna # ;
-+Pl+Ins:mensa # ;
-+Pl+Gen:mengo # ;
-+Pl+Dat:amaege # ;
-+Pl+Abl:amenna # ;
-+Pl+Ins:amensa # ;
-+Pl+Gen:amengo # ;
-
-LEXICON tu_pron !"sinä" 
-+Sg+Nom:tu # ;
-+Sg+Obl:tuun # ;
-+Sg+Dat:tukke # ;
-+Sg+Abl:tutta # ;
-+Sg+Ins:tussa # ;
-+Sg+Ins:tuha # ;
-+Sg+Gen:tukko # ;
-+Pl+Nom:tumen # ;
-+Pl+Nom:tume # ;
-+Pl+Obl:tumeen # ;
-+Pl+Obl:tumen # ;
-+Pl+Dat:tumege # ;
-+Pl+Abl:tumenna # ;
-+Pl+Ins:tumensa # ;
-+Pl+Gen:tumengo # ;
-
-LEXICON jou_pron !"hän"  
-+Sg+Nom+Msc:jou # ;
-+Sg+Obl+Msc:les # ;
-+Sg+Dat+Msc:leske # ;
-+Sg+Abl+Msc:lesta # ;
-+Sg+Ins+Msc:lessa # ;
-+Sg+Gen+Msc:lesko # ;
-
-+Sg+Nom+Fem:joi # ;
-+Sg+Obl+Fem:la # ;
-+Sg+Dat+Fem:lake # ;
-+Sg+Abl+Fem:latta # ;
-+Sg+Ins+Fem:laha # ;
-+Sg+Gen+Fem:lako # ;
-
-+Pl+Nom:joon # ;
-+Pl+Obl:leen # ;
-+Pl+Dat:lenge # ;
-+Pl+Abl:lenna # ;
-+Pl+Ins:lensa # ;
-+Pl+Gen:lengo # ;

@@ -1,9 +1,11 @@
 !! # subjunctions
 
 LEXICON cs
+!! **LEXICON @LEXNAME@** adds the tag **+CS**
 +CS: # ;
 
 LEXICON Subjunctions
+!! **LEXICON @LEXNAME@** for at, te, so, ka, ...
 at cs "että" ;
 te cs "että" ;
 so cs "som" ; ! ???

@@ -39,7 +39,7 @@ Rules
 !!  * **@RULENAME@** ...  probably to be generalised
  k:g <=> n %> _ Vow ;
 
-"Shortening stem-final ȟȟ in final position"
+"Shortening stem-final geminate in final position"
 !!  * **@RULENAME@** for bereȟȟ to bereȟ
  Cx:0 <=> _ Cx .#. ;
       where Cx in ( ȟ k m ) ;

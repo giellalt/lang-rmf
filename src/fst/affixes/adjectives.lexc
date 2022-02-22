@@ -1,6 +1,6 @@
 !! # Adjective inflection
 !  --------------------
-!! Nothing done.
+!! Oblique cases not looked into.
 
 LEXICON TSUORO ! to be deleted
 !! @LEXNAME@ Just adding +A tag.
@@ -22,12 +22,14 @@ LEXICON BESKO !!≈ @CODE@ atemaattiset o-loppuiset adjektiivit
 +A+Der/Adv+Adv:%>as # ; ! 
 
 LEXICON FAARLIGO
+!! **LEXICON @LEXNAME@** 
 +A+Pos+Msc+Sg:%>o # ;
 +A+Pos+Fem+Sg:%>o # ;
 +A+Pos+Pl:%>a # ;
 +A: comp ;
 
 LEXICON DUUR
+!! **LEXICON @LEXNAME@** 
 +A+Pos+Msc+Sg: # ;
 +A+Pos+Fem+Sg: # ;
 +A+Pos+Pl: # ;
@@ -35,6 +37,7 @@ LEXICON DUUR
 
 
 LEXICON FROO
+!! **LEXICON @LEXNAME@** 
 +A+Pos+Msc+Sg: # ;
 +A+Pos+Fem+Sg: # ;
 +A+Pos+Pl: # ;
@@ -42,13 +45,14 @@ LEXICON FROO
 
 
 LEXICON PRFPRS
+!! **LEXICON @LEXNAME@** for participles
 +Pos+Msc+Sg:%>o K ;
 +Pos+Fem+Sg:%>i K ;
 +Pos+Pl:%>e K ;
 
 
 
-LEXICON comp
+LEXICON comp!! **LEXICON @LEXNAME@** contains only -ide for now.
 +Comp:ide       #   ; ! monta virhettä...
 
 ! vim: set ft=xfst-lexc:

@@ -1,11 +1,13 @@
 !! # Proper noun inflection
 !  ----------------------
-!! Nothing done so far.
+!! Nothing done so far, just adding tags
 
 LEXICON prop-mal
+!! **LEXICON @LEXNAME@** male names
 +N+Prop+Sem/Mal: # ;
 
 LEXICON prop-fem
+!! **LEXICON @LEXNAME@** female names
 +N+Prop+Sem/Fem: # ;
 
 

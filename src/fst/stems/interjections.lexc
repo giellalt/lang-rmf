@@ -1,8 +1,9 @@
 !! # Interjections
 
 LEXICON ij
-
+!! **LEXICON @LEXNAME@** adds tag **+Interj**
 +Interj: # ;
 
 LEXICON Interjections
+!! **LEXICON @LEXNAME@** contains one so far.
 ȟale ij ;

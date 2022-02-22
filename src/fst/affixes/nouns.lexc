@@ -36,6 +36,7 @@ LEXICON VUUDAR
 
 
 LEXICON GRAI
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:rai # ;
 +N+Msc+Sg+Obl:es # ;
 +N+Msc+Sg+Dat:res%>ke # ;
@@ -49,6 +50,7 @@ LEXICON GRAI
 +N+Msc+Pl+Gen:r%>en GENCASES ;
 
 LEXICON DZII
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:ii # ;
 +N+Msc+Sg+Obl:es # ;
 +N+Msc+Sg+Dat:es%>ke # ;
@@ -63,16 +65,19 @@ LEXICON DZII
 
 
 LEXICON IBA
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:%>a # ;
 +N+Msc:o MSCOBL ;
 +N+Msc+Sg+Ins:ossa # ;
 
 
 LEXICON BEN
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom: # ;
 +N+Msc: MSCOBL ;
 
 LEXICON OS
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:%>os # ;
 +N+Msc:o MSCOBL_SG ;
 +N+Msc+Pl+Nom:%>i # ; ! džeene
@@ -82,26 +87,31 @@ LEXICON OS
 
 
 LEXICON NIS
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:n%>is # ;
 +N+Msc:n%>i MSCOBL_SG ;
 IS_PL ;
 
 LEXICON RIS
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:r%>is # ;
 +N+Msc:r%>i MSCOBL_SG ;
 IS_PL ;
 
 LEXICON TIS
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:t%>is # ;
 +N+Msc:t%>i MSCOBL_SG ;
 IS_PL ;
 
 LEXICON SSIS
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:ss%>is # ;
 +N+Msc:ss%>i MSCOBL_SG ;
 IS_PL ;
 
 LEXICON IS_PL
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Pl+Nom:ja # ; ! džeene
 +N+Msc+Pl+Obl:j%>en # ; ! džeenen
 +N+Msc+Pl:j%>en OBLCASES_PL ;
@@ -109,6 +119,7 @@ LEXICON IS_PL
 
 
 LEXICON ES
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:%>es # ;
 +N+Msc:%>e MSCOBL_SG ;
 +N+Msc+Pl+Nom:ja # ;
@@ -116,12 +127,14 @@ LEXICON ES
 
 
 LEXICON US
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:%>us # ;
 +N+Msc:%>u MSCOBL_SG ;
 +N+Msc+Pl+Nom:u%>ja # ;
 +N+Msc:%>uj MSCOBL_PL_OBL ;
 
 LEXICON YS
+!! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:%>ys # ;
 +N+Msc:%>y MSCOBL_SG ;
 +N+Msc+Pl+Nom:y%>ja # ;
@@ -186,7 +199,7 @@ LEXICON RAADZA
 !! ### Masculine morphology
 
 LEXICON MSCOBL
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@** pointing to sg and pl lexica
 MSCOBL_SG ;
 MSCOBL_PL ;
 
@@ -224,7 +237,7 @@ LEXICON MSCOBL_PL_o
 
 
 LEXICON FEMOBL
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@** pointing to sg and pl lexica
 FEMOBL_SG ;
 FEMOBL_PL ;
 

@@ -1,9 +1,11 @@
 !! # conjunctions
 
 LEXICON cc
+!! **LEXICON @LEXNAME@** adds the tag **+CC**
 +CC: # ;
 
 LEXICON Conjunctions
+!! **LEXICON @LEXNAME@** contains 10 or so.
 ta cc "ja" ;
 o cc "ja" ;
 elle cc "tai, vai" ;

@@ -4,17 +4,20 @@
 !! ## Tags
 
 LEXICON pr
+!! **LEXICON @LEXNAME@** for +Pr
 +Pr: # ;
 
 LEXICON po
+!! **LEXICON @LEXNAME@** for +Po
 +Po: # ;
 
 LEXICON ad
+!! **LEXICON @LEXNAME@** for +Pr and +Po
 +Pr: # ;
 +Po: # ;
 
 LEXICON Adpositions
-
+!! **LEXICON @LEXNAME@** contains the list
 angnaal ad "edestä" ;
 apo ad "-lla, -lle" ;
 apraal ad "päällä" ;

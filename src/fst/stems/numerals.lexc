@@ -1,6 +1,7 @@
 !! # Kale Romani Numerals
 !  --------
-!! Numerals so far only 1-10.
+!! Numerals so far only 1-10, the tens, hundred , thousand, million.
+!! No inflection added.
 
 LEXICON Numerals
 !! **LEXICON @LEXNAME@** 
@@ -14,8 +15,27 @@ LEXICON Arabic
 
 LEXICON Numbers
 !! **LEXICON @LEXNAME@** preparing for composing
-1to10 ;
+HIGHNUMERALS ;
+TENS ;
 11to19 ;
+1to10 ;
+
+LEXICON HIGHNUMERALS
+!! **LEXICON @LEXNAME@** 
+ȟeel NUMCASE "100" ;
+aadur NUMCASE "1000" ;
+miljoonos:miljoon MILJ ;
+
+LEXICON TENS
+!! **LEXICON @LEXNAME@** 
+biȟ NUMCASE "20" ;
+trijana NUMCASE  "30" ;
+stavardeȟ NUMCASE  "40" ;
+pangȟvardeȟ NUMCASE  "50" ;
+ȟovardeȟ NUMCASE  "60" ;
+eftavardeȟ NUMCASE  "70" ;
+oȟtavardeȟ NUMCASE  "80" ;
+enjavardeȟ NUMCASE  "90" ;
 
 
 LEXICON 11to19
@@ -23,7 +43,7 @@ LEXICON 11to19
 deȟo 1to10 ;
 
 
-LEXICON 1to10
+LEXICON 1to10 ! todo: bøying (s. 87)
 !! **LEXICON @LEXNAME@** 
 iek NUMCASE ;
 dui  NUMCASE ;
@@ -40,5 +60,11 @@ deȟ  NUMCASE ;
 LEXICON NUMCASE
 !! **LEXICON @LEXNAME@** gets tag
 +Num: # ;
+
+LEXICON MILJ
+!! **LEXICON @LEXNAME@** 
++Sg:os # ;
++Pl:i # ;
++Pl:os # ;
 
 ! vim: set ft=xfst-lexc:

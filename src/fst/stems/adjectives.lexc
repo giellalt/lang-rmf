@@ -1,9 +1,11 @@
 !! # Adjectives
 !  ----------
 
+!! contains the adjectives, so far grouped by type.
+!! thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 LEXICON Adjectives
-!! **LEXICON @LEXNAME@** two so far, no subclasses.
+!! **LEXICON @LEXNAME@** 
 tšuoro:tšuor TSUORO "köyhä" ;
 biuutiboskiiro:biuutiboskiir TSUORO "epäoikeutettu" ;
 

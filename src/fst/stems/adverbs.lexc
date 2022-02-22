@@ -1,11 +1,11 @@
-!! # AdverAbs
+!! # Adverbs
 
 LEXICON adv
-!! **LEXICON @LEXNAME@** gives tag
+!! **LEXICON @LEXNAME@** gives tag **+Adv**
 +Adv: # ;
 
 LEXICON Adverbs
-!! **LEXICON @LEXNAME@** The list, one so far.
+!! **LEXICON @LEXNAME@** The list, 70 so far.
 ma adv "älä, älkää" ; ! xxx
 ka adv "kun" ;
 nikki adv "pois" ;

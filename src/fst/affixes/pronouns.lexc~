@@ -1,0 +1,115 @@
+
+
+
+
+
+!! ## Case inflection (move to affixes?)
+
+LEXICON me_pron !"minä"
++Sg+Nom:me # ;
++Sg+Obl:maan # ;
++Sg+Dat:mange # ;
++Sg+Abl:manna # ;
++Sg+Ins:mansa # ;
++Sg+Gen:mango # ;
++Pl+Nom:men # ;
++Pl+Nom:ame # ;
++Pl+Nom:amen # ;
++Pl+Obl:meen # ;
++Pl+Obl:ameen # ;
++Pl+Dat:maege # ;
++Pl+Abl:menna # ;
++Pl+Ins:mensa # ;
++Pl+Gen:mengo # ;
++Pl+Dat:amaege # ;
++Pl+Abl:amenna # ;
++Pl+Ins:amensa # ;
++Pl+Gen:amengo # ;
+
+LEXICON tu_pron !"sinä" 
++Sg+Nom:tu # ;
++Sg+Obl:tuun # ;
++Sg+Dat:tukke # ;
++Sg+Abl:tutta # ;
++Sg+Ins:tussa # ;
++Sg+Ins:tuha # ;
++Sg+Gen:tukko # ;
++Pl+Nom:tumen # ;
++Pl+Nom:tume # ;
++Pl+Obl:tumeen # ;
++Pl+Obl:tumen # ;
++Pl+Dat:tumege # ;
++Pl+Abl:tumenna # ;
++Pl+Ins:tumensa # ;
++Pl+Gen:tumengo # ;
+
+LEXICON jou_pron !"hän"  
++Sg+Nom+Msc:jou # ;
++Sg+Obl+Msc:les # ;
++Sg+Dat+Msc:leske # ;
++Sg+Abl+Msc:lesta # ;
++Sg+Ins+Msc:lessa # ;
++Sg+Gen+Msc:lesko # ;
+
++Sg+Nom+Fem:joi # ;
++Sg+Obl+Fem:la # ;
++Sg+Dat+Fem:lake # ;
++Sg+Abl+Fem:latta # ;
++Sg+Ins+Fem:laha # ;
++Sg+Gen+Fem:lako # ;
+
++Pl+Nom:joon # ;
++Pl+Obl:leen # ;
++Pl+Dat:lenge # ;
++Pl+Abl:lenna # ;
++Pl+Ins:lensa # ;
++Pl+Gen:lengo # ;
+
+
+LEXICON es_case
++Sg+Nom: K ;
++Pl+Nom: K ;
+es_case_obl ;
+
+LEXICON SAARO
++Sg+Nom:o K ;
++Pl+Nom:e K ;
+es_case_obl ;
+
+LEXICON es_case_obl
++Sg+Obl:es K ;
++Sg+Dat:eske K ;
++Sg+Abl:esta K ;
++Sg+Ins:eha K ;
++Sg+Gen:esko K ;
++Pl+Obl:en K ;
++Pl+Dat:enge K ;
++Pl+Abl:enna K
++Pl+Ins:ensa K ;
++Pl+Gen:engo K ;
+
+LEXICON SAKKO
++Msc+Sg:%>o # ;
++Fem+Sg:%>o # ; ! sakki ???
++Pl:%>a # ;
++Sg+Obl:ones K ;
++Sg+Dat:oneske K ;
++Sg+Abl:onesta K ;
++Sg+Ins:oneha K ;
++Sg+Gen:onesko K ;
++Pl+Obl:onen K ;
++Pl+Dat:onenge K ;
++Pl+Abl:onenna K
++Pl+Ins:onensa K ;
++Pl+Gen:onengo K ;
++Pl:%>e # ;
++Pl+Obl:anen K ;
++Pl+Dat:anenge K ;
++Pl+Abl:anenna K
++Pl+Ins:anensa K ;
++Pl+Gen:anengo K ;
+
+LEXICON indef_temaattinen
++Sg+Msc:%>o K ;
++Sg+Fem:%>i K ;
++Pl:%>e K ;
