@@ -11,7 +11,9 @@ This page documents the work on the [Kalo Finnish Romani language model](https:/
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* Links to project specific documentation will be added here.
+
+* The Traveller Norwegian language may be tested as an online speller by writing text [here](https://divvun.org/proofing/online-speller.html) (select Kalo Finnish Romani).
 
 # In-source documentation
 
