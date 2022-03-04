@@ -13,7 +13,14 @@ This page documents the work on the [Kalo Finnish Romani language model](https:/
 
 * Links to project specific documentation will be added here.
 
+## Programs
 * The Traveller Norwegian language may be tested as an online speller by writing text [here](https://divvun.org/proofing/online-speller.html) (select Kalo Finnish Romani).
+
+## References
+
+- Granqvist, Kimmo (2011). *Lyhyt Suomen romanikielen kielioppi*. Helsinki.
+ Granqvist, K. K. (2005). ROMTWOL: An implementation of a two-level morphological processor for Finnish Romani. I B. Schrammel, D. W. Halwachs, & G. Ambrosch (Red.), *General and Applied Romani Linguistics: Proceedings from the 6th International Conference on Romani Linguistics* (s. 150–162). Lincom Europa.
+
 
 # In-source documentation
 
