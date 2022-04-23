@@ -69,7 +69,7 @@ vaa+V: VAA "tulla" ; tulla
 #### Intransitive derivatives
 
 * garuvela+V:gar GARUVELA "piiloutua" ;
-* agurvela+V:ag AGURVELA "loppua" ;
+* agurvela+V:ag AGURVELA "loppua" ; chech this XXX
 
 ### Vowel stem, primary verbs
 

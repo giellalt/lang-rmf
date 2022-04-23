@@ -216,8 +216,6 @@ These were the set types.
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/functions.cg3)</small># Adjective inflection
 Oblique cases not looked into.
 
-TSUORO Just adding +A tag.
-
 LEXICON BARO temaattiset o-loppuiset adjektiivit
 
 LEXICON BESKO atemaattiset o-loppuiset adjektiivit
@@ -1002,7 +1000,7 @@ vaa+V: VAA "tulla" ; tulla
 #### Intransitive derivatives
 
 * garuvela+V:gar GARUVELA "piiloutua" ;
-* agurvela+V:ag AGURVELA "loppua" ;
+* agurvela+V:ag AGURVELA "loppua" ; chech this XXX
 
 ### Vowel stem, primary verbs
 

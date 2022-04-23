@@ -1,8 +1,6 @@
 # Adjective inflection
 Oblique cases not looked into.
 
-TSUORO Just adding +A tag.
-
 LEXICON BARO temaattiset o-loppuiset adjektiivit
 
 LEXICON BESKO atemaattiset o-loppuiset adjektiivit
