@@ -19,12 +19,10 @@ fi
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+A+Sg+Nom \
-            +A+Sg+Gen \
-            +A+Sg+Ill \
-            +A+Pl+Nom \
-            +A+Pl+Com \
-            +A+Attr"
+morf_codes="+A+Pos+Msc+Sg \
+            +A+Pos+Fem+Sg \
+            +A+Pos+Pl \
+            +A+Comp"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/stems/adjectives.lexc

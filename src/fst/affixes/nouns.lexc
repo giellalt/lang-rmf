@@ -177,7 +177,7 @@ LEXICON DAI
 
 LEXICON TSIMB
 !! **LEXICON @LEXNAME@** 
-+N+Fem+Sg+Nom:%>k # ;
++N+Fem+Sg+Nom: # ; ! removed %>k
 +N+Fem: FEMOBL ; ! todo
 
 

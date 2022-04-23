@@ -2,9 +2,9 @@
 !  --------------------
 !! Oblique cases not looked into.
 
-LEXICON TSUORO ! to be deleted
-!! @LEXNAME@ Just adding +A tag.
-+A: # ;
+!LEXICON TSUORO ! to be deleted
+! !! @LEXNAME@ Just adding +A tag.
+!+A: # ;
 
 
 LEXICON BARO !!≈ @CODE@ temaattiset o-loppuiset adjektiivit
