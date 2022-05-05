@@ -19,26 +19,26 @@ fi
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+N+Msc+Sg+Nom \
-            +N+Msc+Sg+Obl \
-            +N+Msc+Sg+Dat \
-            +N+Msc+Sg+Abl \
-            +N+Msc+Sg+Ins \
-            +N+Msc+Sg+Gen \
-            +N+Msc+Sg+Gen+Kiiro \
-            +N+Msc+Pl+Nom \
-            +N+Msc+Pl+Obl \
-            +N+Msc+Pl+Dat \
-            +N+Msc+Pl+Abl \
-            +N+Msc+Pl+Ins \
-            +N+Msc+Pl+Gen \
-            +N+Msc+Pl+Gen+Kiiro"
+morf_codes="+N+Fem+Sg+Nom \
+            +N+Fem+Sg+Obl \
+            +N+Fem+Sg+Dat \
+            +N+Fem+Sg+Abl \
+            +N+Fem+Sg+Ins \
+            +N+Fem+Sg+Gen \
+            +N+Fem+Sg+Gen+Kiiro \
+            +N+Fem+Pl+Nom \
+            +N+Fem+Pl+Obl \
+            +N+Fem+Pl+Dat \
+            +N+Fem+Pl+Abl \
+            +N+Fem+Pl+Ins \
+            +N+Fem+Pl+Gen \
+            +N+Fem+Pl+Gen+Kiiro"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/stems/nouns.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
-exception_lexicons="(DZUULI|BAAR|ANGRUSTI|KHURMIN|BORNIK|DAI|TSIMB|SKOOLA|RAADZA)"
+exception_lexicons="(RAKLO|LAU|BEREH|VUUDAR|GRAI|DZII|IBA|BEN|OS|NIS|RIS|TIS|SSIS|IS_PL|ES|US|YS)"
 
 # FST used for generation, MINUS suffix:
 generator_file=src/generator-gt-norm
