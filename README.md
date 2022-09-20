@@ -4,6 +4,8 @@ The Kalo Finnish Romani morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-rmf)](https://github.com/giellalt/lang-rmf/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-rmf/main/badge.svg)](https://github.com/giellalt/lang-rmf/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-rmf)](https://github.com/giellalt/lang-rmf/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-rmf?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-rmf?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Kalo Finnish Romani language,
 for building morphological analysers, proofing tools
