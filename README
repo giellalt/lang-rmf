@@ -1,9 +1,9 @@
 .. -*- mode: rst -*-
 ========================================
- The Romany morphology and tools
+ The Kalo Finnish Romani morphology and tools
 ========================================
 
-This directory contains source files for the Romany language morphology
+This directory contains source files for the Kalo Finnish Romani language morphology
 and dictionary. The data and implementation are licenced under __LICENCE__
 licence also detailed in the LICENCE file of this directory. The authors named
 in the AUTHORS file are available to grant other licencing choices.
@@ -13,14 +13,14 @@ file INSTALL.
 
 Documentation is scattered around on the Giellatekno and Divvun pages, e.g.:
 
-* http://giellatekno.uit.no/romdoc/index.html
-* http://giellatekno.uit.no/doc/tools/docu-rom-manual.html
-* http://divvun.no/doc/index.html
+* http://giellatekno.uit.no/rmfdoc/index.html
+* https://giellalt.uit.no/tools/docu-rmf-manual.html
+* https://giellalt.uit.no/index.html
 
 Requirements
 ------------
 
-In order to compile and use Romany language morphology and dictionaries,
+In order to compile and use Kalo Finnish Romani language morphology and dictionaries,
 you need:
 
 * Xerox Finite-State Morphology tools, or
@@ -34,8 +34,8 @@ Optionally:
 Downloading
 -----------
 
-The Romany language sources can be acquired using `giella SVN
-repository <http://divvun.no/doc/infra/anonymous-svn.html>`_, from the
+The Kalo Finnish Romani language sources can be acquired using `giella SVN
+repository <https://giellalt.uit.no/infra/anonymous-svn.html>`_, from the
 language specific directory, after the core has been downloaded and initial
 setup has been performed.
 

@@ -1,0 +1,11 @@
+!! Adjective inflection
+!  --------------------
+!! The Romany language adjectives compare.
+
+LEXICON Comparisons
++A:0        K   ;
++A+Comp:er       K   ;
++A+Superl:est      K   ;
+
+! vim: set ft=xfst-lexc:
+

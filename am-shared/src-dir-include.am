@@ -20,7 +20,7 @@
 #
 # Full details regarding transducer filenames can be found at:
 #
-# http://divvun.no/doc/infra/infraremake/TransducerNamesInTheNewInfra.html
+# https://giellalt.uit.no/infra/infraremake/TransducerNamesInTheNewInfra.html
 
 ####### Automake targets: ########
 # Make sure that targets are deleted when something breaks:
@@ -67,7 +67,7 @@ endif # WANT_MORPHOLOGY
 
 if WANT_GENERATION
 GT_GENERATORS+=generator-gt-desc.hfstol \
-			   generator-gt-norm.hfstol 
+			   generator-gt-norm.hfstol
 endif # WANT_GENERATION
 
 if WANT_GLOSSERS
