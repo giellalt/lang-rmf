@@ -1,11 +1,11 @@
 prefix=@prefix@
 exec_prefix=${prefix}
 datadir=@datarootdir@
-gtlang=rom
+gtlang=rmf
 dir=${datadir}/giella/${gtlang}
 srcdir=${datadir}/giella/${gtlang}
 
-Name: giella-rom
-Description: Finite-state language processing tools for Romany
-URL: http://divvun.no/doc/index.html
+Name: giella-rmf
+Description: Finite-state language processing tools for Kale Finnish Romany
+URL: https://giellalt.uit.no/index.html
 Version: @VERSION@
