@@ -56,6 +56,7 @@ o
 p
 r
 s
+š
 t
 u
 v
@@ -81,8 +82,8 @@ z
 @@
 
 ## Transition pair specifications + weight:
-a	á	0.4
-
+s	š	2
+c	č	2
 ## Swaps. NB! Please note that these depend on the variable
 ## USE_SWAPS in Makefile.am in this directory. Also note that
 ## enabling swaps is computationally expensive. See note in
