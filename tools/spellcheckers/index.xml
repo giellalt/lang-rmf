@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>rmf</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Kalo Finnish Romani</title>
+    <title>Kalo Finnish Romani</title>
     <description>This is an fst-based speller for Kalo Finnish Romani. It is based
     on the normative subset of the morphological analyser for Kalo Finnish Romani.
     The source code can be found at:
