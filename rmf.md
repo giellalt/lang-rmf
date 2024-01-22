@@ -232,7 +232,7 @@ LEXICON BESKO atemaattiset o-loppuiset adjektiivit
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -333,7 +333,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -359,7 +359,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -372,7 +372,7 @@ Nothing done so far, just adding tags
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -383,7 +383,7 @@ This content is just from the template, work has not begun.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -465,7 +465,7 @@ Here come the person suffixes.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -508,7 +508,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -662,7 +662,7 @@ LEXICON **K** (for clitics, probably not needed)
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -687,7 +687,7 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -706,7 +706,7 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adpositions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adpositions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/adpositions.lexc)</small>
 
 ---
 
@@ -718,7 +718,7 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
 
@@ -730,7 +730,7 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/conjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
 
@@ -744,7 +744,7 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/determiners.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/determiners.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/determiners.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/determiners.lexc)</small>
 
 ---
 
@@ -756,7 +756,7 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/interjections.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
 
@@ -809,7 +809,7 @@ To be added when basis is in place.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -837,7 +837,7 @@ No inflection added.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -853,7 +853,7 @@ defined POS.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/particles.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/particles.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/particles.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/particles.lexc)</small>
 
 ---
 
@@ -864,7 +864,7 @@ Prefixes No prefixes so far. Are there any?
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
 
@@ -904,7 +904,7 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
@@ -913,7 +913,7 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/rmf-propernouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/rmf-propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/rmf-propernouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/rmf-propernouns.lexc)</small>
 
 ---
 
@@ -925,7 +925,7 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/subjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/subjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/subjunctions.lexc)</small>
 
 ---
 
@@ -1012,7 +1012,7 @@ vaa+V: VAA "tulla" ; tulla
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -1179,7 +1179,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-rmf/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-rmf/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -1199,7 +1199,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -1213,7 +1213,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
