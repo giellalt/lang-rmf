@@ -1,4 +1,4 @@
-name = "Kalo Finnish Romani"
+name = "@GLANGUAGE@"
 version = "@SPELLERVERSION@"
 
 # Name of the speller package in various languages.
