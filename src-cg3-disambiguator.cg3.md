@@ -38,4 +38,5 @@ Rule **Sg1** selects Sg1 if nominative *me* to the left.
 Rule **Sg3** removes Pl3 reading for verb if word to the left is singular nominative N or Pron.
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/disambiguator.cg3)</small>

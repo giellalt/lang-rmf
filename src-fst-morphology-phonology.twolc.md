@@ -38,6 +38,3 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/phonology.twolc)</small>
-
----
-

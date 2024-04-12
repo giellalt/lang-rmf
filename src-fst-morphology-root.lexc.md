@@ -149,6 +149,3 @@ LEXICON **K** (for clitics, probably not needed)
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/root.lexc)</small>
-
----
-

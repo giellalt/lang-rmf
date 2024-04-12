@@ -1,6 +1,10 @@
-# Kalo Finnish Romani description 
+# Kalo Finnish Romani language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-disambiguator.cg3.md 
 
 
 
@@ -42,7 +46,14 @@ Rule **Sg1** selects Sg1 if nominative *me* to the left.
 Rule **Sg3** removes Pl3 reading for verb if word to the left is singular nominative N or Pron.
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 Kalo Finnish Romani syntactic functions.
 
 Nothing done with this topic so far. This file is just a dummy copy of the North Saami file.
@@ -213,7 +224,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/functions.cg3)</small># Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-rmf/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+# Adjective inflection
 Oblique cases not looked into.
 
 LEXICON BARO temaattiset o-loppuiset adjektiivit
@@ -235,6 +253,8 @@ LEXICON BESKO atemaattiset o-loppuiset adjektiivit
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Noun inflection
 The inflection first gives N, Nom and gender tags, then point to oblique cases.
@@ -337,6 +357,8 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ---
 
+# src-fst-morphology-affixes-pronouns.lexc.md 
+
 
 
 ## Case inflection (move to affixes?)
@@ -363,6 +385,8 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ---
 
+# src-fst-morphology-affixes-propernouns.lexc.md 
+
 # Proper noun inflection
 Nothing done so far, just adding tags
 
@@ -376,6 +400,8 @@ Nothing done so far, just adding tags
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -386,6 +412,8 @@ This content is just from the template, work has not begun.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # Kalo Finnish Romani verb inflection
 
@@ -469,6 +497,8 @@ Here come the person suffixes.
 
 ---
 
+# src-fst-morphology-phonology.twolc.md 
+
 # The Romany morphophonological/twolc rules file 
 
 ## Declarations and definitions
@@ -511,6 +541,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 # The Kalo Finnish Romany *root.lexc* file                    
@@ -666,6 +698,8 @@ LEXICON **K** (for clitics, probably not needed)
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 # Adjectives
 
 contains the adjectives, so far grouped by type.
@@ -691,6 +725,8 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
+# src-fst-morphology-stems-adpositions.lexc.md 
+
 
 # Romani kale adpositions
 
@@ -710,6 +746,8 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
+# src-fst-morphology-stems-adverbs.lexc.md 
+
 # Adverbs
 
 **LEXICON adv** gives tag **+Adv**
@@ -722,6 +760,8 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
+# src-fst-morphology-stems-conjunctions.lexc.md 
+
 # conjunctions
 
 **LEXICON cc** adds the tag **+CC**
@@ -733,6 +773,8 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-determiners.lexc.md 
 
 # Kale Romani determiners
 
@@ -748,6 +790,8 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
+# src-fst-morphology-stems-interjections.lexc.md 
+
 # Interjections
 
 **LEXICON ij** adds tag **+Interj**
@@ -759,6 +803,8 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 # Noun stems
 This documents the file `stems/nouns.lexc`. So far only close to 200 words distributed on different inflection types.
@@ -813,6 +859,8 @@ To be added when basis is in place.
 
 ---
 
+# src-fst-morphology-stems-numerals.lexc.md 
+
 # Kale Romani Numerals
 Numerals so far only 1-10, the tens, hundred , thousand, million.
 No inflection added.
@@ -841,6 +889,8 @@ No inflection added.
 
 ---
 
+# src-fst-morphology-stems-particles.lexc.md 
+
 # Particles
 
 In the grammar, *Particles* is a wide category, containing
@@ -857,6 +907,8 @@ defined POS.
 
 ---
 
+# src-fst-morphology-stems-prefixes.lexc.md 
+
 # Prefixes
 So far no prefixes in the model for Finnish Romany .
 
@@ -867,6 +919,8 @@ Prefixes No prefixes so far. Are there any?
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 # Pronouns
 The pronouns are here. Some of the inflexion is in ../affixes.
@@ -908,6 +962,8 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 
 ---
 
+# src-fst-morphology-stems-rmf-propernouns.lexc.md 
+
 
 **LEXICON rmf-propernouns** contains just a handful, with no inflection.
 
@@ -916,6 +972,8 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/rmf-propernouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/rmf-propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-subjunctions.lexc.md 
 
 # subjunctions
 
@@ -928,6 +986,8 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/subjunctions.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/subjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 # Verbs
 This lists verbs as presented in the grammar.
@@ -1015,6 +1075,8 @@ vaa+V: VAA "tulla" ; tulla
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -1183,6 +1245,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Kalo Finnish Romani are read out, e.g.
@@ -1203,6 +1267,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -1216,6 +1282,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -1514,7 +1582,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-rmf/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for rmf
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-rmf/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for rmf
 
 Usage:
 ```
@@ -1576,6 +1651,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-rmf/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for rmf
 
@@ -1640,6 +1717,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1701,6 +1780,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-rmf/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

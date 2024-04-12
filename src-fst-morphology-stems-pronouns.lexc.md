@@ -35,6 +35,3 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
-
----
-
