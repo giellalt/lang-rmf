@@ -357,6 +357,19 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ---
 
+# src-fst-morphology-affixes-prefixes.lexc.md 
+
+# Prefixes
+So far no prefixes in the model for Finnish Romany .
+
+Prefixes No prefixes so far. Are there any?
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
+
+---
+
 # src-fst-morphology-affixes-pronouns.lexc.md 
 
 
@@ -904,19 +917,6 @@ defined POS.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/particles.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/particles.lexc)</small>
-
----
-
-# src-fst-morphology-stems-prefixes.lexc.md 
-
-# Prefixes
-So far no prefixes in the model for Finnish Romany .
-
-Prefixes No prefixes so far. Are there any?
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-rmf/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
 
