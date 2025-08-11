@@ -51,7 +51,7 @@ language are presented in this system in terms of the following symbols.
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 * **+CLB** clause boundary for period and comma
 * **+PUNCT** other punctuation symbol
-* **+LEFT +RIGHT** paired symbols, parentheses
+* **+LEFT +RIGHT +MIDDLE** paired symbols, parentheses
 * **+Multi** multiword tag
 * **+Guess** guess tag (not in use)
 
