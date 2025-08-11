@@ -71,7 +71,7 @@ Multichar_Symbols
 +Symbol !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 +CLB  !!≈ * **@CODE@** clause boundary for period and comma
 +PUNCT  !!≈ * **@CODE@** other punctuation symbol
-+LEFT +RIGHT !!≈ * **@CODE@** paired symbols, parentheses
++LEFT +RIGHT +MIDDLE !!≈ * **@CODE@** paired symbols, parentheses
  +Multi !!≈ * **@CODE@** multiword tag
  +Guess !!≈ * **@CODE@** guess tag (not in use)
 
