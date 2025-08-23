@@ -41,9 +41,9 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ### Feminines
 
-**LEXICON DZUULI** 
+**LEXICON BAAR** pheen, tunnuksettomat fem
 
-**LEXICON BAAR** 
+**LEXICON DZUULI** 
 
 **LEXICON ANGRUSTI** 
 
