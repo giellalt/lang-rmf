@@ -15,11 +15,11 @@ Tests:
     pheen+N+Fem+Sg+Abl: phenjata
     pheen+N+Fem+Sg+Ins: phenjaha
     pheen+N+Fem+Sg+Gen: phenjako
-    pheen+N+Fem+Sg+Gen+Kiiro: phenjakiiro
+    pheen+N+Fem+Sg+Gen+Kiiro: [phenjakiiro, phenjakiiri, phenjakiire]
     pheen+N+Fem+Pl+Nom: phenja
     pheen+N+Fem+Pl+Obl: phenjen
     pheen+N+Fem+Pl+Dat: phenjenge
     pheen+N+Fem+Pl+Abl: phenjenna
     pheen+N+Fem+Pl+Ins: phenjensa
     pheen+N+Fem+Pl+Gen: phenjengo
-    pheen+N+Fem+Pl+Gen+Kiiro: phenjengiiro
+    pheen+N+Fem+Pl+Gen+Kiiro: [phenjengiiro, phenjengiiri, phenjengiire]
