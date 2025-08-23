@@ -30,7 +30,7 @@ Rules
 
 "Deleting stem-final s in instrumental"
 !!  * **@RULENAME@** ...  probably to be generalised
- s:0 <=> %> [i|e|o|u|y] _ %> %^CDEL: h a [%>|.#.];
+ s:0 <=> %> [i|e|o|u|y] _ %^CDEL: %> h a [%>|.#.];
 
 !€ rakl>es>^CDELha
 !€ rakl>e0>0ha
@@ -65,6 +65,8 @@ Cx:0 <=> Vow Cx _ %> Cns ;
 !!  * **@RULENAME@** perhaps with a trigger ^VSH?
 Vx:0 <=> Vx _ (Cns) %> Cns ;
      where Vx in (a e i o u y ) ;
+
+
 
 
 
