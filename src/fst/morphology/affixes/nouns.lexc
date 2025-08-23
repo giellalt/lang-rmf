@@ -9,7 +9,7 @@
 LEXICON RAKLO
 !! **LEXICON @LEXNAME@** adds -o for Sg Nom and redirects to MSCOBL
 +N+Msc+Sg+Nom:%>o # ;
-+N+Msc: MSCOBL ;
++N+Msc:%>e MSCOBL ;
 
 LEXICON LAU
 !! **LEXICON @LEXNAME@** 
@@ -47,6 +47,7 @@ LEXICON GRAI
 +N+Msc+Pl+Nom:raija # ; ! 
 +N+Msc+Pl+Obl:re%>en # ; ! džeenen
 +N+Msc+Pl:r%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:r%>en%>ko # ;
 +N+Msc+Pl+Gen:r%>en GENCASES ;
 
 LEXICON DZII
@@ -56,11 +57,13 @@ LEXICON DZII
 +N+Msc+Sg+Dat:es%>ke # ;
 +N+Msc+Sg+Abl:es%>ta # ;
 +N+Msc+Sg+Ins:es%>sa # ;
++N+Msc+Sg+Gen:esko # ;
 +N+Msc+Sg+Gen:es GENCASES ;
 
 +N+Msc+Pl+Nom:ii%>ja # ; ! 
 +N+Msc+Pl+Obl:%>en # ; ! džeenen
 +N+Msc+Pl:%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:%>enko # ;
 +N+Msc+Pl+Gen:%>en GENCASES ;
 
 
@@ -79,10 +82,11 @@ LEXICON BEN
 LEXICON OS
 !! **LEXICON @LEXNAME@** 
 +N+Msc+Sg+Nom:%>os # ;
-+N+Msc:o MSCOBL_SG ;
++N+Msc:%>o MSCOBL_SG ;
 +N+Msc+Pl+Nom:%>i # ; ! džeene
 +N+Msc+Pl+Obl:%>en # ; ! džeenen
 +N+Msc+Pl:%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:%>enko # ;
 +N+Msc+Pl+Gen:%>en GENCASES ;
 
 
@@ -115,6 +119,7 @@ LEXICON IS_PL
 +N+Msc+Pl+Nom:ja # ; ! džeene
 +N+Msc+Pl+Obl:j%>en # ; ! džeenen
 +N+Msc+Pl:j%>en OBLCASES_PL ;
++N+Msc+Pl+Gen:j%>enko # ;
 +N+Msc+Pl+Gen:j%>en GENCASES ;
 
 
@@ -144,16 +149,21 @@ LEXICON YS
 
 !! ### Feminines
 
+LEXICON BAAR
+!! **LEXICON @LEXNAME@** pheen, tunnuksettomat fem
++N+Fem+Sg+Nom: # ; ! stem = nom
++N+Fem: FEMOBL ;   ! same forms in whole para
+
 LEXICON DZUULI
 !! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom:%>i # ;
-+N+Fem: # ; ! todo
++N+Fem+Sg+Obl:%>ja # ; ! phenja
++N+Fem+Sg:%>ja OBLCASES_SG ;
++N+Fem+Sg+Gen:%>jako # ;
++N+Fem+Sg+Gen:%>ija GENCASES ;
++N+Fem: FEMOBL_PL ; ! regular
 
 
-LEXICON BAAR
-!! **LEXICON @LEXNAME@** 
-+N+Fem+Sg+Nom: # ;
-+N+Fem: FEMOBL ; ! todo
 
 LEXICON ANGRUSTI
 !! **LEXICON @LEXNAME@** 
@@ -173,7 +183,7 @@ LEXICON BORNIK
 LEXICON DAI
 !! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom:%>i # ;
-+N+Fem: FEMOBL ; ! todo
++N+Fem: DAIOBL ; ! todo
 
 LEXICON TSIMB
 !! **LEXICON @LEXNAME@** 
@@ -208,21 +218,22 @@ LEXICON MSCOBL_SG
 !! **LEXICON @LEXNAME@** 
 +Sg+Obl:s # ;
 +Sg:s OBLCASES_SG ;
++Sg+Gen:sko # ;
 +Sg+Gen:s GENCASES ;
 
 
 LEXICON MSCOBL_PL 
 !! **LEXICON @LEXNAME@** 
-+Pl+Nom:%>e # ; ! džeene
-+Pl+Obl:%>en # ; ! džeenen
-+Pl:%>en OBLCASES_PL ;
-+Pl+Gen:%>en GENCASES ;
++Pl+Nom: # ; ! džeene
++Pl+Obl:%>n # ; ! džeenen
++Pl:%>n OBLCASES_PL ;
++Pl+Gen:%>n GENCASES ;
 
 LEXICON MSCOBL_PL_OBL 
 !! **LEXICON @LEXNAME@** 
-+Pl+Obl:%>en # ; ! džeenen
-+Pl:%>en OBLCASES_PL ;
-+Pl+Gen:%>en GENCASES ;
++Pl+Obl:%>n # ; ! džeenen
++Pl:%>n OBLCASES_PL ;
++Pl+Gen:%>n GENCASES ;
 
 LEXICON MSCOBL_PL_o 
 !! **LEXICON @LEXNAME@** 
@@ -244,22 +255,22 @@ FEMOBL_PL ;
 
 LEXICON FEMOBL_SG 
 !! **LEXICON @LEXNAME@** 
-+Sg+Obl:ja # ; ! phenja
-+Sg+Obl:a # ; ! xxx check this tšimba
-+Sg+Obl:e # ; ! xxx check this tšimbe
-+Sg:ja OBLCASES_SG ;
-+Sg:a OBLCASES_SG ;
-+Sg:e OBLCASES_SG ;
-+Sg+Gen:ja GENCASES ;
-+Sg+Gen:a GENCASES ;
-+Sg+Gen:e GENCASES ;
++Sg+Obl:%>ja # ; ! phenja
+!+Sg+Obl:%>a # ; ! xxx check this tšimba
+!+Sg+Obl:%>e # ; ! xxx check this tšimbe
++Sg:%>ja OBLCASES_SG ;
+!+Sg:%>a OBLCASES_SG ;
+!+Sg:%>e OBLCASES_SG ;
++Sg+Gen:%>jako # ;
++Sg+Gen:%>ja GENCASES ;
+
 
 LEXICON FEMOBL_PL 
 !! **LEXICON @LEXNAME@** 
-+Pl+Nom:%>e # ; ! džeene
-+Pl+Obl:%>en # ; ! džeenen
-+Pl:%>en OBLCASES_PL ;
-+Pl+Gen:%>en GENCASES ;
++Pl+Nom:%>ja # ; ! kalja
++Pl+Obl:%>jen # ; ! kaljen
++Pl:%>jen OBLCASES_PL ;
++Pl+Gen:%>jen GENCASES ;
 
 LEXICON FEMOBL_PL_OBL 
 !! **LEXICON @LEXNAME@** 
@@ -281,7 +292,7 @@ LEXICON OBLCASES_SG
 !! **LEXICON @LEXNAME@** 
 +Dat:%>ke # ;
 +Abl:%>ta # ;
-+Ins:%>^CDELha # ;
++Ins:^CDEL%>ha # ;
 
 LEXICON OBLCASES_PL
 !! **LEXICON @LEXNAME@** 
@@ -291,11 +302,19 @@ LEXICON OBLCASES_PL
 
 LEXICON GENCASES
 !! **LEXICON @LEXNAME@** 
-      :%>ko # ;
 +Kiiro:%>kiiro # ; ! fix tags
 +Kiiri:%>kiiri # ;
 +Kiire:%>kiire # ;
 
 
+LEXICON DAIOBL
++Sg+Obl: # ;
++Sg+Dat:%>ke # ;
++Sg+Abl:%>tta # ;
++Sg+Ins:%>ha # ;
++Sg+Gen: GENCASES  ;
++Pl+Nom:i%>ja # ;
++Pl+Obl:i%>jen # ;
++Pl:%>jen OBLCASES_PL ;
 ! vim: set ft=xfst-lexc:
 
