@@ -136,7 +136,8 @@ LEXICON US
 +N+Msc+Sg+Nom:%>us # ;
 +N+Msc:%>u MSCOBL_SG ;
 +N+Msc+Pl+Nom:u%>ja # ;
-+N+Msc:%>uj MSCOBL_PL_OBL ;
++N+Msc+Pl+Gen:u%>jengo # ;
++N+Msc:%>uje MSCOBL_PL_OBL ;
 
 LEXICON YS
 !! **LEXICON @LEXNAME@** 
@@ -160,7 +161,11 @@ LEXICON KAALI
 +N+Fem+Sg+Obl:%>ja # ; ! phenja
 +N+Fem+Sg:%>ja OBLCASES_SG ;
 +N+Fem+Sg+Gen:%>jako # ;        ! kaljako
-+N+Fem+Sg+Gen:%>ija GENCASES ;  ! kaalijakkiiro
++N+Fem+Sg+Gen+Kiiro:%>jakiiro # ;        ! kaljako
++N+Fem+Sg+Gen:%>ija^KK GENCASES ;  ! kaalijakkiiro
++N+Fem+Pl+Gen:%>jengo # ;        ! kaljako
++N+Fem+Pl+Gen:%>jen GENCASES ;  ! kaalijakkiiro
+
 +N+Fem: FEMOBL_PL ; ! regular   ! kaljengiiro
 
 
@@ -303,8 +308,8 @@ LEXICON OBLCASES_PL
 LEXICON GENCASES
 !! **LEXICON @LEXNAME@** 
 +Kiiro:%>kiiro # ; ! fix tags
-+Kiiri:%>kiiri # ;
-+Kiire:%>kiire # ;
++Kiiro:%>kiiri # ;
++Kiiro:%>kiire # ;
 
 
 LEXICON DAIOBL

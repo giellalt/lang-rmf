@@ -12,9 +12,11 @@ Alphabet
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å !!≈ @CODE@
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð Š Ž Ȟ !!≈ @CODE@
 
- %>  !!≈ @CODE@
- %^V:0   !!≈ @CODE@ vowel copy
- %^CDEL:0 ;
+ %>        !!≈ @CODE@
+ %^V:0     !!≈ @CODE@ vowel copy
+ %^CDEL:0  !!≈ @CODE@ trigger to delete consonant in front of suffix
+ %^KK:0    !!≈ @CODE@ archiphoneme for doubling k in kkiiro
+ ;
 
 !! ### Sets
 Sets 
@@ -32,12 +34,18 @@ Rules
 !!  * **@RULENAME@** ...  probably to be generalised
  s:0 <=> %> [i|e|o|u|y] _ %^CDEL: %> h a [%>|.#.];
 
-!€ rakl>es>^CDELha
-!€ rakl>e0>0ha
+!!€ rakl>es>^CDELha
+!!€ rakl>e0>0ha
 
 "Voicing of k suffix after n"
 !!  * **@RULENAME@** ...  probably to be generalised
  k:g <=> n %> _ Vow ;
+
+"k doubling in kkiiro"
+%^KK:k <=> _ %> k i i r o ;
+
+!!€ kaal>ija^KK>kiiro
+!!€ kaal>ijak>kiiro
 
 "Shortening stem-final geminate in final position"
 !!  * **@RULENAME@** for bereȟȟ to bereȟ
@@ -49,7 +57,7 @@ Rules
 
 "Shortening stem-final geminate in front of suffix"
 !!  * **@RULENAME@** for lurrela : lurna
-Cx:0 <=> Vow Cx _ %> Cns ;
+Cx:0 <=> Vow Cx _ (%^CDEL:) %> Cns ;
      where Cx in ( ȟ k l m n r ) ;
      
 
