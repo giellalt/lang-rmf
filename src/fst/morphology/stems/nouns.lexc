@@ -160,30 +160,30 @@ proomus:proom US "proomu" ;
 
 !! ### i-loppuiset: butti, ...
 
-džuuli:džuul DZUULI "nainen" ;
-kaali:kaal DZUULI "kahvi" ;
-patti:patt DZUULI "kunnia" ;
-paani:paan DZUULI "vesi" ;
-raani:raan DZUULI "rouva" ;
-saani:saan DZUULI "velli" ;
+džuuli:džuul KAALI "nainen" ;
+kaali:kaal KAALI "kahvi" ;
+patti:patt KAALI "kunnia" ;
+paani:paan KAALI "vesi" ;
+raani:raan KAALI "rouva" ;
+saani:saan KAALI "velli" ;
 
-baakiboskiiri:baakiboskiir DZUULI "leipuritar" ;
-baȟiboskiiri:baȟiboskiir DZUULI "soittajatar" ;
-dekakiiri:dekakiir DZUULI "sotilastar" ;
-drambeskiiri:drambeskiir DZUULI "lääkäritär" ;
-džambiboskiiri:džambiboskiir DZUULI "laulajatar" ;
-jelpakiiri:jelpakiir DZUULI "apulainentar" ;
-masseskiiri:masseskiir DZUULI "lihakauppiastar" ;
-matšengiiri:matšengiir DZUULI "kalastajatar" ;
-sikjiboskiiri:sikjiboskiir DZUULI "opettajatar" ;
-tšelliboskiiri:tšelliboskiir DZUULI "tanssijatar" ;
+baakiboskiiri:baakiboskiir KAALI "leipuritar" ;
+baȟiboskiiri:baȟiboskiir KAALI "soittajatar" ;
+dekakiiri:dekakiir KAALI "sotilastar" ;
+drambeskiiri:drambeskiir KAALI "lääkäritär" ;
+džambiboskiiri:džambiboskiir KAALI "laulajatar" ;
+jelpakiiri:jelpakiir KAALI "apulainentar" ;
+masseskiiri:masseskiir KAALI "lihakauppiastar" ;
+matšengiiri:matšengiir KAALI "kalastajatar" ;
+sikjiboskiiri:sikjiboskiir KAALI "opettajatar" ;
+tšelliboskiiri:tšelliboskiir KAALI "tanssijatar" ;
 
 
 ! (nämä 4 "tai kuten angrusti")
-butti:butt DZUULI "työ" ;
-kakli:kakl DZUULI "sakset" ;
-siiri:siir DZUULI "sipuli" ;
-tšefni:tšefn DZUULI "kuori" ;
+butti:butt KAALI "työ" ;
+kakli:kakl KAALI "sakset" ;
+siiri:siir KAALI "sipuli" ;
+tšefni:tšefn KAALI "kuori" ;
 
 
 angrusti:angrust ANGRUSTI "sormus" ;
