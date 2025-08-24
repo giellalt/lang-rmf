@@ -154,14 +154,14 @@ LEXICON BAAR
 +N+Fem+Sg+Nom: # ; ! stem = nom
 +N+Fem: FEMOBL ;   ! same forms in whole para
 
-LEXICON DZUULI
+LEXICON KAALI
 !! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom:%>i # ;
 +N+Fem+Sg+Obl:%>ja # ; ! phenja
 +N+Fem+Sg:%>ja OBLCASES_SG ;
-+N+Fem+Sg+Gen:%>jako # ;
-+N+Fem+Sg+Gen:%>ija GENCASES ;
-+N+Fem: FEMOBL_PL ; ! regular
++N+Fem+Sg+Gen:%>jako # ;        ! kaljako
++N+Fem+Sg+Gen:%>ija GENCASES ;  ! kaalijakkiiro
++N+Fem: FEMOBL_PL ; ! regular   ! kaljengiiro
 
 
 
