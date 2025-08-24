@@ -43,7 +43,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON BAAR** pheen, tunnuksettomat fem
 
-**LEXICON DZUULI** 
+**LEXICON KAALI** 
 
 **LEXICON ANGRUSTI** 
 
