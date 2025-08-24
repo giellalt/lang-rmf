@@ -15,13 +15,13 @@ Tests:
     fooros+N+Msc+Sg+Abl: foorosta
     fooros+N+Msc+Sg+Ins: fooroha
     fooros+N+Msc+Sg+Gen: foorosko
-    fooros+N+Msc+Sg+Gen+Kiiro: fooroskiiro
+    fooros+N+Msc+Sg+Gen+Kiiro: [fooroskiiro, fooroskiiri, fooroskiire]
     fooros+N+Msc+Pl+Nom: foori
     fooros+N+Msc+Pl+Obl: fooren
     fooros+N+Msc+Pl+Dat: foorenge
     fooros+N+Msc+Pl+Abl: foorenna
     fooros+N+Msc+Pl+Ins: foorensa
     fooros+N+Msc+Pl+Gen: foorengo
-    fooros+N+Msc+Pl+Gen+Kiiro: foorengiiro
+    fooros+N+Msc+Pl+Gen+Kiiro: [foorengiiro, foorengiire, foorengiire]
 
 

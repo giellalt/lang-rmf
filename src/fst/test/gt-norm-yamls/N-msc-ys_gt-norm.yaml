@@ -15,11 +15,11 @@ Tests:
     balamys+N+Msc+Sg+Abl: balamysta
     balamys+N+Msc+Sg+Ins: balamyha
     balamys+N+Msc+Sg+Gen: balamysko
-    balamys+N+Msc+Sg+Gen+Kiiro: balamyskiiro
+    balamys+N+Msc+Sg+Gen+Kiiro: [balamyskiiro, balamyskiiri, balamyskiire]
     balamys+N+Msc+Pl+Nom: balamyja
     balamys+N+Msc+Pl+Obl: balamyjen
     balamys+N+Msc+Pl+Dat: balamyjenge
     balamys+N+Msc+Pl+Abl: balamyjenna
     balamys+N+Msc+Pl+Ins: balamyjensa
     balamys+N+Msc+Pl+Gen: balamyjengo
-    balamys+N+Msc+Pl+Gen+Kiiro: balamyjengiiro
+    balamys+N+Msc+Pl+Gen+Kiiro: [balamyjengiiro, balamyjengiiri, balamyjengiire]

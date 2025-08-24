@@ -17,14 +17,14 @@ Tests:
     vuudar+N+Msc+Sg+Abl: vuudaresta
     vuudar+N+Msc+Sg+Ins: vuudareha
     vuudar+N+Msc+Sg+Gen: vuudaresko
-    vuudar+N+Msc+Sg+Gen+Kiiro: vuudareskiiro
+    vuudar+N+Msc+Sg+Gen+Kiiro: [vuudareskiiro, vuudareskiiri, vuudareskiire]
     vuudar+N+Msc+Pl+Nom: vuudarja
     vuudar+N+Msc+Pl+Obl: [vuudaren, vuudarjen]
     vuudar+N+Msc+Pl+Dat: [vuudarenge, vuudarjenge]
     vuudar+N+Msc+Pl+Abl: [vuudarenna, vuudarjenna]
     vuudar+N+Msc+Pl+Ins: [vuudarensa, vuudarjensa]
     vuudar+N+Msc+Pl+Gen: [vuudarengo, vuudarjengo]
-    vuudar+N+Msc+Pl+Gen+Kiiro: [vuudarengiiro, vuudarjengiiro]
+    vuudar+N+Msc+Pl+Gen+Kiiro: [vuudarengiiro, vuudarjengiiro, vuudarengiiri, vuudarjengiiri, vuudarengiire, vuudarjengiire]
 
 
   Noun - grai : #  null stem
@@ -34,14 +34,14 @@ Tests:
     grai+N+Msc+Sg+Abl: gresta
     grai+N+Msc+Sg+Ins: gressa
     grai+N+Msc+Sg+Gen: gresko
-    grai+N+Msc+Sg+Gen+Kiiro: greskiiro
+    grai+N+Msc+Sg+Gen+Kiiro: [greskiiro, greskiiri, greskiire]
     grai+N+Msc+Pl+Nom: graija
     grai+N+Msc+Pl+Obl: green
     grai+N+Msc+Pl+Dat: grenge
     grai+N+Msc+Pl+Abl: grenna
     grai+N+Msc+Pl+Ins: grensa
     grai+N+Msc+Pl+Gen: grengo
-    grai+N+Msc+Pl+Gen+Kiiro: grengiiro
+    grai+N+Msc+Pl+Gen+Kiiro: [grengiiro, grengiiri, grengiire]
 
   Noun - tšeer : #  null stem
     tšeer+N+Msc+Sg+Nom: tšeer
@@ -50,14 +50,14 @@ Tests:
     tšeer+N+Msc+Sg+Abl: tšeeresta
     tšeer+N+Msc+Sg+Ins: tšeereha
     tšeer+N+Msc+Sg+Gen: tšeeresko
-    tšeer+N+Msc+Sg+Gen+Kiiro: tšeereskiiro
+    tšeer+N+Msc+Sg+Gen+Kiiro: [tšeereskiiro, tšeereskiiri, tšeereskiire]
     tšeer+N+Msc+Pl+Nom: tšeere
     tšeer+N+Msc+Pl+Obl: tšeeren
     tšeer+N+Msc+Pl+Dat: tšeerenge
     tšeer+N+Msc+Pl+Abl: tšeerenna
     tšeer+N+Msc+Pl+Ins: tšeerensa
     tšeer+N+Msc+Pl+Gen: tšeerengo
-    tšeer+N+Msc+Pl+Gen+Kiiro: tšeerengiiro
+    tšeer+N+Msc+Pl+Gen+Kiiro: [tšeerengiiro, tšeerengiiri, tšeerengiire]
 
   Noun - bereȟ : #  null stem
     bereȟ+N+Msc+Sg+Nom: bereȟ
@@ -66,14 +66,14 @@ Tests:
     bereȟ+N+Msc+Sg+Abl: bereȟȟesta
     bereȟ+N+Msc+Sg+Ins: bereȟȟeha
     bereȟ+N+Msc+Sg+Gen: bereȟȟesko
-    bereȟ+N+Msc+Sg+Gen+Kiiro: bereȟȟeskiiro
+    bereȟ+N+Msc+Sg+Gen+Kiiro: [bereȟȟeskiiro, bereȟȟeskiiri, bereȟȟeskiire]
     bereȟ+N+Msc+Pl+Nom: bereȟȟe
     bereȟ+N+Msc+Pl+Obl: bereȟȟen
     bereȟ+N+Msc+Pl+Dat: bereȟȟenge
     bereȟ+N+Msc+Pl+Abl: bereȟȟenna
     bereȟ+N+Msc+Pl+Ins: bereȟȟensa
     bereȟ+N+Msc+Pl+Gen: bereȟȟengo
-    bereȟ+N+Msc+Pl+Gen+Kiiro: bereȟȟengiiro
+    bereȟ+N+Msc+Pl+Gen+Kiiro: [bereȟȟengiiro, bereȟȟengiiri, bereȟȟengiire]
 
 
   Noun - lau : #  null stem
@@ -83,14 +83,14 @@ Tests:
     lau+N+Msc+Sg+Abl: laavesta
     lau+N+Msc+Sg+Ins: laaveha
     lau+N+Msc+Sg+Gen: laavesko
-    lau+N+Msc+Sg+Gen+Kiiro: laaveskiiro
+    lau+N+Msc+Sg+Gen+Kiiro: [laaveskiiro, laaveskiiri, laaveskiire]
     lau+N+Msc+Pl+Nom: laave
     lau+N+Msc+Pl+Obl: laaven
     lau+N+Msc+Pl+Dat: laavenge
     lau+N+Msc+Pl+Abl: laavenna
     lau+N+Msc+Pl+Ins: laavensa
     lau+N+Msc+Pl+Gen: laavengo
-    lau+N+Msc+Pl+Gen+Kiiro: laavengiiro
+    lau+N+Msc+Pl+Gen+Kiiro: [laavengiiro, laavengiiri, laavengiire]
 
   Noun - kaȟt : #  null stem
     kaȟt+N+Msc+Sg+Nom: kaȟt
@@ -99,13 +99,13 @@ Tests:
     kaȟt+N+Msc+Sg+Abl: kaȟtesta
     kaȟt+N+Msc+Sg+Ins: kaȟteha
     kaȟt+N+Msc+Sg+Gen: kaȟtesko
-    kaȟt+N+Msc+Sg+Gen+Kiiro: kaȟteskiiro
+    kaȟt+N+Msc+Sg+Gen+Kiiro: [kaȟteskiiro, kaȟteskiiri, kaȟteskiire]
     kaȟt+N+Msc+Pl+Nom: kaȟte
     kaȟt+N+Msc+Pl+Obl: kaȟten
     kaȟt+N+Msc+Pl+Dat: kaȟtenge
     kaȟt+N+Msc+Pl+Abl: kaȟtenna
     kaȟt+N+Msc+Pl+Ins: kaȟtensa
     kaȟt+N+Msc+Pl+Gen: kaȟtengo
-    kaȟt+N+Msc+Pl+Gen+Kiiro: kaȟtengiiro
+    kaȟt+N+Msc+Pl+Gen+Kiiro: [kaȟtengiiro, kaȟtengiiri, kaȟtengiire]
 
 

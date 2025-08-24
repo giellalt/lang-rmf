@@ -15,11 +15,11 @@ Tests:
     raklo+N+Msc+Sg+Abl: raklesta
     raklo+N+Msc+Sg+Ins: rakleha
     raklo+N+Msc+Sg+Gen: raklesko
-    raklo+N+Msc+Sg+Gen+Kiiro: rakleskiiro
+    raklo+N+Msc+Sg+Gen+Kiiro: [rakleskiiro, rakleskiiri, rakleskiire]
     raklo+N+Msc+Pl+Nom: rakle
     raklo+N+Msc+Pl+Obl: raklen
     raklo+N+Msc+Pl+Dat: raklenge
     raklo+N+Msc+Pl+Abl: raklenna
     raklo+N+Msc+Pl+Ins: raklensa
     raklo+N+Msc+Pl+Gen: raklengo
-    raklo+N+Msc+Pl+Gen+Kiiro: raklengiiro
+    raklo+N+Msc+Pl+Gen+Kiiro: [raklengiiro, raklengiiri, raklengiire]

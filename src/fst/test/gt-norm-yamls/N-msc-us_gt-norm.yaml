@@ -15,11 +15,11 @@ Tests:
     pappus+N+Msc+Sg+Abl: pappusta
     pappus+N+Msc+Sg+Ins: pappuha
     pappus+N+Msc+Sg+Gen: pappusko
-    pappus+N+Msc+Sg+Gen+Kiiro: pappuskiiro
+    pappus+N+Msc+Sg+Gen+Kiiro: [pappuskiiro, pappuskiire, pappuskiiri]
     pappus+N+Msc+Pl+Nom: pappuja
     pappus+N+Msc+Pl+Obl: pappujen
     pappus+N+Msc+Pl+Dat: pappujenge
     pappus+N+Msc+Pl+Abl: pappujenna
     pappus+N+Msc+Pl+Ins: pappujensa
     pappus+N+Msc+Pl+Gen: pappujengo
-    pappus+N+Msc+Pl+Gen+Kiiro: pappujengiiro
+    pappus+N+Msc+Pl+Gen+Kiiro: [pappujengiiro, pappujengiire, pappujengiiri]

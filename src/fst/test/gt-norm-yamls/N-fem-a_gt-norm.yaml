@@ -15,11 +15,11 @@ Tests:
     skoolo+N+Fem+Sg+Abl: skoolata
     skoolo+N+Fem+Sg+Ins: skoolaha
     skoolo+N+Fem+Sg+Gen: skoolako
-    skoolo+N+Fem+Sg+Gen+Kiiro: skoolakiiro
+    skoolo+N+Fem+Sg+Gen+Kiiro: [skoolakiiro, skoolakiiri, skoolakiire]
     skoolo+N+Fem+Pl+Nom: skooli
     skoolo+N+Fem+Pl+Obl: skoolen
     skoolo+N+Fem+Pl+Dat: skoolenge
     skoolo+N+Fem+Pl+Abl: skoolenna
     skoolo+N+Fem+Pl+Ins: skoolensa
     skoolo+N+Fem+Pl+Gen: skoolengo
-    skoolo+N+Fem+Pl+Gen+Kiiro: skoolengiiro
+    skoolo+N+Fem+Pl+Gen+Kiiro: [skoolengiiro, skoolengiiri, skoolengiire]
