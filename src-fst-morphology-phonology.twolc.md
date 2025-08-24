@@ -11,6 +11,8 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 %>
 %^V:0 vowel copy
+%^CDEL:0 trigger to delete consonant in front of suffix
+%^KK:0 archiphoneme for doubling k in kkiiro
 
 ### Sets
 
@@ -20,7 +22,13 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 * **Deleting stem-final s in instrumental** ...  probably to be generalised
 
+* *rakl>es>^CDELha*
+* *rakl>e0>0ha*
+
 * **Voicing of k suffix after n** ...  probably to be generalised
+
+* *kaal>ija^KK>kiiro*
+* *kaal>ijak>kiiro*
 
 * **Shortening stem-final geminate in final position** for bereȟȟ to bereȟ
 

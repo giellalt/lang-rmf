@@ -99,6 +99,7 @@ symbols in the lexicon files:
 
 * **^V** for long vowel
 * **^CDEL** for use in Ins.
+* **^KK** archiphoneme for k doubling in kkiiro
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
