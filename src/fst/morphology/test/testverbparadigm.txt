@@ -1,4 +1,3 @@
-+V+Inf
 +V+Ind+Prs+Sg1
 +V+Ind+Prs+Sg2
 +V+Ind+Prs+Sg3
@@ -11,4 +10,11 @@
 +V+Ind+Prt+Pl1
 +V+Ind+Prt+Pl2
 +V+Ind+Prt+Pl3
-+V+PrfPrs
++V+Cond+Sg1
++V+Cond+Sg2
++V+Cond+Sg3
++V+Cond+Pl1
++V+Cond+Pl2
++V+Cond+Pl3
++V+PrfPrc
+

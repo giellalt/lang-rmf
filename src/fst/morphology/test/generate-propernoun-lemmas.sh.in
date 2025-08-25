@@ -6,9 +6,9 @@ POS=rmf-propernouns
 source_file=@abs_srcdir@/../stems/${POS}.lexc
 generator_file=@abs_builddir@/../../generator-gt-norm
 analyser_file=@abs_builddir@/../../analyser-gt-norm
-tags="+N+Prop+Sg+Nom"
+tags="+N+Prop+Sem/Mal"
 # advanced settings (leave empty or write full args)
-xtags=
+xtags="-t +N+Prop+Sem/Fem"
 inclusions=
 exclusions=
 

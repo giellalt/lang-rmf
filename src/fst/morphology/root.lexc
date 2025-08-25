@@ -62,8 +62,9 @@ Multichar_Symbols
  +Ind +Prs +Prt +Pot +Cond +Imprt !!≈ * **@CODE@** Verb tense andmood
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess !!≈ * **@CODE@** From Sámi, probably delete several of these.
  +TV +IV !!≈ * **@CODE@** transitivity tags
+ +Clt  !!≈ * **@CODE@** clitic
++Der/Adv  !!≈ * **@CODE@** transitivity tags
 
-+Der/Adv
 +Poss !!≈ * **@CODE@** possessive 
 
 !! ### Other tags

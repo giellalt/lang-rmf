@@ -8,10 +8,13 @@
 
 
 !! ## Auxiliaries
+LEXICON HINVAA
++Ind+Prs+Sg1:som  #   ;
+HIN ;
+VAA ;
 
 LEXICON HIN
 !! **LEXICON @LEXNAME@** spells out the whole paradigm
-+Ind+Prs+Sg1:som  #   ;
 +Ind+Prs+Sg2:sal  #   ;
 +Ind+Prs+Sg3:hin  K   ;
 +Ind+Prs+Pl1:sam  #   ;
@@ -31,14 +34,13 @@ LEXICON HIN
 +Ind+Prt+Sg3+Neg:naas  Kneg   ;
 +Ind+Prt+Pl3+Neg:naas  Kneg   ;
 
-+Ind+Prf+Sg1:aaȟtom  #   ;
-+Ind+Prf+Sg2:aaȟtal  #   ;
-+Ind+Prf+Sg3:aaȟtin  #   ;
-+Ind+Prf+Pl1:aaȟtam  #   ;
-+Ind+Prf+Pl1:aaȟtommas  #   ;
-+Ind+Prf+Pl2:aaȟte  #   ;
-+Ind+Prf+Pl3:aaȟt  #   ;
-
++Ind+PrfPrc+Sg1:aaȟtom  #   ;
++Ind+PrfPrc+Sg2:aaȟtal  #   ;
++Ind+PrfPrc+Sg3:aaȟtin  #   ;
++Ind+PrfPrc+Pl1:aaȟtam  #   ;
++Ind+PrfPrc+Pl1:aaȟtommas  #   ;
++Ind+PrfPrc+Pl2:aaȟte  #   ;
++Ind+PrfPrc+Pl3:aaȟt  #   ;
 
 +Cond+Sg1:aaȟȟaa # ;
 +Cond+Sg2:aaȟȟes # ;
@@ -50,8 +52,7 @@ LEXICON HIN
 
 LEXICON VAA
 !! **LEXICON @LEXNAME@** spells out the whole paradigm
-+PrfPrs:aul PRFPRS ;
-+Ind+Prs+Sg1:som  #   ;
++PrfPrc:aul PRFPRS ;
 +Ind+Prs+Sg2:sal  #   ;
 +Ind+Prs+Sg3:vaa  K   ;
 +Ind+Prs+Pl1:sam  #   ;
@@ -71,13 +72,13 @@ LEXICON VAA
 +Ind+Prt+Sg3+Neg:naas  #   ;
 +Ind+Prt+Pl3+Neg:naas  #   ;
 
-+Ind+Prf+Sg1:aaȟtom  #   ;
-+Ind+Prf+Sg2:aaȟtal  #   ;
-+Ind+Prf+Sg3:aaȟtin  #   ;
-+Ind+Prf+Pl1:aaȟtam  #   ;
-+Ind+Prf+Pl1:aaȟtommas  #   ;
-+Ind+Prf+Pl2:aaȟte  #   ;
-+Ind+Prf+Pl3:aaȟt  #   ;
++Ind+PrfPrc+Sg1:aaȟtom  #   ;
++Ind+PrfPrc+Sg2:aaȟtal  #   ;
++Ind+PrfPrc+Sg3:aaȟtin  #   ;
++Ind+PrfPrc+Pl1:aaȟtam  #   ;
++Ind+PrfPrc+Pl1:aaȟtommas  #   ;
++Ind+PrfPrc+Pl2:aaȟte  #   ;
++Ind+PrfPrc+Pl3:aaȟt  #   ;
 
 
 +Cond+Sg1:aaȟȟaa # ;
@@ -100,13 +101,13 @@ LEXICON BOLL
 !! @LEXNAME@ primary verb, other than r-stem
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>d pretsuff ;
-+PrfPrs:%>d PRFPRS ;
++PrfPrc:%>d PRFPRS ;
 
 LEXICON TSEER
 !! @LEXNAME@ primary verb, r-stem, d pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>d pretsuff ;
-+PrfPrs:%>d PRFPRS ;
++PrfPrc:%>d PRFPRS ;
 
 LEXICON TRAAD
 !! **LEXICON @LEXNAME@** cns pres and id pret
@@ -117,19 +118,19 @@ LEXICON TSUUV
 !! **LEXICON @LEXNAME@** cns pres and nd pret
 +Ind+Prs:v cns_pressuff ;
 +Ind+Prt:nd%> pretsuff ;
-+PrfPrs:nd PRFPRS ;
++PrfPrc:nd PRFPRS ;
 
 LEXICON LURR
 !! **LEXICON @LEXNAME@** cns pres and d pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>d pretsuff ;
-+PrfPrs:%>d PRFPRS ;
++PrfPrc:%>d PRFPRS ;
 
 LEXICON DZAMB
 !! **LEXICON @LEXNAME@** cns pres and id pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>id pretsuff ;
-+PrfPrs:id PRFPRS ;
++PrfPrc:id PRFPRS ;
 
 LEXICON MANG
 !! **LEXICON @LEXNAME@** cns pres and jom pret
@@ -153,7 +154,7 @@ LEXICON BAHH
 !! **LEXICON @LEXNAME@** cns pres and t pret
 +Ind+Prs: cns_pressuff ;
 +Ind+Prt:%>t pretsuff ;
-+PrfPrs:t PRFPRS ;
++PrfPrc:t PRFPRS ;
 
 LEXICON MEKK
 !! **LEXICON @LEXNAME@** cns pres and l/n pret
@@ -165,17 +166,17 @@ LEXICON D
 !! **LEXICON @LEXNAME@** for "to do", cns pres and jom pret
 +Ind+Prs:el cns_pressuff ;
 +Ind+Prt:ii pretsuff_jom ;
-+PrfPrs:iil PRFPRS ;
++PrfPrc:iil PRFPRS ;
 
 LEXICON DZA
 !! **LEXICON @LEXNAME@** vow pres and id pret
 +Ind+Prs:a vow_pressuff ;
-+PrfPrs:eel PRFPRS ;
++PrfPrc:eel PRFPRS ;
 +Ind+Prt:ei pretsuff_jom ;
 
 LEXICON PILA
 !! **LEXICON @LEXNAME@** cns pres and id pret "juoda"
-+PrfPrs:il PRFPRS ;
++PrfPrc:il PRFPRS ;
 +Ind+Prs+Sg1:iv%>a  #   ;
 +Ind+Prs+Sg2:%>ha  #   ;
 +Ind+Prs+Sg3:%>la  #   ;
