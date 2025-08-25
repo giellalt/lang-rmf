@@ -69,6 +69,9 @@ Cx:0 <=> Vow Cx _ (%^CDEL:) %> Cns ;
 %^V:Vx <=> Vx _ ;
       where Vx in ( a e i o u y ) ;
 
+!!€ l a ^V v > e s
+!!€ l a a  v > e s
+
 "Stem shortening"
 !!  * **@RULENAME@** perhaps with a trigger ^VSH?
 Vx:0 <=> Vx _ (Cns) %> Cns ;

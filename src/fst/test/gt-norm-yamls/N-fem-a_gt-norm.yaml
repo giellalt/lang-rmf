@@ -9,17 +9,17 @@ Config:
 
 Tests:
   Noun - : # skoolo o-stem
-    skoolo+N+Fem+Sg+Nom: skoola
-    skoolo+N+Fem+Sg+Obl: skoolas
-    skoolo+N+Fem+Sg+Dat: skoolake
-    skoolo+N+Fem+Sg+Abl: skoolata
-    skoolo+N+Fem+Sg+Ins: skoolaha
-    skoolo+N+Fem+Sg+Gen: skoolako
-    skoolo+N+Fem+Sg+Gen+Kiiro: [skoolakiiro, skoolakiiri, skoolakiire]
-    skoolo+N+Fem+Pl+Nom: skooli
-    skoolo+N+Fem+Pl+Obl: skoolen
-    skoolo+N+Fem+Pl+Dat: skoolenge
-    skoolo+N+Fem+Pl+Abl: skoolenna
-    skoolo+N+Fem+Pl+Ins: skoolensa
-    skoolo+N+Fem+Pl+Gen: skoolengo
-    skoolo+N+Fem+Pl+Gen+Kiiro: [skoolengiiro, skoolengiiri, skoolengiire]
+    skoola+N+Fem+Sg+Nom: skoola
+    skoola+N+Fem+Sg+Obl: skoola
+    skoola+N+Fem+Sg+Dat: skoolake
+    skoola+N+Fem+Sg+Abl: skoolata
+    skoola+N+Fem+Sg+Ins: skoolaha
+    skoola+N+Fem+Sg+Gen: skoolako
+    skoola+N+Fem+Sg+Gen+Kiiro: [skoolakiiro, skoolakiiri, skoolakiire]
+    skoola+N+Fem+Pl+Nom: skooli
+    skoola+N+Fem+Pl+Obl: skoolen
+    skoola+N+Fem+Pl+Dat: skoolenge
+    skoola+N+Fem+Pl+Abl: skoolenna
+    skoola+N+Fem+Pl+Ins: skoolensa
+    skoola+N+Fem+Pl+Gen: skoolengo
+    skoola+N+Fem+Pl+Gen+Kiiro: [skoolengiiro, skoolengiiri, skoolengiire]
