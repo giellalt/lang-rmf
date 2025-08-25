@@ -43,6 +43,8 @@ language are presented in this system in terms of the following symbols.
 * **+Ind +Prs +Prt +Pot +Cond +Imprt** Verb tense andmood
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess** From Sámi, probably delete several of these.
 * **+TV +IV** transitivity tags
+* **+Clt** clitic
+* **+Der/Adv** transitivity tags
 
 * **+Poss** possessive 
 

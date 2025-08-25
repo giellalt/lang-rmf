@@ -610,6 +610,8 @@ language are presented in this system in terms of the following symbols.
 * **+Ind +Prs +Prt +Pot +Cond +Imprt** Verb tense andmood
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess** From Sámi, probably delete several of these.
 * **+TV +IV** transitivity tags
+* **+Clt** clitic
+* **+Der/Adv** transitivity tags
 
 * **+Poss** possessive 
 
@@ -1005,8 +1007,7 @@ This lists verbs as presented in the grammar.
 
 ## Auxiliaries
 
-hin+V: HIN ; copula
-vaa+V: VAA "tulla" ; tulla
+som+V: HINVAA ; copula hin, tulla vaa
 
 ## Lexical verbs
 
@@ -1015,69 +1016,69 @@ vaa+V: VAA "tulla" ; tulla
 #### (a) Other than r-stems, primary verbs
 
 6.23 (b) d-preteriti, stem -l-
-* bollela+V:boll BOLL "kastaa" ; 
-* spillela+V:spill BOLL "pistää" ;
+* bollaa+V:boll BOLL "kastaa" ; 
+* spillaa+V:spill BOLL "pistää" ;
 
 6.23 (b) d-preteriti, stem -v-
-* tšuuvela+V:tšuu TSUUV "laittaa" ;
+* tšuuvaa+V:tšuu TSUUV "laittaa" ;
 
-* traadela+V:traad TRAAD "ajaa" ;
+* traadaa+V:traad TRAAD "ajaa" ;
 
-* baȟȟela+V:baȟȟ BAHH "pyytää" ;
+* baȟȟaa+V:baȟȟ BAHH "pyytää" ;
 
-* mekkela+V:mekk MEKK "jättää";
+* mekkaa+V:mekk MEKK "jättää";
 
-* dela+V:d D "antaa" ;
+* daa+V:d D "antaa" ;
 
 #### (b) r-stems, primary verbs
 
 6.23 (a) d-preteriti, stem -r-
-* tšerra+V:tšeer TSEER "tehdä" ;
-* perra+V:peer TSEER "kaataa" ;
+* tšeraa+V:tšeer TSEER "tehdä" ;
+* peeraa+V:peer TSEER "kaataa" ;
 
-* lurrela+V:lurr LURR "" ;
-* kurrela+V:kurr LURR "tapella" ;
+* lurraa+V:lurr LURR "" ;
+* kurraa+V:kurr LURR "tapella" ;
 
 #### id past tense
 6.24 stem b, d, t, id past tense
-* džamba+V:džamb DZAMB "laulaa" ;
-* khanda+V:khand DZAMB "haista" ;
+* džambaa+V:džamb DZAMB "laulaa" ;
+* khandaa+V:khand DZAMB "haista" ;
 
 6.24 stem -n-, past tens -id
-* džaan+V:džaan DZAMB "tietää" ;
-* dann+V:kann DZAMB "totella" ;
+* džaanaa+V:džaan DZAMB "tietää" ;
+* dannaa+V:kann DZAMB "totella" ;
 
 6.26 t past tense
 
-* baȟȟ+V:baȟȟ BAHH "pyytää" ;
-* beȟȟ+V:beȟȟ BAHH "istua" ;
+* baȟȟaa+V:baȟȟ BAHH "pyytää" ;
+* beȟȟaa+V:beȟȟ BAHH "istua" ;
 
 6.27 Stem -g, -k, past tense l
-* mang+V:mang MANG "pyytää" ; ! mangl-
+* mangaa+V:mang MANG "pyytää" ; ! mangl-
 
-* mukk+V:mukk DIKK "jättää" ; dikl, dikn
-* dikk+V:dikk DIKK "nähdä" ;
+* mukkaa+V:mukk DIKK "jättää" ; dikl, dikn
+* dikkaa+V:dikk DIKK "nähdä" ;
 
-* kamm+V:kamm KAMM "haluta" ; kaml
-* aan+V:ann KAMM "tuoda" ;
+* kammaa+V:kamm KAMM "haluta" ; kaml
+* aanaa+V:ann KAMM "tuoda" ;
 
 #### Transitive derivatives
 
-* rakkavela+V:rakk RAKKAVELA "puhua" ;
-* phagarvela+V:phag PHAGARVELA "rikkoa" ;
+* rakkavaa+V:rakk RAKKAVELA "puhua" ;
+* phagarvaa+V:phag PHAGARVELA "rikkoa" ;
 
 #### Intransitive derivatives
 
-* garuvela+V:gar GARUVELA "piiloutua" ;
-* agurvela+V:ag AGURVELA "loppua" ; chech this XXX
+* garuvaa+V:gar GARUVELA "piiloutua" ;
+* agurvaa+V:ag AGURVELA "loppua" ; chech this XXX
 
 ### Vowel stem, primary verbs
 
 * džala+V:dž DZA "mennä" ;
 * ȟala+V:ȟ DZA "syödä" ;
-* sala+V:s DZA "nauraa" ;
-* pila+V:pi PILA "juoda" ;
-* lila+V:li PILA "ottaa, saada" ;
+* saa+V:s DZA "nauraa" ;
+* piiva+V:pi PILA "juoda" ;
+* liiva+V:li PILA "ottaa, saada" ;
 
 * * *
 
