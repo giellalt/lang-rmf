@@ -67,6 +67,8 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON MSCOBL_SG** 
 
+**LEXICON MSCOBL_SG_ins_s** 
+
 **LEXICON MSCOBL_PL** 
 
 **LEXICON MSCOBL_PL_OBL** 
@@ -81,6 +83,12 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON FEMOBL_PL** 
 
+**LEXICON FEMOBL_a** pointing to sg and pl lexica
+
+**LEXICON FEMOBL_SG_a** 
+
+**LEXICON FEMOBL_PL_a** 
+
 **LEXICON FEMOBL_PL_OBL** 
 
 **LEXICON FEMOBL_PL_o** 
@@ -88,6 +96,8 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 ### The oblique cases *-ke, -ta, -ha*
 
 **LEXICON OBLCASES_SG** 
+
+**LEXICON OBLCASES_SG_ins_s** 
 
 **LEXICON OBLCASES_PL** 
 

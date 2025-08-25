@@ -41,6 +41,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 * **Vowel lenghening** a vowel copying rule
 
+* *l* `a` (Eng. ^V v > e s)
+* *l* `a` (Eng. a v > e s)
+
 * **Stem shortening** perhaps with a trigger ^VSH?
 
 * * *

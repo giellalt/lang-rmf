@@ -325,6 +325,8 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON MSCOBL_SG** 
 
+**LEXICON MSCOBL_SG_ins_s** 
+
 **LEXICON MSCOBL_PL** 
 
 **LEXICON MSCOBL_PL_OBL** 
@@ -339,6 +341,12 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON FEMOBL_PL** 
 
+**LEXICON FEMOBL_a** pointing to sg and pl lexica
+
+**LEXICON FEMOBL_SG_a** 
+
+**LEXICON FEMOBL_PL_a** 
+
 **LEXICON FEMOBL_PL_OBL** 
 
 **LEXICON FEMOBL_PL_o** 
@@ -346,6 +354,8 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 ### The oblique cases *-ke, -ta, -ha*
 
 **LEXICON OBLCASES_SG** 
+
+**LEXICON OBLCASES_SG_ins_s** 
 
 **LEXICON OBLCASES_PL** 
 
@@ -554,6 +564,9 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 ## Vowel rules
 
 * **Vowel lenghening** a vowel copying rule
+
+* *l* `a` (Eng. ^V v > e s)
+* *l* `a` (Eng. a v > e s)
 
 * **Stem shortening** perhaps with a trigger ^VSH?
 
