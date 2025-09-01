@@ -59,6 +59,7 @@ LEXICON VAA
 +Ind+Prs+Pl1:sommas  #   ;
 +Ind+Prs+Pl2:san  #   ;
 +Ind+Prs+Pl3:hin  #   ;
+
 +Ind+Prs+Neg:naa  #   ;
 
 +Ind+Prt+Sg1:sommas  #   ;
@@ -68,6 +69,7 @@ LEXICON VAA
 +Ind+Prt+Pl1:sommas  #   ;
 +Ind+Prt+Pl2:sannas  #   ;
 +Ind+Prt+Pl3:sas  #   ;
+
 +Ind+Prt+Neg:na  #   ;
 +Ind+Prt+Sg3+Neg:naas  #   ;
 +Ind+Prt+Pl3+Neg:naas  #   ;
@@ -79,6 +81,10 @@ LEXICON VAA
 +Ind+PrfPrc+Pl1:aaȟtommas  #   ;
 +Ind+PrfPrc+Pl2:aaȟte  #   ;
 +Ind+PrfPrc+Pl3:aaȟt  #   ;
+
++Ind+Prt+Sg1:aaȟtas # ; ! LRK § 6.10
++Ind+Prt+Sg2:aaȟtas # ;
++Ind+Prt+Sg3:aaȟtas # ;
 
 
 +Cond+Sg1:aaȟȟaa # ;

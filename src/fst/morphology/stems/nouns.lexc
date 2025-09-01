@@ -58,12 +58,14 @@ berȟ:berȟȟ BEREH "vuosi" ;
 kaȟt:kaȟt BEREH "puu" ;
 vuudar:vuudar VUUDAR "ovi" ; ! ja ?
 
+daad:daad  "isä" ;
 lau:la LAU "sana" ;
 džiu:dži LAU "ruis, jyvä" ;
 džuu:džu LAU "täi" ;
 gau:ga LAU "kylä" ;
 jiu:ji LAU "lumi" ;
 nau:na LAU "nimi" ;
+tšau:tša LAU "poika" ;
 
 grai:g GRAI "hevonen" ;
 
@@ -160,7 +162,8 @@ proomus:proom US "proomu" ;
 
 !! ### i-loppuiset: butti, ...
 
-džuuli:džuul KAALI "nainen" ;
+džuuli:džuul KAALI "nainen" ;          ! džuuli - džuulja
+džuuli+Use/NG:džuu KAALIOBL "nainen" ; ! džuuli - džuuja
 kaali:kaal KAALI "kahvi" ;
 patti:patt KAALI "kunnia" ;
 paani:paan KAALI "vesi" ;

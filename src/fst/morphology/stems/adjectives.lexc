@@ -8,8 +8,10 @@ LEXICON Adjectives
 !! **LEXICON @LEXNAME@** 
 tšuoro:tšuor BARO "köyhä" ;
 biuutiboskiiro:biuutiboskiir BARO "epäoikeutettu" ;
+tšiȟko:tšiȟko TSHIKO ;
+bengalo:bengalo BENGALO ;
 
-!! ### (a) Temaattiset oloppuiset adjektiivit
+!! ### (a) Temaattiset o-loppuiset adjektiivit
 
 baro:bar BARO "iso" ;
 kaalo:kaal BARO "musta" ;
@@ -26,13 +28,14 @@ tšiȟko:tšiȟk BESKO "hyvä" ;
 
 !! ### (c) Temaattiset johdetut adjektivit
 
-barvalo:barval BARO "rikas" ;
-maalano:maalan BARO "ystävllinen" ;
-tšatšuno:tšatšun BARO "todellinen" ;
-naaluno:naalun BARO "etummainen" ;
-sonakaano:sonakaan BARO "kultainen" ;
-romano:roman BARO "romanilainen" ; ! atemaattinen?
- 
+barvalo:barval BARVALO "rikas" ;
+maalano:maalan BARVALO "ystävllinen" ;
+tšatšuno:tšatšun BARVALO  "todellinen" ;
+naaluno:naalun BARVALO "etummainen" ;
+sonakaano:sonakaan BARVALO "kultainen" ;
+romano:roman BARVALO "romanilainen" ; ! atemaattinen?
+rankano:rankaan BARVALO "kaunis" ;
+
 !! ### (d) Atemaattiset johdetut adjektivit
 
 undravitiko:undravitik FAARLIGO "ihmeellinen" ;

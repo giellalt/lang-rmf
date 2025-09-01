@@ -163,6 +163,10 @@ LEXICON BAAR
 LEXICON KAALI
 !! **LEXICON @LEXNAME@** 
 +N+Fem+Sg+Nom:%>i # ;
+KAALIOBL ;
+
+
+LEXICON KAALIOBL
 +N+Fem+Sg+Obl:%>ja # ; ! phenja
 +N+Fem+Sg:%>ja OBLCASES_SG ;
 +N+Fem+Sg+Gen:%>jako # ;        ! kaljako

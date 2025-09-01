@@ -1,9 +1,9 @@
 
+!! ## Inflected pronominal forms
 
 
 
-
-!! ## Case inflection (move to affixes?)
+!! ## Case inflection 
 
 LEXICON me_pron !"minä"
 !! **LEXICON @LEXNAME@** *minä*
@@ -30,7 +30,7 @@ LEXICON me_pron !"minä"
 LEXICON tu_pron 
 !! **LEXICON @LEXNAME@** "sinä" 
 +Sg+Nom:tu # ;
-+Sg+Obl:tuun # ;
++Sg+Obl:tuut # ; 
 +Sg+Dat:tukke # ;
 +Sg+Abl:tutta # ;
 +Sg+Ins:tussa # ;

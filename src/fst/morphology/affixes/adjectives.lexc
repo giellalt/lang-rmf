@@ -6,13 +6,34 @@
 ! !! @LEXNAME@ Just adding +A tag.
 !+A: # ;
 
+LEXICON TSHIKO
+:tšiȟk BAROPOSITIVE ;
++A:fendid comp_ilde ;
+
+LEXICON BENGALO
+:bengal BAROVALO ;
++A:verid comp_ilde ;
 
 LEXICON BARO !!≈ @CODE@ temaattiset o-loppuiset adjektiivit
++A: comp ;
+BAROPOSITIVE ;
+
+LEXICON BAROPOSITIVE
 +A+Pos+Msc+Sg:%>o # ;
 +A+Pos+Fem+Sg:%>i # ;
 +A+Pos+Pl:%>e # ;
-+A: comp ;
 +A+Der/Adv+Adv:%>es # ; ! latšo > latšes "kiltti" > "kiltisti"
+
+LEXICON BAROVALO !!≈ @CODE@ temaattiset o-loppuiset adjektiivit, -alo, -ano-johtimella tehtyjä
++A: comp_ilde ;
+BAROVALOPOSITIVE ;
+
+LEXICON BAROVALOPOSITIVE 
++A+Pos+Msc+Sg:%>o # ;
++A+Pos+Fem+Sg:%>i # ;
++A+Pos+Pl:%>e # ;
++A+Der/Adv+Adv:%>es # ; ! latšo > latšes "kiltti" > "kiltisti"
+
 
 LEXICON BESKO !!≈ @CODE@ atemaattiset o-loppuiset adjektiivit
 +A+Pos+Msc+Sg:%>o # ;
@@ -52,8 +73,12 @@ LEXICON PRFPRS
 
 
 
-LEXICON comp!! **LEXICON @LEXNAME@** contains only -ide for now.
+LEXICON comp !! **LEXICON @LEXNAME@** contains only -ide for now.
 +Comp:ide       #   ; ! monta virhettä...
+
+LEXICON comp_ilde!! **LEXICON @LEXNAME@** contains only -ilde for now, lexicon -ano, -alo
++Comp:ilde       #   ; ! monta virhettä...
+
 
 ! vim: set ft=xfst-lexc:
 
