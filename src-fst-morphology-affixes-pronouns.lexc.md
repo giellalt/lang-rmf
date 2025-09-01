@@ -1,6 +1,7 @@
 
+## Inflected pronominal forms
 
-## Case inflection (move to affixes?)
+## Case inflection 
 
 **LEXICON me_pron** *minä*
 

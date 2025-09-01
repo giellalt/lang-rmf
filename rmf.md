@@ -236,6 +236,8 @@ Oblique cases not looked into.
 
 LEXICON BARO temaattiset o-loppuiset adjektiivit
 
+LEXICON BAROVALO temaattiset o-loppuiset adjektiivit, -alo, -ano-johtimella tehtyjä
+
 LEXICON BESKO atemaattiset o-loppuiset adjektiivit
 
 **LEXICON FAARLIGO** 
@@ -247,6 +249,8 @@ LEXICON BESKO atemaattiset o-loppuiset adjektiivit
 **LEXICON PRFPRS** for participles
 
 **LEXICON PRFPRS** contains only -ide for now.
+
+**LEXICON comp** contains only -ilde for now, lexicon -ano, -alo
 
 * * *
 
@@ -383,8 +387,9 @@ Prefixes No prefixes so far. Are there any?
 # src-fst-morphology-affixes-pronouns.lexc.md 
 
 
+## Inflected pronominal forms
 
-## Case inflection (move to affixes?)
+## Case inflection 
 
 **LEXICON me_pron** *minä*
 
@@ -744,7 +749,7 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 **LEXICON Adjectives** 
 
-### (a) Temaattiset oloppuiset adjektiivit
+### (a) Temaattiset o-loppuiset adjektiivit
 
 ### (a) Atemaattiset o-loppuiset adjektiivit
 

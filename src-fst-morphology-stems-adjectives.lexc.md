@@ -5,7 +5,7 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 **LEXICON Adjectives** 
 
-### (a) Temaattiset oloppuiset adjektiivit
+### (a) Temaattiset o-loppuiset adjektiivit
 
 ### (a) Atemaattiset o-loppuiset adjektiivit
 
