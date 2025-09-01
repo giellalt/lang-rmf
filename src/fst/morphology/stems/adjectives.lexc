@@ -32,7 +32,7 @@ tšatšuno:tšatšun BARO "todellinen" ;
 naaluno:naalun BARO "etummainen" ;
 sonakaano:sonakaan BARO "kultainen" ;
 romano:roman BARO "romanilainen" ; ! atemaattinen?
-
+ 
 !! ### (d) Atemaattiset johdetut adjektivit
 
 undravitiko:undravitik FAARLIGO "ihmeellinen" ;

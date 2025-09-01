@@ -210,6 +210,7 @@ baar:baar BAAR "aita" ;
 bok:bok BAAR "nälkä" ;
 pheen:pheen BAAR "sisko" ;
 tšimb:tšimb BAAR "kieli" ;
+jak:jak BAAR "silmä" ;
 dakotšimb:dakotšimb BAAR "äidinkieli" ;
 tšam:tšam BAAR "poski" ;
 džin:džin BAAR "luku" ;
@@ -239,6 +240,10 @@ skammin:skammi KHURMIN "tuoli" ;
 fäärdyn:fäärdy KHURMIN "auto" ;
 
 bornik:borni BORNIK "nyrkki" ;
+kissik:kissi BORNIK "lompakko" ;
+kustik:kusti BORNIK "vyö" ;
+mussik:mussi BORNIK "käsivarsi" ;
+patrik:patri BORNIK "puun lehti" ;
 
 dai:da DAI "äiti" ;
 tšai:tša DAI "tyttö" ;
