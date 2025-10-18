@@ -108,14 +108,14 @@ Multichar_Symbols
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
 
- +V→N +V→V +V→A   !!≈ * **@CODE@** 
- +Der/xxx   !!≈ * **@CODE@** 
++V→N +V→V +V→A   !!≈ * **@CODE@** 
++Der/xxx   !!≈ * **@CODE@** 
 
 !! ### Usage tags
 !! The Usage extents are marked using the following tags:
- +Err/Orth    !!≈ * **@CODE@** tagging non-standard forms
- +Use/-Spell  !!≈ * **@CODE@** tagging other forms not to be accepted by the speller
-
++Err/Orth    !!≈ * **@CODE@** tagging non-standard forms
++Use/-Spell  !!≈ * **@CODE@** tagging other forms not to be accepted by the speller
++Use/NG   !!≈ * **@CODE@** For correct parallel forms, this one shall not be preferred when only one is needed
 
 !! ### Morphophonology
 !  ---------------
