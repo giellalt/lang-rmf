@@ -6,8 +6,8 @@
 PARADIGM=testverbparadigm.txt
 LEXC=$srcdir/../stems/verbs.lexc
 THRESHOLD=99
-#EXCLUDETAGS=-X TV -X IV
-#EXCLUDEFORMS=-Z verbs-whitelist.txt
+EXCLUDETAGS=-X +Cond # TODO add conditional to para
+EXCLUDEFORMS=-Z verbs-whitelist.txt
 
 # avoid changing the common script stuffs here:
 
