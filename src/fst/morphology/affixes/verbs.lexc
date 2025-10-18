@@ -220,8 +220,10 @@ LEXICON TSJALJEVELA
 
 LEXICON TSEEKJIVELA
 !! **LEXICON @LEXNAME@**  id pret
++Ind+Prs+Sg1:ivaa # ;
++Ind+Prs+Sg2:iha # ;
 +Ind+Prs+Sg3:ila # ;
-+Ind+Prs+Sg3:ina # ;
++Ind+Prs+Pl1:ina # ;
 +Ind+Prs+Pl2:ina # ;
 +Ind+Prs+Pl3:ina # ;
 +Ind+Prt:id pretsuff ;

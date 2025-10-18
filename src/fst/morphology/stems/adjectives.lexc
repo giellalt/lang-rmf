@@ -28,13 +28,13 @@ tšiȟko:tšiȟk BESKO "hyvä" ;
 
 !! ### (c) Temaattiset johdetut adjektivit
 
-barvalo:barval BARVALO "rikas" ;
-maalano:maalan BARVALO "ystävllinen" ;
-tšatšuno:tšatšun BARVALO  "todellinen" ;
-naaluno:naalun BARVALO "etummainen" ;
-sonakaano:sonakaan BARVALO "kultainen" ;
-romano:roman BARVALO "romanilainen" ; ! atemaattinen?
-rankano:rankaan BARVALO "kaunis" ;
+barvalo:barval BAROVALO "rikas" ;
+maalano:maalan BAROVALO "ystävllinen" ;
+tšatšuno:tšatšun BAROVALO  "todellinen" ;
+naaluno:naalun BAROVALO "etummainen" ;
+sonakaano:sonakaan BAROVALO "kultainen" ;
+romano:roman BAROVALO "romanilainen" ; ! atemaattinen?
+rankano:rankan BAROVALO "kaunis" ;
 
 !! ### (d) Atemaattiset johdetut adjektivit
 
