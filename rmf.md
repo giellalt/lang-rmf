@@ -4,42 +4,42 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-disambiguator.cg3.md 
+## src-cg3-disambiguator.cg3.md 
 
 
 
-# Kalo Finnish Romani  disambiguator 
+## Kalo Finnish Romani  disambiguator 
 
 This is a file for automatic syntactic analysis of Kalo Finnish  Romani.
 It is written within the *Constraint grammar* formalism.
 It is in an initial state, containing only a handful of rules.
 
-## Tags and sets 
+### Tags and sets 
 
 This section just defines all grammatical tags from the morphology.
 
-# Rule section
+## Rule section
 
-## Adposition rules
+### Adposition rules
 
 Rule **Po**: Pre or post? Removes Pr reading when Gen is to the left and not to the right.
 
-## Adjective rules
+### Adjective rules
 
 Rule **Msc** selects masculine adjective if following noun is masculine
 Rule **Fem** selects feminine adjective if following noun is feminine
 
-## Pronoun rules
+### Pronoun rules
 
 Rule **Pers** removes Poss if next word is verb (to be refined)
 
-## Determiner rules
+### Determiner rules
 
 Rule **DetSg** removes Pl reading of Det if next word is singular noun.
 
 Rule **DetSgNP** removes Pl reading of Det if to the left is singular noun and only pre-np words inbetween
 
-## Verb rules
+### Verb rules
 
 Rule **Sg1** selects Sg1 if nominative *me* to the left. 
 
@@ -51,7 +51,7 @@ Rule **Sg3** removes Pl3 reading for verb if word to the left is singular nomina
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 Kalo Finnish Romani syntactic functions.
@@ -93,7 +93,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -212,16 +212,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -229,9 +229,9 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
-# Adjective inflection
+## Adjective inflection
 Oblique cases not looked into.
 
 LEXICON BARO temaattiset o-loppuiset adjektiivit
@@ -258,14 +258,14 @@ LEXICON BESKO atemaattiset o-loppuiset adjektiivit
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Noun inflection
+## Noun inflection
 The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
-## The noun continuation lexica
+### The noun continuation lexica
 
-### Masculines
+#### Masculines
 
 **LEXICON RAKLO** adds -o for Sg Nom and redirects to MSCOBL
 
@@ -301,7 +301,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON YS** 
 
-### Feminines
+#### Feminines
 
 **LEXICON BAAR** pheen, tunnuksettomat fem
 
@@ -321,9 +321,9 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON RAADZA** 
 
-## Morphology
+### Morphology
 
-### Masculine morphology
+#### Masculine morphology
 
 **LEXICON MSCOBL** pointing to sg and pl lexica
 
@@ -337,7 +337,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON MSCOBL_PL_o** 
 
-### Feminine morphology
+#### Feminine morphology
 
 **LEXICON FEMOBL** pointing to sg and pl lexica
 
@@ -355,7 +355,7 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 **LEXICON FEMOBL_PL_o** 
 
-### The oblique cases *-ke, -ta, -ha*
+#### The oblique cases *-ke, -ta, -ha*
 
 **LEXICON OBLCASES_SG** 
 
@@ -371,9 +371,9 @@ The inflection first gives N, Nom and gender tags, then point to oblique cases.
 
 ---
 
-# src-fst-morphology-affixes-prefixes.lexc.md 
+## src-fst-morphology-affixes-prefixes.lexc.md 
 
-# Prefixes
+## Prefixes
 So far no prefixes in the model for Finnish Romany .
 
 Prefixes No prefixes so far. Are there any?
@@ -384,12 +384,12 @@ Prefixes No prefixes so far. Are there any?
 
 ---
 
-# src-fst-morphology-affixes-pronouns.lexc.md 
+## src-fst-morphology-affixes-pronouns.lexc.md 
 
 
-## Inflected pronominal forms
+### Inflected pronominal forms
 
-## Case inflection 
+### Case inflection 
 
 **LEXICON me_pron** *minä*
 
@@ -413,9 +413,9 @@ Prefixes No prefixes so far. Are there any?
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
-# Proper noun inflection
+## Proper noun inflection
 Nothing done so far, just adding tags
 
 **LEXICON prop-mal** male names
@@ -428,10 +428,10 @@ Nothing done so far, just adding tags
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 This content is just from the template, work has not begun.
 
@@ -441,22 +441,22 @@ This content is just from the template, work has not begun.
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Kalo Finnish Romani verb inflection
+## Kalo Finnish Romani verb inflection
 
 Under construction.
 
 First come auxiliaries, then lexical verb classes. 
 Finally there is a section on common verb suffixes.
 
-## Auxiliaries
+### Auxiliaries
 
 **LEXICON HIN** spells out the whole paradigm
 
 **LEXICON VAA** spells out the whole paradigm
 
-## Lexical verbs
+### Lexical verbs
 
 The lexical setup follows the grammar, but
 several lexica may probably be unified.
@@ -489,7 +489,7 @@ TSEER primary verb, r-stem, d pret
 
 **LEXICON PILA** cns pres and id pret "juoda"
 
-## Transitive morphology
+### Transitive morphology
 
 **LEXICON RAKKAVELA** cns pres and ad pret + parallel forms
 
@@ -501,13 +501,13 @@ TSEER primary verb, r-stem, d pret
 
 **LEXICON DZORALVELA** cns pres and ad pret
 
-## Intransitive morphology
+### Intransitive morphology
 
 **LEXICON GARUVELA** cns pres and jom pret
 
 **LEXICON AGURVELA** cns pres and jom pret
 
-## Person suffixes
+### Person suffixes
 
 Here come the person suffixes.
 
@@ -525,13 +525,13 @@ Here come the person suffixes.
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
-# The Romany morphophonological/twolc rules file 
+## The Romany morphophonological/twolc rules file 
 
-## Declarations and definitions
+### Declarations and definitions
 
-### Alphabet
+#### Alphabet
 a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
 á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç š ž ȟ
 
@@ -543,11 +543,11 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 %^CDEL:0 trigger to delete consonant in front of suffix
 %^KK:0 archiphoneme for doubling k in kkiiro
 
-### Sets
+#### Sets
 
-## Rules
+### Rules
 
-### Consonant rules
+#### Consonant rules
 
 * **Deleting stem-final s in instrumental** ...  probably to be generalised
 
@@ -566,7 +566,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 * **Shortening stem-final geminate in front of suffix** for lurrela : lurna
 
-## Vowel rules
+### Vowel rules
 
 * **Vowel lenghening** a vowel copying rule
 
@@ -581,26 +581,26 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# The Kalo Finnish Romany *root.lexc* file                    
+## The Kalo Finnish Romany *root.lexc* file                    
 
 This file defines all **multicharacter symbols**, and contains the initial lexicon **Root**.
 
-## Analysis symbols
+### Analysis symbols
 The morphological analyses of wordforms for the Romany
 language are presented in this system in terms of the following symbols.
 **Note that some of the tags still are copied from other language versions**
 
-### Parts-of-speech tags:
+#### Parts-of-speech tags:
 * **+N +A +Adv +V** open POS
 * **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Det** closed POS
 * **+ABBR** abbreviations
 * **+ACR** acronyms
 * **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef** POS subtags
 
-### The number, gender and case tags:
+#### The number, gender and case tags:
 
 * **+Msc +Fem** 
 * **+Sg** singular
@@ -619,7 +619,7 @@ language are presented in this system in terms of the following symbols.
 * **+Kiire**  name?
 * **+Kiiri**  name?
 
-### Other sub-tags
+#### Other sub-tags
 
 * **+Pos** positive
 * **+Comp +Superl** Comparative, superlative
@@ -633,7 +633,7 @@ language are presented in this system in terms of the following symbols.
 
 * **+Poss** possessive 
 
-### Other tags
+#### Other tags
 
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 * **+CLB** clause boundary for period and comma
@@ -642,10 +642,10 @@ language are presented in this system in terms of the following symbols.
 * **+Multi** multiword tag
 * **+Guess** guess tag (not in use)
 
-### Question and Focus particles (probably not needed)
+#### Question and Focus particles (probably not needed)
 * **+Qst +Foc** 
 
-### Semantic tags
+#### Semantic tags
 
 These are not yet in use
 
@@ -667,7 +667,7 @@ These are not yet in use
 * **+Sem/Veh** 
 * **+Sem/Clth** 
 
-### Derivation
+#### Derivation
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -675,12 +675,13 @@ source and target part-of-speech.
 * **+V→N +V→V +V→A** 
 * **+Der/xxx** 
 
-### Usage tags
+#### Usage tags
 The Usage extents are marked using the following tags:
 * **+Err/Orth** tagging non-standard forms
 * **+Use/-Spell** tagging other forms not to be accepted by the speller
+* **+Use/NG** For correct parallel forms, this one shall not be preferred when only one is needed
 
-### Morphophonology
+#### Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
@@ -688,7 +689,7 @@ symbols in the lexicon files:
 * **^CDEL** for use in Ins.
 * **^KK** archiphoneme for k doubling in kkiiro
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -727,7 +728,7 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-## The *Root* lexicon
+### The *Root* lexicon
 LEXICON Root
 The word forms in Romany language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
@@ -740,26 +741,26 @@ LEXICON **K** (for clitics, probably not needed)
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
-# Adjectives
+## Adjectives
 
 contains the adjectives, so far grouped by type.
 thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 **LEXICON Adjectives** 
 
-### (a) Temaattiset o-loppuiset adjektiivit
+#### (a) Temaattiset o-loppuiset adjektiivit
 
-### (a) Atemaattiset o-loppuiset adjektiivit
+#### (a) Atemaattiset o-loppuiset adjektiivit
 
-### (c) Temaattiset johdetut adjektivit
+#### (c) Temaattiset johdetut adjektivit
 
-### (d) Atemaattiset johdetut adjektivit
+#### (d) Atemaattiset johdetut adjektivit
 
-## Temaattiset ja atemaattiset tunnuksettomat adjektiivit
+### Temaattiset ja atemaattiset tunnuksettomat adjektiivit
 
-### Muut vokaaliloppuiset adjektiivit
+#### Muut vokaaliloppuiset adjektiivit
 
 * * *
 
@@ -767,12 +768,12 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
-# src-fst-morphology-stems-adpositions.lexc.md 
+## src-fst-morphology-stems-adpositions.lexc.md 
 
 
-# Romani kale adpositions
+## Romani kale adpositions
 
-## Tags
+### Tags
 
 **LEXICON pr** for +Pr
 
@@ -788,9 +789,9 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
-# src-fst-morphology-stems-adverbs.lexc.md 
+## src-fst-morphology-stems-adverbs.lexc.md 
 
-# Adverbs
+## Adverbs
 
 **LEXICON adv** gives tag **+Adv**
 
@@ -802,9 +803,9 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
-# src-fst-morphology-stems-conjunctions.lexc.md 
+## src-fst-morphology-stems-conjunctions.lexc.md 
 
-# conjunctions
+## conjunctions
 
 **LEXICON cc** adds the tag **+CC**
 
@@ -816,9 +817,9 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
-# src-fst-morphology-stems-determiners.lexc.md 
+## src-fst-morphology-stems-determiners.lexc.md 
 
-# Kale Romani determiners
+## Kale Romani determiners
 
 **LEXICON Determiners** 6 of them
 
@@ -832,9 +833,9 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
-# src-fst-morphology-stems-interjections.lexc.md 
+## src-fst-morphology-stems-interjections.lexc.md 
 
-# Interjections
+## Interjections
 
 **LEXICON ij** adds tag **+Interj**
 
@@ -846,9 +847,9 @@ thematic = indo-aryan adjs, athematic = recent (post-1400) loans.
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
-# Noun stems
+## Noun stems
 This documents the file `stems/nouns.lexc`. So far only close to 200 words distributed on different inflection types.
 
 Nominatiivi päättyy yksikössä mm. -o, -i, -os, -is, -es, -a ja monikossa mm. -a, -ja, -i. 
@@ -860,38 +861,38 @@ tšell-ibon-giir-e ’tanssit’).9
 
 **LEXICON Nouns** 
 
-## maskuliinit
+### maskuliinit
 *-o, -os, -is, -es, us; -iba, -ben*
 
-### (a) o-vartalo: raklo
+#### (a) o-vartalo: raklo
 
-### (b) tunnuksettomia anguš, lau
+#### (b) tunnuksettomia anguš, lau
 
-### (c) i-loppuinen
+#### (c) i-loppuinen
 
-### (c?) a-loppuinen
+#### (c?) a-loppuinen
 
-### (d) -iba/-irba/-ilba-loppuisia abstraktisubstantiiveja
+#### (d) -iba/-irba/-ilba-loppuisia abstraktisubstantiiveja
 
-### ben-loppuisia abstraktisubstantiiveja
+#### ben-loppuisia abstraktisubstantiiveja
 
-### os-loppuisia
+#### os-loppuisia
 
-### is-loppuisia
+#### is-loppuisia
 
-### es-loppuisia
+#### es-loppuisia
 
-### us-loppuisia
+#### us-loppuisia
 
-## feminiinit
+### feminiinit
 
-### i-loppuiset: butti, ...
+#### i-loppuiset: butti, ...
 
-### tunnuksettomia: baar, ...
+#### tunnuksettomia: baar, ...
 
-### a-loppuisia: kamana, ..
+#### a-loppuisia: kamana, ..
 
-## The long list
+### The long list
 
 To be added when basis is in place.
 
@@ -901,9 +902,9 @@ To be added when basis is in place.
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
-# Kale Romani Numerals
+## Kale Romani Numerals
 Numerals so far only 1-10, the tens, hundred , thousand, million.
 No inflection added.
 
@@ -931,9 +932,9 @@ No inflection added.
 
 ---
 
-# src-fst-morphology-stems-particles.lexc.md 
+## src-fst-morphology-stems-particles.lexc.md 
 
-# Particles
+## Particles
 
 In the grammar, *Particles* is a wide category, containing
 indeclineable words. Several of these should get syntactically
@@ -949,12 +950,12 @@ defined POS.
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
-# Pronouns
+## Pronouns
 The pronouns are here. Some of the inflexion is in ../affixes.
 
-## The lexicon Pronouns, splitting in subtypes
+### The lexicon Pronouns, splitting in subtypes
 
 **LEXICON Pronouns** with 5 sublexica
 * *Personal ;* 
@@ -963,25 +964,25 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 * *Interrogative ;*
 * *Indefinite ;* 
 
-### Personal
+#### Personal
 
 **LEXICON Personal** for me, jou, ...
 
-### Reflexive
+#### Reflexive
 
 **LEXICON Reflexive** 
 
 **LEXICON reflpron** 
 
-### Interrogative
+#### Interrogative
 
 **LEXICON Interrogative** for koon...
 
-### Indefinite
+#### Indefinite
 
 **LEXICON Indefinite** 
 
-### Possessive
+#### Possessive
 
 **LEXICON Possessive** for mo, to, ...
 
@@ -991,7 +992,7 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 
 ---
 
-# src-fst-morphology-stems-rmf-propernouns.lexc.md 
+## src-fst-morphology-stems-rmf-propernouns.lexc.md 
 
 
 **LEXICON rmf-propernouns** contains just a handful, with no inflection.
@@ -1002,9 +1003,9 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 
 ---
 
-# src-fst-morphology-stems-subjunctions.lexc.md 
+## src-fst-morphology-stems-subjunctions.lexc.md 
 
-# subjunctions
+## subjunctions
 
 **LEXICON cs** adds the tag **+CS**
 
@@ -1016,22 +1017,22 @@ The pronouns are here. Some of the inflexion is in ../affixes.
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
-# Verbs
+## Verbs
 This lists verbs as presented in the grammar.
 
 **LEXICON Verbs** is the lexicon, containing the verb list
 
-## Auxiliaries
+### Auxiliaries
 
 som+V: HINVAA ; copula hin, tulla vaa
 
-## Lexical verbs
+### Lexical verbs
 
-### Consonant stems
+#### Consonant stems
 
-#### (a) Other than r-stems, primary verbs
+##### (a) Other than r-stems, primary verbs
 
 6.23 (b) d-preteriti, stem -l-
 * bollaa+V:boll BOLL "kastaa" ; 
@@ -1048,7 +1049,7 @@ som+V: HINVAA ; copula hin, tulla vaa
 
 * daa+V:d D "antaa" ;
 
-#### (b) r-stems, primary verbs
+##### (b) r-stems, primary verbs
 
 6.23 (a) d-preteriti, stem -r-
 * tšeraa+V:tšeer TSEER "tehdä" ;
@@ -1057,7 +1058,7 @@ som+V: HINVAA ; copula hin, tulla vaa
 * lurraa+V:lurr LURR "" ;
 * kurraa+V:kurr LURR "tapella" ;
 
-#### id past tense
+##### id past tense
 6.24 stem b, d, t, id past tense
 * džambaa+V:džamb DZAMB "laulaa" ;
 * khandaa+V:khand DZAMB "haista" ;
@@ -1080,17 +1081,17 @@ som+V: HINVAA ; copula hin, tulla vaa
 * kammaa+V:kamm KAMM "haluta" ; kaml
 * aanaa+V:ann KAMM "tuoda" ;
 
-#### Transitive derivatives
+##### Transitive derivatives
 
 * rakkavaa+V:rakk RAKKAVELA "puhua" ;
 * phagarvaa+V:phag PHAGARVELA "rikkoa" ;
 
-#### Intransitive derivatives
+##### Intransitive derivatives
 
 * garuvaa+V:gar GARUVELA "piiloutua" ;
 * agurvaa+V:ag AGURVELA "loppua" ; chech this XXX
 
-### Vowel stem, primary verbs
+#### Vowel stem, primary verbs
 
 * džala+V:dž DZA "mennä" ;
 * ȟala+V:ȟ DZA "syödä" ;
@@ -1104,7 +1105,7 @@ som+V: HINVAA ; copula hin, tulla vaa
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -1273,7 +1274,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -1295,7 +1296,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -1311,26 +1312,26 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -1357,7 +1358,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -1373,7 +1374,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -1436,7 +1437,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -1469,7 +1470,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -1539,22 +1540,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -1565,11 +1566,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -1577,7 +1578,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -1589,25 +1590,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -1615,9 +1616,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for rmf
+## Tokeniser for rmf
 
 Usage:
 ```
@@ -1661,7 +1662,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -1680,9 +1681,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for rmf
+## Grammar checker tokenisation for rmf
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1745,9 +1746,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:

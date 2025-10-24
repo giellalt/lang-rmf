@@ -94,6 +94,7 @@ source and target part-of-speech.
 The Usage extents are marked using the following tags:
 * **+Err/Orth** tagging non-standard forms
 * **+Use/-Spell** tagging other forms not to be accepted by the speller
+* **+Use/NG** For correct parallel forms, this one shall not be preferred when only one is needed
 
 ### Morphophonology
 To represent phonologic variations in word forms we use the following
