@@ -1,12 +1,12 @@
 The Kalo Finnish Romani morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-rmf%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-rmf%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json)
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-rmf%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-rmf%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-rmf)](https://github.com/giellalt/lang-rmf/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-rmf)](https://github.com/giellalt/lang-rmf/blob/main/LICENSE)
-[![Doc Build Status](https://github.com/giellalt/lang-rmf/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-rmf/actions)
-[![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-rmf/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-rmf/main/latest)
+[![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-rmf/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-rmf/actions/workflows/docs.yml)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-rmf?logo=buildkite&label=CoreCI)](https://builds.giellalt.org/pipelines/lang-rmf/builds/latest)
 
 Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
 
