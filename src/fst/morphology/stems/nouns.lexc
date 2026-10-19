@@ -58,7 +58,7 @@ berȟ:berȟȟ BEREH "vuosi" ;
 kaȟt:kaȟt BEREH "puu" ;
 vuudar:vuudar VUUDAR "ovi" ; ! ja ?
 
-daad:daad  "isä" ;
+daad:daad BEN  "isä" ; ! check lexicon!!
 lau:la LAU "sana" ;
 džiu:dži LAU "ruis, jyvä" ;
 džuu:džu LAU "täi" ;

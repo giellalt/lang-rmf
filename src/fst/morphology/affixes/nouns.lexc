@@ -315,18 +315,18 @@ LEXICON FEMOBL_PL_a
 +Pl+Gen:%>engo # ;
 +Pl+Gen:%>en GENCASES ;
 
-LEXICON FEMOBL_PL_OBL 
-!! **LEXICON @LEXNAME@** 
-+Pl+Obl:%>en # ; ! džeenen
-+Pl:%>en OBLCASES_PL ;
-+Pl+Gen:%>en GENCASES ;
+!LEXICON FEMOBL_PL_OBL 
+!!! **LEXICON @LEXNAME@** 
+!+Pl+Obl:%>en # ; ! džeenen
+!+Pl:%>en OBLCASES_PL ;
+!+Pl+Gen:%>en GENCASES ;
 
-LEXICON FEMOBL_PL_o 
-!! **LEXICON @LEXNAME@** 
-+Pl+Nom:%>i # ; ! džeene
-+Pl+Obl:%>on # ; ! džeenen
-+Pl:%>on OBLCASES_PL ;
-+Pl+Gen:%>on GENCASES ;
+! LEXICON FEMOBL_PL_o 
+! !! **LEXICON @LEXNAME@** 
+! +Pl+Nom:%>i # ; ! džeene
+! +Pl+Obl:%>on # ; ! džeenen
+! +Pl:%>on OBLCASES_PL ;
+! +Pl+Gen:%>on GENCASES ;
 
 
 !! ### The oblique cases *-ke, -ta, -ha*

@@ -3,9 +3,9 @@
 
 !! ## Tags
 
-LEXICON pr
+!LEXICON pr
 !! **LEXICON @LEXNAME@** for +Pr
-+Pr: # ;
+!+Pr: # ;
 
 LEXICON po
 !! **LEXICON @LEXNAME@** for +Po
