@@ -10,39 +10,39 @@ Config:
 Tests:
   Noun - : # džii i-stem
     džii+N+Msc+Sg+Nom: džii
-    džii+N+Msc+Sg+Obl: džija
-    džii+N+Msc+Sg+Dat: džijake
-    džii+N+Msc+Sg+Abl: džijata
-    džii+N+Msc+Sg+Ins: džijaha
-    džii+N+Msc+Sg+Gen: džijako
-    džii+N+Msc+Sg+Gen+Kiiro: [džijakiiro, džijakiiri, džijakiire]
-    džii+N+Msc+Pl+Nom: džij
-    džii+N+Msc+Pl+Obl: džijne
-    džii+N+Msc+Pl+Dat: džijenge
-    džii+N+Msc+Pl+Abl: džijenna
-    džii+N+Msc+Pl+Ins: džijensa
-    džii+N+Msc+Pl+Gen: džijengo
-    džii+N+Msc+Pl+Gen+Kiiro: [džijengiiro, džijengiiri, džijengiire]
+    džii+N+Msc+Sg+Obl: [džija, džes]
+    džii+N+Msc+Sg+Dat: [džijake, džeske]
+    džii+N+Msc+Sg+Abl: [džijata, džesta]
+    džii+N+Msc+Sg+Ins: [džijaha, džessa]
+    džii+N+Msc+Sg+Gen: [džijako, džesko]
+    džii+N+Msc+Sg+Gen+Kiiro: [džijakiiro, džijakiiri, džijakiire, džeskiiro, džeskiiri, džeskiire]]
+    džii+N+Msc+Pl+Nom: [džij, džiija]
+    džii+N+Msc+Pl+Obl: [džijne, džen]
+    džii+N+Msc+Pl+Dat: [džijenge, dženge]
+    džii+N+Msc+Pl+Abl: [džijenna, dženna]
+    džii+N+Msc+Pl+Ins: [džijensa, džensa]
+    džii+N+Msc+Pl+Gen: [džijengo, džengo]
+    džii+N+Msc+Pl+Gen+Kiiro: [džijengiiro, džijengiiri, džijengiire, džengiiro, džengiiri, džengiire]
 
 
-Tests:
-  Noun - : # džii i-stem
-    džii+N+Msc+Sg+Nom: džii
-    džii+N+Msc+Sg+Obl: džes
-    džii+N+Msc+Sg+Dat: džeske
-    džii+N+Msc+Sg+Abl: džesta
-    džii+N+Msc+Sg+Ins: džessa
-    džii+N+Msc+Sg+Gen: džesko
-    džii+N+Msc+Sg+Gen+Kiiro: [džeskiiro, džeskiiri, džeskiire]
-    džii+N+Msc+Pl+Nom: džiija
-    džii+N+Msc+Pl+Obl: džen
-    džii+N+Msc+Pl+Dat: dženge
-    džii+N+Msc+Pl+Abl: dženna
-    džii+N+Msc+Pl+Ins: džensa
-    džii+N+Msc+Pl+Gen: džengo
-    džii+N+Msc+Pl+Gen+Kiiro: [džengiiro, džengiiri, džengiire]
-
-
+#Tests:
+#  Noun - : # džii i-stem
+#    džii+N+Msc+Sg+Nom: džii
+#    džii+N+Msc+Sg+Obl: džes
+#    džii+N+Msc+Sg+Dat: džeske
+#    džii+N+Msc+Sg+Abl: džesta
+#    džii+N+Msc+Sg+Ins: džessa
+#    džii+N+Msc+Sg+Gen: džesko
+#    džii+N+Msc+Sg+Gen+Kiiro: [džeskiiro, džeskiiri, džeskiire]
+#    džii+N+Msc+Pl+Nom: džiija
+#    džii+N+Msc+Pl+Obl: džen
+#    džii+N+Msc+Pl+Dat: dženge
+#    džii+N+Msc+Pl+Abl: dženna
+#    džii+N+Msc+Pl+Ins: džensa
+#    džii+N+Msc+Pl+Gen: džengo
+#    džii+N+Msc+Pl+Gen+Kiiro: [džengiiro, džengiiri, džengiire]
+#
+#
 #Varsinkin puhutussa romanikielessä monikon nominatiivi kuuluu joskus džii-je. Myös temaattisten -i-loppuisten feminiinien mukainen taivutus on mahdollinen:
 #Tests:
 #  Noun - : # džii i-stem
